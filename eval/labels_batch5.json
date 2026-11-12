@@ -1,0 +1,17 @@
+[
+  {"id": 18, "answerable": true, "relevant_papers": ["2502.19278", "1812.11140", "1801.08587", "2504.14791"],
+   "must_include": "Objective collapse: stochastic non-unitary modification so one outcome really occurs; many-worlds: pure unitary evolution, all outcomes realized in branches; collapse models in principle testable (bounds tightening); not the same theory.",
+   "notes": "Verified by grep: 2111.07730 only mentions objective collapse in one survey sentence, so borderline, not relevant. Rejected: 2109.02310, 1909.01798."},
+  {"id": 19, "answerable": true, "relevant_papers": ["2301.04014", "2203.16278", "2107.03513"],
+   "must_include": "Attributes positions: Copenhagen (Bohr's version) treats outcomes as products of the system-apparatus interaction, not objective properties, and has diverse versions; one paper asserts QBism differs fundamentally from Copenhagen, another groups both as orthodox; no single verdict.",
+   "notes": "Contested. Verified by grep: in 2301.04014 the 'QBism differs fundamentally' line is the author's cited assertion and his main argument is about Ozawa's theorem; watch for misattribution. Borderline: 2510.11544, 1908.03949. Rejected: 2510.09237."},
+  {"id": 20, "answerable": true, "relevant_papers": ["1909.00346", "2012.06918", "2005.03835", "1801.09891"],
+   "must_include": "Entanglement necessary but not sufficient for Bell nonlocality; maximal entanglement and maximal violation do not coincide; the claim that nonlocality is entanglement is attributed to 2012.06918 and noted as contested.",
+   "notes": "Hold-out. Borderline: 2410.15790. Rejected: 2104.10700."},
+  {"id": 21, "answerable": true, "relevant_papers": ["2104.10700", "2102.13036", "2105.13821", "2410.15790", "2001.07656"],
+   "must_include": "Local model: outcomes depend on local settings plus a shared variable; noncontextual model: outcome values independent of compatible co-measured context; local models are a special case.",
+   "notes": "Pair: LHV from 2104.10700, NCHV from 2102.13036. Overlaps #15, consider swapping. Borderline: 2311.11218, 2212.06976."},
+  {"id": 22, "answerable": true, "relevant_papers": ["1908.03949", "1912.07020", "1806.08133"],
+   "must_include": "Heisenberg proposed the first relation (heuristic, position and momentum); Kennard formalized it as Delta x Delta p >= hbar/2; Robertson and Schrodinger generalized it to arbitrary incompatible observables.",
+   "notes": "Verified by grep of 1912.07020, which credits Kennard with the formal inequality. Rubric stays within excerpts (Schrodinger's covariance term not stated there). Formulas lost to [EQ]. Rejected: 2306.06602, 2006.04358."}
+]

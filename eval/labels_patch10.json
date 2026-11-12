@@ -1,0 +1,5 @@
+[
+  {"id": 10, "answerable": true, "relevant_papers": ["1812.11140"],
+   "must_include": "Says 1812.11140 is a text on the foundations of QM that comments on and analyzes the Frauchiger-Renner Nature article; attributes to its author (Tausk) the claim that the 'paradox' is due to a misunderstanding of how to apply the quantum rules; does not present that claim as consensus; does not describe the paradox's details beyond what the excerpts give.",
+   "notes": "Revised after grep: the earlier rubric came from outside knowledge. Retrieval best distance 0.53 > cutoff for this phrasing: false refusal. 2304.00608 only cites it in one sentence."}
+]

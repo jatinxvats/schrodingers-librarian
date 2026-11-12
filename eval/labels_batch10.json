@@ -1,0 +1,8 @@
+[
+  {"id": 1, "answerable": true, "relevant_papers": ["2406.02149", "2210.10624"],
+   "must_include": "A complex linear space of vectors with a positive-definite inner product (square-integrable, per 2210.10624), in which quantum states are vectors; observables with finitely many eigenvectors (e.g. spin) need only the Hilbert space; does not call it bilinear or insist on infinite dimension unless a chunk says so.",
+   "notes": "Development question. Verified by grep of 2210.10624. PENDING grep of 2406.02149 (formal axiomatic definition; may state completeness/dimension). Earlier system answer said 'infinite-dimensional' and 'bilinear': check whether either is in 2406.02149. Borderline: 2102.00861. Rejected: 2105.13821 (bibliography entry), 1805.11483, 2104.10700, 2504.14791."},
+  {"id": 2, "answerable": true, "relevant_papers": ["2104.10700", "2102.13036", "2306.07794", "1805.10311"],
+   "must_include": "Bell's theorem: no physical theory based only on local variables can account for all of quantum theory's predictions; the local variable can be read as an influence carried from a shared past (Bell's original reading, 2104.10700); does not rule out hidden variables as such (nonlocal ones survive); does not claim it proves signaling.",
+   "notes": "Development question. Verified by grep of 2104.10700 introduction. That chunk was NOT in the semantic top 5 (retrieval returned 1912.06349, 2504.01056, 2102.13036, 2210.03365, 2306.07794): retrieval miss. 2408.08329 borderline (table of contents and formula-heavy spin chapter). Rejected: 1912.06349 (disputes the proof's assumptions), 2504.01056 (book review), 2210.03365."}
+]

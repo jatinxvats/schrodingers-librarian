@@ -1,0 +1,758 @@
+[
+  {
+    "id": 1,
+    "bucket": "foundations",
+    "type": "definition",
+    "question": "What is a Hilbert space?",
+    "answerable": true,
+    "relevant_papers": [
+      "2406.02149",
+      "2210.10624"
+    ],
+    "must_include": "A complex linear space of vectors with a positive-definite inner product (square-integrable, per 2210.10624), in which quantum states are vectors; observables with finitely many eigenvectors (e.g. spin) need only the Hilbert space; does not call it bilinear or insist on infinite dimension unless a chunk says so.",
+    "notes": "Development question. Verified by grep of 2210.10624. PENDING grep of 2406.02149 (formal axiomatic definition; may state completeness/dimension). Earlier system answer said 'infinite-dimensional' and 'bilinear': check whether either is in 2406.02149. Borderline: 2102.00861. Rejected: 2105.13821 (bibliography entry), 1805.11483, 2104.10700, 2504.14791.",
+    "holdout": false
+  },
+  {
+    "id": 2,
+    "bucket": "bell_epr",
+    "type": "definition",
+    "question": "What does Bell's theorem rule out?",
+    "answerable": true,
+    "relevant_papers": [
+      "2104.10700",
+      "2102.13036",
+      "2306.07794",
+      "1805.10311"
+    ],
+    "must_include": "Bell's theorem: no physical theory based only on local variables can account for all of quantum theory's predictions; the local variable can be read as an influence carried from a shared past (Bell's original reading, 2104.10700); does not rule out hidden variables as such (nonlocal ones survive); does not claim it proves signaling.",
+    "notes": "Development question. Verified by grep of 2104.10700 introduction. That chunk was NOT in the semantic top 5 (retrieval returned 1912.06349, 2504.01056, 2102.13036, 2210.03365, 2306.07794): retrieval miss. 2408.08329 borderline (table of contents and formula-heavy spin chapter). Rejected: 1912.06349 (disputes the proof's assumptions), 2504.01056 (book review), 2210.03365.",
+    "holdout": false
+  },
+  {
+    "id": 3,
+    "bucket": "contextuality",
+    "type": "definition",
+    "question": "What is the Kochen-Specker theorem?",
+    "answerable": true,
+    "relevant_papers": [
+      "2102.13036",
+      "2408.16764",
+      "1910.09591"
+    ],
+    "must_include": "No context-independent value assignment in dimension >= 3, so noncontextual hidden variables are ruled out; not applicable to a single qubit; does not rule out all hidden variables.",
+    "notes": "Borderline: 2502.19278, 2105.13821.",
+    "holdout": true
+  },
+  {
+    "id": 4,
+    "bucket": "contextuality",
+    "type": "definition",
+    "question": "What does it mean for quantum mechanics to be contextual?",
+    "answerable": true,
+    "relevant_papers": [
+      "2102.13036",
+      "1910.09591",
+      "2410.15790",
+      "2311.11218",
+      "2105.13821",
+      "2408.16764"
+    ],
+    "must_include": "Outcome values cannot be assigned independent of the context of compatible measurements; Bell nonlocality is a special case; must not use the relational 'contextual' sense.",
+    "notes": "Keyword hits 2107.10666 and 2510.09237 use 'contextual' in a different sense.",
+    "holdout": false
+  },
+  {
+    "id": 5,
+    "bucket": "decoherence",
+    "type": "definition",
+    "question": "What is decoherence?",
+    "answerable": true,
+    "relevant_papers": [
+      "1911.06282",
+      "2107.03378",
+      "1807.02092",
+      "2502.19278"
+    ],
+    "must_include": "Loss of coherence via environment interaction, pointer states; distinguished from collapse; not presented as alone explaining single outcomes.",
+    "notes": "Keyword hits on gravitational decoherence are use, not definition.",
+    "holdout": true
+  },
+  {
+    "id": 6,
+    "bucket": "measurement",
+    "type": "definition",
+    "question": "What is the measurement problem in quantum mechanics?",
+    "answerable": true,
+    "relevant_papers": [
+      "2502.19278",
+      "1908.03949",
+      "2107.03378",
+      "2210.10624",
+      "2012.12033"
+    ],
+    "must_include": "Unitary Schrodinger evolution versus apparent collapse on measurement (two rules); single definite outcomes; not presenting any solution as settled.",
+    "notes": "Borderline: 1911.06282, 2112.11223, 1811.00902.",
+    "holdout": false
+  },
+  {
+    "id": 7,
+    "bucket": "measurement",
+    "type": "definition",
+    "question": "What is the Born rule?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "1908.03949",
+      "2406.02149",
+      "1807.02092"
+    ],
+    "must_include": "Probability of an outcome equals the squared modulus of its amplitude (p_j = |a_j|^2), after which the state collapses to the outcome; presented as a rule of the theory, with derivations contested.",
+    "notes": "Updated after grep: 1812.11140 states the rule explicitly in an accessible text. 1908.03949 unverified. Borderline: 1909.13027. Inline formulas can survive where display equations become [EQ].",
+    "holdout": true
+  },
+  {
+    "id": 8,
+    "bucket": "uncertainty",
+    "type": "definition",
+    "question": "What does the Heisenberg uncertainty principle actually say?",
+    "answerable": true,
+    "relevant_papers": [
+      "1908.03949",
+      "1809.03475",
+      "1908.07694",
+      "1807.07829"
+    ],
+    "must_include": "Position and momentum cannot both be sharply defined (Delta x Delta p >= hbar/2); property of states, not only measurement disturbance.",
+    "notes": "Formula lost to [EQ] stripping. GUP paper 2202.07489 is a different topic. Borderline: 1912.07020, 2304.09037.",
+    "holdout": false
+  },
+  {
+    "id": 9,
+    "bucket": "bell_epr",
+    "type": "definition",
+    "question": "What is the EPR paradox?",
+    "answerable": true,
+    "relevant_papers": [
+      "2105.02384",
+      "2412.00406",
+      "2004.04352",
+      "2009.08440"
+    ],
+    "must_include": "EPR argued from locality and a criterion of reality that QM is incomplete; does not credit EPR with proving nonlocality.",
+    "notes": "Borderline: 2107.10666.",
+    "holdout": true
+  },
+  {
+    "id": 10,
+    "bucket": "foundations",
+    "type": "definition",
+    "question": "What is the Frauchiger-Renner paradox?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140"
+    ],
+    "must_include": "Says 1812.11140 is a text on the foundations of QM that comments on and analyzes the Frauchiger-Renner Nature article; attributes to its author (Tausk) the claim that the 'paradox' is due to a misunderstanding of how to apply the quantum rules; does not present that claim as consensus; does not describe the paradox's details beyond what the excerpts give.",
+    "notes": "Revised after grep: the earlier rubric came from outside knowledge. Retrieval best distance 0.53 > cutoff for this phrasing: false refusal. 2304.00608 only cites it in one sentence.",
+    "holdout": true
+  },
+  {
+    "id": 11,
+    "bucket": "interpretations",
+    "type": "definition",
+    "question": "What is Bohmian mechanics?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "2502.19278",
+      "2401.01340"
+    ],
+    "must_include": "Particles with definite positions guided by the wave function (pilot wave, guiding equation); deterministic in its best-known form, no collapse; predictions equal standard QM; nonlocal.",
+    "notes": "Verified by grep: 1812.11140 defines it. 2405.04368 only mentions Bohmian trajectories in passing, so excluded. 2502.19278 and 2401.01340 unverified. Borderline: 2306.07794.",
+    "holdout": false
+  },
+  {
+    "id": 12,
+    "bucket": "decoherence",
+    "type": "definition",
+    "question": "What is quantum Darwinism?",
+    "answerable": true,
+    "relevant_papers": [
+      "1911.06282",
+      "2107.03378",
+      "1807.02092"
+    ],
+    "must_include": "Pointer-state information copied redundantly into many environment fragments, allowing independent observers to agree (objectivity); part of the decoherence program; does not alone solve the measurement problem.",
+    "notes": "Semantic ranks 4-5 (1909.13027, 2504.14791) are off-topic. Borderline: 2205.12927, 2001.10851.",
+    "holdout": false
+  },
+  {
+    "id": 13,
+    "bucket": "interpretations",
+    "type": "comparison",
+    "question": "What is the fundamental difference between the Copenhagen interpretation and the many-worlds interpretation?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "2502.19278",
+      "1801.08587",
+      "2504.14791",
+      "1908.03949"
+    ],
+    "must_include": "Copenhagen: collapse to a single outcome on measurement; many-worlds: no collapse, all outcomes realized in branches; 'Copenhagen' is not one agreed doctrine.",
+    "notes": "Pair: Copenhagen from 1908.03949 plus MWI from 1801.08587. 1909.13027 rejected.",
+    "holdout": false
+  },
+  {
+    "id": 14,
+    "bucket": "interpretations",
+    "type": "comparison",
+    "question": "How does Bohmian mechanics differ from standard quantum mechanics in how it treats particles?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "2502.19278"
+    ],
+    "must_include": "Bohmian particles always have definite positions guided by the wave function; standard QM particles have no definite position before measurement; predictions are equivalent; must not claim different predictions.",
+    "notes": "Borderline: 2405.04368, 2306.07794.",
+    "holdout": true
+  },
+  {
+    "id": 15,
+    "bucket": "contextuality",
+    "type": "comparison",
+    "question": "How is quantum contextuality different from Bell nonlocality?",
+    "answerable": true,
+    "relevant_papers": [
+      "2405.02964",
+      "2102.13036",
+      "1909.05434",
+      "2410.15790",
+      "2204.05385",
+      "2001.07656"
+    ],
+    "must_include": "Bell nonlocality is contextuality where spacelike separation guarantees compatibility; contextuality needs no separation and applies to a single system; not unrelated.",
+    "notes": "Rejected keyword hits: 2005.03835, 2210.05985, 2104.10700.",
+    "holdout": true
+  },
+  {
+    "id": 16,
+    "bucket": "uncertainty",
+    "type": "comparison",
+    "question": "Is the uncertainty principle the same thing as the observer effect?",
+    "answerable": true,
+    "relevant_papers": [
+      "2105.13821",
+      "1908.03949"
+    ],
+    "must_include": "Presents measurement disturbance (Feynman's invasive measurement; Heisenberg's microscope argument) and the uncertainty principle (observables that cannot be jointly measured) as related but not the same, noting that disturbance alone does not explain why values cannot be predetermined; does not say the excerpts call them identical.",
+    "notes": "Partial: no excerpt states the distinction outright; closest is 2105.13821 (Beyond measurement disturbance). 1908.03949 gives the historical link and calls the microscope argument not very rigorous. 1809.03475 unverified. Rubric stays within corpus: modern error-disturbance vs preparation-uncertainty distinction is outside it. Best semantic distance 0.425, near the cutoff; top hit 2409.02354 off-target.",
+    "holdout": false
+  },
+  {
+    "id": 17,
+    "bucket": "decoherence",
+    "type": "comparison",
+    "question": "How does decoherence differ from wave function collapse?",
+    "answerable": true,
+    "relevant_papers": [
+      "2303.07966",
+      "2502.19278",
+      "1911.06282",
+      "2012.12033",
+      "2309.17377"
+    ],
+    "must_include": "Decoherence is unitary and removes interference, giving an apparent mixture without selecting one outcome; collapse is a non-unitary postulate that does; decoherence alone does not solve the measurement problem.",
+    "notes": "2406.19158 (photon-collapse proposal) rejected despite top keyword rank. Borderline: 2408.08329.",
+    "holdout": true
+  },
+  {
+    "id": 18,
+    "bucket": "interpretations",
+    "type": "comparison",
+    "question": "How do objective collapse theories differ from the many-worlds interpretation?",
+    "answerable": true,
+    "relevant_papers": [
+      "2502.19278",
+      "1812.11140",
+      "1801.08587",
+      "2504.14791"
+    ],
+    "must_include": "Objective collapse: stochastic non-unitary modification so one outcome really occurs; many-worlds: pure unitary evolution, all outcomes realized in branches; collapse models in principle testable (bounds tightening); not the same theory.",
+    "notes": "Verified by grep: 2111.07730 only mentions objective collapse in one survey sentence, so borderline, not relevant. Rejected: 2109.02310, 1909.01798.",
+    "holdout": false
+  },
+  {
+    "id": 19,
+    "bucket": "interpretations",
+    "type": "comparison",
+    "question": "How does QBism differ from the Copenhagen interpretation?",
+    "answerable": true,
+    "relevant_papers": [
+      "2301.04014",
+      "2203.16278",
+      "2107.03513"
+    ],
+    "must_include": "Attributes positions: Copenhagen (Bohr's version) treats outcomes as products of the system-apparatus interaction, not objective properties, and has diverse versions; one paper asserts QBism differs fundamentally from Copenhagen, another groups both as orthodox; no single verdict.",
+    "notes": "Contested. Verified by grep: in 2301.04014 the 'QBism differs fundamentally' line is the author's cited assertion and his main argument is about Ozawa's theorem; watch for misattribution. Borderline: 2510.11544, 1908.03949. Rejected: 2510.09237.",
+    "holdout": false
+  },
+  {
+    "id": 20,
+    "bucket": "bell_epr",
+    "type": "comparison",
+    "question": "What is the difference between entanglement and Bell nonlocality?",
+    "answerable": true,
+    "relevant_papers": [
+      "1909.00346",
+      "2012.06918",
+      "2005.03835",
+      "1801.09891"
+    ],
+    "must_include": "Entanglement necessary but not sufficient for Bell nonlocality; maximal entanglement and maximal violation do not coincide; the claim that nonlocality is entanglement is attributed to 2012.06918 and noted as contested.",
+    "notes": "Hold-out. Borderline: 2410.15790. Rejected: 2104.10700.",
+    "holdout": true
+  },
+  {
+    "id": 21,
+    "bucket": "contextuality",
+    "type": "comparison",
+    "question": "How do local hidden variable models differ from noncontextual hidden variable models?",
+    "answerable": true,
+    "relevant_papers": [
+      "2104.10700",
+      "2102.13036",
+      "2105.13821",
+      "2410.15790",
+      "2001.07656"
+    ],
+    "must_include": "Local model: outcomes depend on local settings plus a shared variable; noncontextual model: outcome values independent of compatible co-measured context; local models are a special case.",
+    "notes": "Pair: LHV from 2104.10700, NCHV from 2102.13036. Overlaps #15, consider swapping. Borderline: 2311.11218, 2212.06976.",
+    "holdout": false
+  },
+  {
+    "id": 22,
+    "bucket": "uncertainty",
+    "type": "comparison",
+    "question": "How do Heisenberg's and Robertson's uncertainty relations differ?",
+    "answerable": true,
+    "relevant_papers": [
+      "1908.03949",
+      "1912.07020",
+      "1806.08133"
+    ],
+    "must_include": "Heisenberg proposed the first relation (heuristic, position and momentum); Kennard formalized it as Delta x Delta p >= hbar/2; Robertson and Schrodinger generalized it to arbitrary incompatible observables.",
+    "notes": "Verified by grep of 1912.07020, which credits Kennard with the formal inequality. Rubric stays within excerpts (Schrodinger's covariance term not stated there). Formulas lost to [EQ]. Rejected: 2306.06602, 2006.04358.",
+    "holdout": false
+  },
+  {
+    "id": 23,
+    "bucket": "measurement",
+    "type": "contested",
+    "question": "Is an observer required for the wave function to collapse?",
+    "answerable": true,
+    "relevant_papers": [
+      "1801.08587",
+      "2309.17377",
+      "1807.02092",
+      "2509.12280",
+      "2111.07730",
+      "2012.12033",
+      "2408.08329"
+    ],
+    "must_include": "Separate attributed positions: collapse as a postulate (process 1); no literal collapse with observer inside the wave function; apparent collapse tied to the observer's state; spontaneous collapse without observer; notes 'observer' is ambiguous; no verdict.",
+    "notes": "Contested. Development question. Check Boughn attribution (he describes the 'in the mind' view). Rejected: 2406.19158 (verified by grep: unusual retrocausal/photon-collapse claims, not a source for this question), 1909.13027.",
+    "holdout": false
+  },
+  {
+    "id": 24,
+    "bucket": "measurement",
+    "type": "contested",
+    "question": "Does collapse really take place, and how could it be scientifically verified?",
+    "answerable": true,
+    "relevant_papers": [
+      "2502.19278",
+      "1911.06282",
+      "2111.07730",
+      "1807.02092",
+      "2408.08329"
+    ],
+    "must_include": "No consensus collapse occurs; decoherence and many-worlds are alternatives; verification via testing collapse models (matter-wave interferometry, collapse-induced heating, X-ray emission), bounds tightening and ruling out parameter ranges, and separating collapse from decoherence; does not claim collapse is confirmed.",
+    "notes": "Two-part, cross-bucket. Development question. Top semantic hit 2406.19158 (0.273) is off-target: verified by grep, its claims are retrocausal/photon-collapse, not experimental tests. Retrieval failure and corpus-quality issue. 2010.14965 rejected (only its own Fock-space framework). Borderline: 2309.17377.",
+    "holdout": false
+  },
+  {
+    "id": 25,
+    "bucket": "foundations",
+    "type": "contested",
+    "question": "Does the wave function describe physical reality or only our knowledge?",
+    "answerable": true,
+    "relevant_papers": [
+      "2502.19278",
+      "1908.03949",
+      "2409.02354",
+      "2109.02310",
+      "2107.10666"
+    ],
+    "must_include": "Epistemic/instrumental readings (orthodox, relational, QBism: state as a tool for predicting outcomes) and realist ones (Bohmian, collapse, many-worlds), attributed to sources; may use the epistemic vs ontic collapse distinction from 2502.19278; no verdict.",
+    "notes": "Contested. Verified by grep: 2502.19278 has an ontological-status section, epistemic interpretations, and epistemic vs ontic collapse. Borderline: 2510.09237, 2203.16278.",
+    "holdout": false
+  },
+  {
+    "id": 26,
+    "bucket": "bell_epr",
+    "type": "contested",
+    "question": "Is quantum mechanics a complete description of reality?",
+    "answerable": true,
+    "relevant_papers": [
+      "2105.02384",
+      "2412.00406",
+      "1812.11140",
+      "1906.05456"
+    ],
+    "must_include": "EPR argued incompleteness from locality plus a criterion of reality; Bell showed local hidden-variable completions cannot reproduce QM; Copenhagen says complete, Bohmian adds nonlocal positions, collapse models change dynamics; no consensus.",
+    "notes": "Hold-out. Contested. Borderline: 2005.03835, 2306.07794, 2203.16278.",
+    "holdout": true
+  },
+  {
+    "id": 27,
+    "bucket": "bell_epr",
+    "type": "contested",
+    "question": "Does Bell's theorem prove that nature is nonlocal?",
+    "answerable": true,
+    "relevant_papers": [
+      "2104.10700",
+      "2502.19278",
+      "2405.04368",
+      "2306.07794"
+    ],
+    "must_include": "Bell rules out local hidden-variable models under assumptions (locality, statistical independence), so 'nature is nonlocal' depends on them; attributes Bohmian 'inevitable nonlocality', relaxed-independence local-realist escapes (2502.19278), and Everettian discussion; does not claim faster-than-light signaling.",
+    "notes": "Contested. Borderline: 2001.07656, 2012.06918, 1910.09591, 2201.01886.",
+    "holdout": false
+  },
+  {
+    "id": 28,
+    "bucket": "decoherence",
+    "type": "contested",
+    "question": "Does decoherence solve the measurement problem?",
+    "answerable": true,
+    "relevant_papers": [
+      "1911.06282",
+      "2107.03378",
+      "2502.19278",
+      "1807.02092",
+      "2303.07966",
+      "2012.12033"
+    ],
+    "must_include": "Decoherence explains apparent loss of interference and emergence of classicality but does not select one outcome; the unitary account cannot describe selection of a particular term; whether this is a genuine difficulty depends on one's interpretation of quantum states; no verdict.",
+    "notes": "Hold-out. Contested. Verified by grep of 1911.06282 (section 7.1; 'merely addresses a consistency problem'). Rejected keyword hits: 1804.04309 (education paper), 2001.10851.",
+    "holdout": true
+  },
+  {
+    "id": 29,
+    "bucket": "measurement",
+    "type": "contested",
+    "question": "Can the Born rule be derived, or is it a postulate?",
+    "answerable": true,
+    "relevant_papers": [
+      "1807.02092",
+      "1909.13027",
+      "2502.19278",
+      "2510.09237",
+      "2306.07794",
+      "2406.02149",
+      "2304.00608",
+      "1812.11140"
+    ],
+    "must_include": "Attributed positions: postulate (standard textbook view; QBism as an empirical rule); derivation attempts (envariance, stochastic collapse dynamics, many-worlds axioms, retrocausal model) with circularity objections; no consensus.",
+    "notes": "Contested. Development question. Verified by grep: 1812.11140 states it as a rule of the theory; 2502.19278 reports a retrocausal derivation (Sutherland). Borderline: 2105.13821, 2302.08892.",
+    "holdout": false
+  },
+  {
+    "id": 30,
+    "bucket": "interpretations",
+    "type": "contested",
+    "question": "How can probabilities make sense in the many-worlds interpretation?",
+    "answerable": true,
+    "relevant_papers": [
+      "2306.07794",
+      "2502.19278",
+      "2203.16278",
+      "1801.08587",
+      "2504.14791"
+    ],
+    "must_include": "The puzzle: what probability means if every outcome occurs; proposed answers (decision-theoretic axioms, credences over centred worlds) with critics; no consensus.",
+    "notes": "Hold-out. Contested. Verified by grep: 1812.11140 covers only the basic Born rule, not many-worlds probability, so excluded; it ranked 2nd semantically (0.278): retrieval noise. Borderline: 2107.10666.",
+    "holdout": true
+  },
+  {
+    "id": 31,
+    "bucket": "uncertainty",
+    "type": "contested",
+    "question": "Is the uncertainty principle caused by measurement disturbance, or is it intrinsic to quantum systems?",
+    "answerable": true,
+    "relevant_papers": [
+      "1809.03475",
+      "2105.13821",
+      "1908.03949",
+      "2312.01055",
+      "1807.07829"
+    ],
+    "must_include": "Both views attributed (disturbance: Heisenberg's microscope argument; intrinsic: non-commuting observables and complementarity); no verdict; stays within the excerpts.",
+    "notes": "Development question. Overlaps #16, consider swapping. Rejected: 2506.21051, 2006.04358, 1912.07020.",
+    "holdout": false
+  },
+  {
+    "id": 32,
+    "bucket": "decoherence",
+    "type": "contested",
+    "question": "Is there a boundary between the quantum and classical worlds?",
+    "answerable": true,
+    "relevant_papers": [
+      "2107.03378",
+      "1911.06282",
+      "1807.02092",
+      "2210.10624",
+      "1801.08587",
+      "2306.07794",
+      "2502.19278"
+    ],
+    "must_include": "Attributed views: gradual emergence via decoherence (a dynamical account of the quantum-classical boundary), the Heisenberg cut as an arbitrary classical-quantum separation in Copenhagen-style readings, asymptotic emergence, no boundary in many-worlds; no consensus.",
+    "notes": "Hold-out. Contested. Verified by grep of 2502.19278 and 1911.06282. Rejected: 2001.05569, 2011.01286.",
+    "holdout": true
+  },
+  {
+    "id": 33,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "How do decoherence and many-worlds together explain why we see definite outcomes?",
+    "answerable": true,
+    "relevant_papers": [
+      "2502.19278",
+      "1801.08587",
+      "1911.06282",
+      "2504.14791",
+      "2306.07794"
+    ],
+    "must_include": "Decoherence suppresses interference between branches and identifies stable ones; many-worlds says every branch occurs, so observers in each see a definite outcome; neither alone gives Born probabilities; does not claim decoherence alone selects one outcome.",
+    "notes": "Development question. Pair: decoherence from 1911.06282, MWI from 2502.19278.",
+    "holdout": false
+  },
+  {
+    "id": 34,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "How are contextuality, the Kochen-Specker theorem and Bell nonlocality related?",
+    "answerable": true,
+    "relevant_papers": [
+      "2405.02964",
+      "2102.13036",
+      "1909.05434",
+      "2105.13821",
+      "2001.07656",
+      "1910.09591",
+      "2410.15790"
+    ],
+    "must_include": "KS theorem rules out noncontextual value assignments in dimension >= 3; Bell nonlocality is contextuality where spacelike separation guarantees compatibility; related since the 1960s, with trade-off relations; not unrelated or identical.",
+    "notes": "Development question. Overlaps #15, consider swapping. Best semantic distance 0.149.",
+    "holdout": false
+  },
+  {
+    "id": 35,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "Which experiments have tested whether quantum mechanics is nonlocal, and what do they conclude?",
+    "answerable": true,
+    "relevant_papers": [
+      "2104.10700",
+      "2204.05385",
+      "2110.05217"
+    ],
+    "must_include": "Names experiments only as the excerpts describe them (e.g. 2110.05217: Zeilinger closing the communication loophole, 'one of the first loophole-free Bell tests', locality loophole 'considered by some' first closed by Zeilinger); states that loophole-free violations have been reported; says what the excerpts do not cover; does not present names or numbers lifted from reference lists as findings.",
+    "notes": "Hold-out. Partial. Verified by grep: 2110.05217 is a history paper whose reference list (incl. Giustina 2015) leaked into chunks. It was not in the semantic top 5: retrieval miss. Borderline: 2506.21051, 1801.09891. Rejected: 2002.12216.",
+    "holdout": true
+  },
+  {
+    "id": 36,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "How are uncertainty relations related to complementarity and measurement disturbance?",
+    "answerable": true,
+    "relevant_papers": [
+      "1809.03475",
+      "1908.03949",
+      "1908.07694",
+      "2312.01055",
+      "1804.11119",
+      "2105.13821"
+    ],
+    "must_include": "Uncertainty as a trade-off tied to complementarity, with measurement disturbance as a related but separate notion, as the excerpts support; no outside-corpus distinctions.",
+    "notes": "Development question. Fifth uncertainty question (with #8, #16, #22, #31); consider swapping.",
+    "holdout": false
+  },
+  {
+    "id": 37,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "What does the Frauchiger-Renner paradox imply for interpretations of quantum mechanics?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "2304.00608"
+    ],
+    "must_include": "Attributes to Tausk (1812.11140) the claim that the paradox is a misunderstanding of how to apply the quantum rules and that a 'QTWO' must take one of three paths, with many-worlds a possible approach; may add from 2304.00608 that extended Wigner's-friend theorems (incl. Frauchiger-Renner) present a dilemma among interpretations; does not present either as consensus or say the paradox refutes QM.",
+    "notes": "Hold-out. Verified by grep. 1812.11140 is a critique, so misattribution is the main risk. This phrasing retrieves 1812.11140 at 0.354 (passes cutoff), unlike #10's phrasing (0.53).",
+    "holdout": true
+  },
+  {
+    "id": 38,
+    "bucket": "multi",
+    "type": "multi",
+    "question": "How does Bohmian mechanics deal with both measurement and nonlocality?",
+    "answerable": true,
+    "relevant_papers": [
+      "1812.11140",
+      "2405.04368",
+      "2502.19278",
+      "2504.14791",
+      "2306.07794"
+    ],
+    "must_include": "No collapse; wave function guides actual particles (pilot wave); resolves collapse within a single world using hidden variables (positions); explicitly nonlocal, which Bell's theorem makes inevitable (2405.04368); predictions equal standard QM; no experiment has distinguished single-world interpretations from many-worlds (2504.14791).",
+    "notes": "Development question. Verified by grep of 2504.14791. Nonlocality claim rests on 2405.04368; the 1812.11140 snippet was cut off at 'highly non...' (probably nonlocal).",
+    "holdout": false
+  },
+  {
+    "id": 39,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "How does a nuclear reactor work?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses (no relevant material); gives no answer from outside knowledge.",
+    "notes": "Out of domain. Run eval/check_refusals.py: if it passes the cutoff, record the best distance, since then the prompt must do the refusing.",
+    "holdout": false
+  },
+  {
+    "id": 40,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "What is the current price of Bitcoin?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses; no price or outside knowledge.",
+    "notes": "Hold-out. Out of domain.",
+    "holdout": true
+  },
+  {
+    "id": 41,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "What is the boiling point of liquid nitrogen?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses; no value from outside knowledge.",
+    "notes": "Out of domain.",
+    "holdout": false
+  },
+  {
+    "id": 42,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "How do vaccines train the immune system?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses; no explanation from outside knowledge.",
+    "notes": "Out of domain.",
+    "holdout": false
+  },
+  {
+    "id": 43,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "What causes the aurora borealis?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses; no explanation from outside knowledge.",
+    "notes": "Hold-out. Out of domain.",
+    "holdout": true
+  },
+  {
+    "id": 44,
+    "bucket": "none",
+    "type": "unanswerable",
+    "question": "Who discovered penicillin?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Refuses; no answer from outside knowledge.",
+    "notes": "Out of domain.",
+    "holdout": false
+  },
+  {
+    "id": 45,
+    "bucket": "decoherence",
+    "type": "unanswerable",
+    "question": "What is the numerical value of the CSL collapse rate parameter?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Says the excerpts discuss CSL and tightening bounds but give no value for the rate; invents no number.",
+    "notes": "Verified by grep: no value in 2502.19278. Best distance 0.491 > cutoff, so refused before generation.",
+    "holdout": false
+  },
+  {
+    "id": 46,
+    "bucket": "decoherence",
+    "type": "definition",
+    "question": "How long does a dust grain stay coherent at room temperature?",
+    "answerable": true,
+    "relevant_papers": [
+      "1911.06282"
+    ],
+    "must_include": "Gives the dust-grain decoherence timescale from Table 1 of the review, attributed to it; if the value is unreadable, says so instead of guessing.",
+    "notes": "Relabelled from unanswerable after grep. Table values were stripped to [EQ] by clean_text, so the pipeline likely cannot answer it: parsing failure. Check the real value in the PDF.",
+    "holdout": true
+  },
+  {
+    "id": 47,
+    "bucket": "bell_epr",
+    "type": "unanswerable",
+    "question": "What detection efficiency did the 2015 loophole-free Bell tests achieve?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Does not state detection efficiencies for the 2015 tests; says the excerpts do not give them.",
+    "notes": "Verified by grep of 2104.10700: only citations and bibliography. Reference list leaked into chunks: hallucination bait.",
+    "holdout": false
+  },
+  {
+    "id": 48,
+    "bucket": "decoherence",
+    "type": "unanswerable",
+    "question": "What is the largest object that has been put in a quantum superposition experimentally?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Does not name a record-size object; may mention fullerene experiments only as discussed in the review.",
+    "notes": "Verified by grep: 1911.06282 mentions fullerene decoherence but claims no record.",
+    "holdout": true
+  },
+  {
+    "id": 49,
+    "bucket": "measurement",
+    "type": "unanswerable",
+    "question": "To what precision has the Born rule been verified experimentally?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Does not give a precision for the Born rule; may say 2111.02136 ran the Sorkin test on quantum hardware with results consistent with theory after noise, and states no precision.",
+    "notes": "Partial-answer case. Verified by grep of 2111.02136: no precision stated.",
+    "holdout": false
+  },
+  {
+    "id": 50,
+    "bucket": "bell_epr",
+    "type": "unanswerable",
+    "question": "What error rate do current quantum computers achieve when preparing Bell states?",
+    "answerable": false,
+    "relevant_papers": [],
+    "must_include": "Does not give a Bell-state preparation error rate; may mention that 2111.02136 discusses readout and dephasing errors without a number.",
+    "notes": "Verified by grep: no 'Bell state' or error rate in 2111.02136.",
+    "holdout": true
+  }
+]

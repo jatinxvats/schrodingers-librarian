@@ -1,0 +1,5 @@
+[
+  {"id": 7, "answerable": true, "relevant_papers": ["1812.11140", "1908.03949", "2406.02149", "1807.02092"],
+   "must_include": "Probability of an outcome equals the squared modulus of its amplitude (p_j = |a_j|^2), after which the state collapses to the outcome; presented as a rule of the theory, with derivations contested.",
+   "notes": "Updated after grep: 1812.11140 states the rule explicitly in an accessible text. 1908.03949 unverified. Borderline: 1909.13027. Inline formulas can survive where display equations become [EQ]."}
+]

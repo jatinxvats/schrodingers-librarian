@@ -1,0 +1,17 @@
+[
+  {"id": 3, "answerable": true, "relevant_papers": ["2102.13036", "2408.16764", "1910.09591"],
+   "must_include": "No context-independent value assignment in dimension >= 3, so noncontextual hidden variables are ruled out; not applicable to a single qubit; does not rule out all hidden variables.",
+   "notes": "Borderline: 2502.19278, 2105.13821."},
+  {"id": 5, "answerable": true, "relevant_papers": ["1911.06282", "2107.03378", "1807.02092", "2502.19278"],
+   "must_include": "Loss of coherence via environment interaction, pointer states; distinguished from collapse; not presented as alone explaining single outcomes.",
+   "notes": "Keyword hits on gravitational decoherence are use, not definition."},
+  {"id": 7, "answerable": true, "relevant_papers": ["1908.03949", "2406.02149", "1807.02092"],
+   "must_include": "Probability equals squared modulus of the amplitude; presented as a postulate, derivations contested.",
+   "notes": "Unverified: check 1908.03949 states the rule. Formula lost to [EQ] stripping. Borderline: 1909.13027."},
+  {"id": 9, "answerable": true, "relevant_papers": ["2105.02384", "2412.00406", "2004.04352", "2009.08440"],
+   "must_include": "EPR argued from locality and a criterion of reality that QM is incomplete; does not credit EPR with proving nonlocality.",
+   "notes": "Borderline: 2107.10666."},
+  {"id": 10, "answerable": true, "relevant_papers": ["1812.11140"],
+   "must_include": "Agents reasoning with QM reach contradictory predictions; three assumptions (universal QM, consistency, single outcomes) cannot all hold; not a proven refutation.",
+   "notes": "Retrieval best distance 0.53 exceeds the 0.45 cutoff: false refusal. Keyword search was broken; recheck after the tokenizer fix."}
+]

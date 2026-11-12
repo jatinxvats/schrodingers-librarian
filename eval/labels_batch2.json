@@ -1,0 +1,20 @@
+[
+  {"id": 45, "answerable": false, "relevant_papers": [],
+   "must_include": "Says the excerpts discuss CSL and tightening bounds but give no value for the rate; invents no number.",
+   "notes": "Verified by grep: no value in 2502.19278. Best distance 0.491 > cutoff, so refused before generation."},
+  {"id": 46, "type": "definition", "answerable": true, "relevant_papers": ["1911.06282"],
+   "must_include": "Gives the dust-grain decoherence timescale from Table 1 of the review, attributed to it; if the value is unreadable, says so instead of guessing.",
+   "notes": "Relabelled from unanswerable after grep. Table values were stripped to [EQ] by clean_text, so the pipeline likely cannot answer it: parsing failure. Check the real value in the PDF."},
+  {"id": 47, "answerable": false, "relevant_papers": [],
+   "must_include": "Does not state detection efficiencies for the 2015 tests; says the excerpts do not give them.",
+   "notes": "Verified by grep of 2104.10700: only citations and bibliography. Reference list leaked into chunks: hallucination bait."},
+  {"id": 48, "answerable": false, "relevant_papers": [],
+   "must_include": "Does not name a record-size object; may mention fullerene experiments only as discussed in the review.",
+   "notes": "Verified by grep: 1911.06282 mentions fullerene decoherence but claims no record."},
+  {"id": 49, "answerable": false, "relevant_papers": [],
+   "must_include": "Does not give a precision for the Born rule; may say 2111.02136 ran the Sorkin test on quantum hardware with results consistent with theory after noise, and states no precision.",
+   "notes": "Partial-answer case. Verified by grep of 2111.02136: no precision stated."},
+  {"id": 50, "answerable": false, "relevant_papers": [],
+   "must_include": "Does not give a Bell-state preparation error rate; may mention that 2111.02136 discusses readout and dephasing errors without a number.",
+   "notes": "Verified by grep: no 'Bell state' or error rate in 2111.02136."}
+]

@@ -1,0 +1,17 @@
+[
+  {"id": 4, "answerable": true, "relevant_papers": ["2102.13036", "1910.09591", "2410.15790", "2311.11218", "2105.13821", "2408.16764"],
+   "must_include": "Outcome values cannot be assigned independent of the context of compatible measurements; Bell nonlocality is a special case; must not use the relational 'contextual' sense.",
+   "notes": "Keyword hits 2107.10666 and 2510.09237 use 'contextual' in a different sense."},
+  {"id": 6, "answerable": true, "relevant_papers": ["2502.19278", "1908.03949", "2107.03378", "2210.10624", "2012.12033"],
+   "must_include": "Unitary Schrodinger evolution versus apparent collapse on measurement (two rules); single definite outcomes; not presenting any solution as settled.",
+   "notes": "Borderline: 1911.06282, 2112.11223, 1811.00902."},
+  {"id": 8, "answerable": true, "relevant_papers": ["1908.03949", "1809.03475", "1908.07694", "1807.07829"],
+   "must_include": "Position and momentum cannot both be sharply defined (Delta x Delta p >= hbar/2); property of states, not only measurement disturbance.",
+   "notes": "Formula lost to [EQ] stripping. GUP paper 2202.07489 is a different topic. Borderline: 1912.07020, 2304.09037."},
+  {"id": 11, "answerable": true, "relevant_papers": ["1812.11140", "2502.19278", "2401.01340"],
+   "must_include": "Particles with definite positions guided by the wave function (pilot wave, guiding equation); deterministic in its best-known form, no collapse; predictions equal standard QM; nonlocal.",
+   "notes": "Verified by grep: 1812.11140 defines it. 2405.04368 only mentions Bohmian trajectories in passing, so excluded. 2502.19278 and 2401.01340 unverified. Borderline: 2306.07794."},
+  {"id": 12, "answerable": true, "relevant_papers": ["1911.06282", "2107.03378", "1807.02092"],
+   "must_include": "Pointer-state information copied redundantly into many environment fragments, allowing independent observers to agree (objectivity); part of the decoherence program; does not alone solve the measurement problem.",
+   "notes": "Semantic ranks 4-5 (1909.13027, 2504.14791) are off-topic. Borderline: 2205.12927, 2001.10851."}
+]

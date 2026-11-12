@@ -1,0 +1,2718 @@
+{
+  "name": "baseline",
+  "git": "unknown",
+  "records": [
+    {
+      "id": 1,
+      "bucket": "foundations",
+      "type": "definition",
+      "question": "What is a Hilbert space?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2406.02149",
+        "2210.10624"
+      ],
+      "must_include": "A complex linear space of vectors with a positive-definite inner product (square-integrable, per 2210.10624), in which quantum states are vectors; observables with finitely many eigenvectors (e.g. spin) need only the Hilbert space; does not call it bilinear or insist on infinite dimension unless a chunk says so.",
+      "notes": "Development question. Verified by grep of 2210.10624. PENDING grep of 2406.02149 (formal axiomatic definition; may state completeness/dimension). Earlier system answer said 'infinite-dimensional' and 'bilinear': check whether either is in 2406.02149. Borderline: 2102.00861. Rejected: 2105.13821 (bibliography entry), 1805.11483, 2104.10700, 2504.14791.",
+      "answer": "A Hilbert space is an infinite‑dimensional, complex, linear (vector) space that is equipped with a positive‑definite inner product and is complete with respect to the norm induced by that inner product (i.e., Cauchy‑complete)[1]. In the quantum‑mechanical context it is the square‑integrable space of abstract state vectors; the states of a system are vectors in this space, observables are Hermitian operators on it, and measurements correspond to orthogonal projections[3]. Historically the specific space now denoted ℓ² was first defined explicitly by Erhard Schmidt in 1908, and von Neumann popularized the term “(complex) Hilbert space” for such spaces in his 1927 papers[2].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2406.02149",
+          "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+          "distance": 0.273
+        },
+        {
+          "n": 2,
+          "paper_id": "2406.02149",
+          "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+          "distance": 0.296
+        },
+        {
+          "n": 3,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.385
+        },
+        {
+          "n": 4,
+          "paper_id": "2102.00861",
+          "title": "A Review of The Algebraic Approaches to Quantum Mechanics. Appraisals on Their Theoretical Relevance",
+          "distance": 0.423
+        }
+      ],
+      "best_distance": 0.273,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 2,
+      "bucket": "bell_epr",
+      "type": "definition",
+      "question": "What does Bell's theorem rule out?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2104.10700",
+        "2102.13036",
+        "2306.07794",
+        "1805.10311"
+      ],
+      "must_include": "Bell's theorem: no physical theory based only on local variables can account for all of quantum theory's predictions; the local variable can be read as an influence carried from a shared past (Bell's original reading, 2104.10700); does not rule out hidden variables as such (nonlocal ones survive); does not claim it proves signaling.",
+      "notes": "Development question. Verified by grep of 2104.10700 introduction. That chunk was NOT in the semantic top 5 (retrieval returned 1912.06349, 2504.01056, 2102.13036, 2210.03365, 2306.07794): retrieval miss. 2408.08329 borderline (table of contents and formula-heavy spin chapter). Rejected: 1912.06349 (disputes the proof's assumptions), 2504.01056 (book review), 2210.03365.",
+      "answer": "Bell’s theorem rules out **local hidden‑variable (locally realistic) explanations of quantum correlations** – i.e., any theory that assigns predetermined outcomes to measurements while respecting locality. The theorem shows that such locally realistic models cannot reproduce the statistical predictions of quantum mechanics and can be experimentally tested via Bell inequalities [3][4].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1912.06349",
+          "title": "The Bell theorem revisited: geometric phases in gauge theories",
+          "distance": 0.327
+        },
+        {
+          "n": 2,
+          "paper_id": "2504.01056",
+          "title": "Review of \"Just Plain Wrong: The Dalliance of Quantum Theory with the Defiance of Bell's Inequality\"",
+          "distance": 0.332
+        },
+        {
+          "n": 3,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.354
+        },
+        {
+          "n": 4,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.356
+        },
+        {
+          "n": 5,
+          "paper_id": "2210.03365",
+          "title": "Spin-1 photons, spin-1/2 electrons, Bell's inequalities, and Feynman's special perspective on quantum mechanics",
+          "distance": 0.372
+        }
+      ],
+      "best_distance": 0.327,
+      "citations": {
+        "cited": [
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.4,
+      "recall": 0.25,
+      "hit": true
+    },
+    {
+      "id": 3,
+      "bucket": "contextuality",
+      "type": "definition",
+      "question": "What is the Kochen-Specker theorem?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2102.13036",
+        "2408.16764",
+        "1910.09591"
+      ],
+      "must_include": "No context-independent value assignment in dimension >= 3, so noncontextual hidden variables are ruled out; not applicable to a single qubit; does not rule out all hidden variables.",
+      "notes": "Borderline: 2502.19278, 2105.13821.",
+      "answer": "The Kochen‑Specker theorem is a no‑go result showing that it is impossible to assign predetermined, non‑contextual values to all quantum observables in a way that respects the functional relations among them. In other words, any model that tries to give each observable a definite value independent of the measurement context (a non‑contextual value assignment) inevitably conflicts with the predictions of quantum theory[4]. The original proof demonstrates a logical impossibility of such value assignments, and it can be derived from very basic projective‑geometric considerations in three‑dimensional Hilbert space, extending to higher‑dimensional real and complex spaces[5].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.241
+        },
+        {
+          "n": 2,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.302
+        },
+        {
+          "n": 3,
+          "paper_id": "2408.16764",
+          "title": "An algebraic characterisation of Kochen-Specker contextuality",
+          "distance": 0.32
+        },
+        {
+          "n": 4,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.321
+        },
+        {
+          "n": 5,
+          "paper_id": "1910.09591",
+          "title": "Contextuality and the fundamental theorems of quantum mechanics",
+          "distance": 0.329
+        }
+      ],
+      "best_distance": 0.241,
+      "citations": {
+        "cited": [
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.8,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 4,
+      "bucket": "contextuality",
+      "type": "definition",
+      "question": "What does it mean for quantum mechanics to be contextual?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2102.13036",
+        "1910.09591",
+        "2410.15790",
+        "2311.11218",
+        "2105.13821",
+        "2408.16764"
+      ],
+      "must_include": "Outcome values cannot be assigned independent of the context of compatible measurements; Bell nonlocality is a special case; must not use the relational 'contextual' sense.",
+      "notes": "Keyword hits 2107.10666 and 2510.09237 use 'contextual' in a different sense.",
+      "answer": "Quantum mechanics is **contextual** when the outcomes of measurements cannot be explained by a single, pre‑existing assignment of values that is independent of which compatible set of other measurements (the “context”) is performed. In other words, there is a fundamental obstruction to describing quantum theory with classical, non‑contextual hidden‑variable models; the measurement results depend on the whole measurement context rather than on intrinsic properties of the system alone[1][5]. This contextuality is regarded as a central distinguishing feature of quantum physics, underlying phenomena such as measurement incompatibility, Bell nonlocality and entanglement, and is viewed as a resource for quantum computation[4].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.204
+        },
+        {
+          "n": 2,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.233
+        },
+        {
+          "n": 3,
+          "paper_id": "2311.11218",
+          "title": "State-independent all-versus-nothing arguments",
+          "distance": 0.247
+        },
+        {
+          "n": 4,
+          "paper_id": "2408.16764",
+          "title": "An algebraic characterisation of Kochen-Specker contextuality",
+          "distance": 0.247
+        },
+        {
+          "n": 5,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.256
+        }
+      ],
+      "best_distance": 0.204,
+      "citations": {
+        "cited": [
+          1,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 1.0,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 5,
+      "bucket": "decoherence",
+      "type": "definition",
+      "question": "What is decoherence?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1911.06282",
+        "2107.03378",
+        "1807.02092",
+        "2502.19278"
+      ],
+      "must_include": "Loss of coherence via environment interaction, pointer states; distinguished from collapse; not presented as alone explaining single outcomes.",
+      "notes": "Keyword hits on gravitational decoherence are use, not definition.",
+      "answer": "Decoherence is the physical process by which a quantum system loses phase coherence through its interaction with an environment, causing the off‑diagonal elements of its reduced density matrix to be suppressed.  In this way the system’s quantum probability distributions evolve toward the classically expected ones.  The process also selects a set of stable “pointer” states (environment‑induced superselection or einselection) that are immune to further decoherence and can persist as classical‑like outcomes[3][4].  It is a technical result of applying the standard quantum formalism to open systems and does not by itself provide an interpretation of quantum mechanics[4].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.281
+        },
+        {
+          "n": 2,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.285
+        },
+        {
+          "n": 3,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.297
+        },
+        {
+          "n": 4,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.3
+        },
+        {
+          "n": 5,
+          "paper_id": "2107.03378",
+          "title": "Emergence of the Classical from within the Quantum Universe",
+          "distance": 0.302
+        }
+      ],
+      "best_distance": 0.281,
+      "citations": {
+        "cited": [
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 6,
+      "bucket": "measurement",
+      "type": "definition",
+      "question": "What is the measurement problem in quantum mechanics?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2502.19278",
+        "1908.03949",
+        "2107.03378",
+        "2210.10624",
+        "2012.12033"
+      ],
+      "must_include": "Unitary Schrodinger evolution versus apparent collapse on measurement (two rules); single definite outcomes; not presenting any solution as settled.",
+      "notes": "Borderline: 1911.06282, 2112.11223, 1811.00902.",
+      "answer": "The measurement problem is the tension between two different ways quantum systems evolve:  \n\n* **Unitary, deterministic evolution** of a closed system according to the Schrödinger equation, which produces superpositions of possible outcomes; and  \n* **Non‑unitary, stochastic collapse** that occurs when a measurement is performed, yielding a single definite result according to the Born rule.  \n\nThis clash—how a reversible, deterministic dynamics gives rise to an irreversible, probabilistic “collapse” and what exactly constitutes a measurement—has remained unresolved since the inception of quantum mechanics[2][5]. The problem is highlighted by the fact that standard quantum theory provides no clear answer to “what measures the system,” and different authors give distinct interpretations of how (or whether) this transition is solved[4].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.201
+        },
+        {
+          "n": 2,
+          "paper_id": "2112.11223",
+          "title": "Events in quantum mechanics are maximally non-absolute",
+          "distance": 0.221
+        },
+        {
+          "n": 3,
+          "paper_id": "2107.03378",
+          "title": "Emergence of the Classical from within the Quantum Universe",
+          "distance": 0.249
+        },
+        {
+          "n": 4,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.275
+        },
+        {
+          "n": 5,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.283
+        }
+      ],
+      "best_distance": 0.201,
+      "citations": {
+        "cited": [
+          2,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.8,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 7,
+      "bucket": "measurement",
+      "type": "definition",
+      "question": "What is the Born rule?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1812.11140",
+        "1908.03949",
+        "2406.02149",
+        "1807.02092"
+      ],
+      "must_include": "Probability of an outcome equals the squared modulus of its amplitude (p_j = |a_j|^2), after which the state collapses to the outcome; presented as a rule of the theory, with derivations contested.",
+      "notes": "Updated after grep: 1812.11140 states the rule explicitly in an accessible text. 1908.03949 unverified. Borderline: 1909.13027. Inline formulas can survive where display equations become [EQ].",
+      "answer": "The Born rule states that the probability of obtaining a particular measurement outcome is given by the absolute square of the overlap (inner product) between the system’s state and the eigenstate corresponding to that outcome. In von Neumann’s formulation, if a system prepared in an initial eigenstate φ(0) of a Hamiltonian H(0) evolves to time t, the probability of finding it in the ν‑th eigenstate φ(t) of H(t) is  \n\n\\[\nP = \\bigl|\\,\\langle \\phi(t)_\\nu \\mid \\phi(0) \\rangle \\bigr|^{2},\n\\]\n\ni.e. the modulus‑squared of the inner product of the two eigenstates [1].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2406.02149",
+          "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+          "distance": 0.386
+        }
+      ],
+      "best_distance": 0.386,
+      "citations": {
+        "cited": [
+          1
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 0.25,
+      "hit": true
+    },
+    {
+      "id": 8,
+      "bucket": "uncertainty",
+      "type": "definition",
+      "question": "What does the Heisenberg uncertainty principle actually say?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1908.03949",
+        "1809.03475",
+        "1908.07694",
+        "1807.07829"
+      ],
+      "must_include": "Position and momentum cannot both be sharply defined (Delta x Delta p >= hbar/2); property of states, not only measurement disturbance.",
+      "notes": "Formula lost to [EQ] stripping. GUP paper 2202.07489 is a different topic. Borderline: 1912.07020, 2304.09037.",
+      "answer": "The Heisenberg uncertainty principle states that a measurement apparatus inevitably disturbs the system it probes, so that the values of two conjugate (incompatible) observables cannot be known simultaneously with arbitrary precision. In Heisenberg’s original argument the position uncertainty set by the wavelength of the probing light (Δx ∼ λ) implies a recoil‑induced momentum uncertainty of order Δp ∼ ħ/λ, leading to a relation of the form Δx Δp ≈ ħ. This expresses that the act of measurement introduces uncontrollable perturbations that prevent simultaneous sharp values for the pair of variables [1].\n\nLater, the principle was cast in a mathematically rigorous inequality: the product of the standard deviations of position and momentum must satisfy  \n\n\\[\n\\Delta \\hat x\\,\\Delta \\hat p \\ge \\frac{\\hbar}{2},\n\\]\n\nand this form was generalized by Robertson and Schrödinger to arbitrary pairs of incompatible observables [5].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1908.03949",
+          "title": "An introduction to quantum measurements with a historical motivation",
+          "distance": 0.243
+        },
+        {
+          "n": 2,
+          "paper_id": "1908.07694",
+          "title": "The Complementary Information Principle of Quantum Mechanics",
+          "distance": 0.29
+        },
+        {
+          "n": 3,
+          "paper_id": "1807.07829",
+          "title": "Quasi-Fine-Grained Uncertainty Relations",
+          "distance": 0.299
+        },
+        {
+          "n": 4,
+          "paper_id": "1908.03949",
+          "title": "An introduction to quantum measurements with a historical motivation",
+          "distance": 0.314
+        },
+        {
+          "n": 5,
+          "paper_id": "1912.07020",
+          "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+          "distance": 0.354
+        }
+      ],
+      "best_distance": 0.243,
+      "citations": {
+        "cited": [
+          1,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.8,
+      "recall": 0.75,
+      "hit": true
+    },
+    {
+      "id": 9,
+      "bucket": "bell_epr",
+      "type": "definition",
+      "question": "What is the EPR paradox?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2105.02384",
+        "2412.00406",
+        "2004.04352",
+        "2009.08440"
+      ],
+      "must_include": "EPR argued from locality and a criterion of reality that QM is incomplete; does not credit EPR with proving nonlocality.",
+      "notes": "Borderline: 2107.10666.",
+      "answer": "The EPR paradox is the conflict that arises when the quantum‑mechanical description of an entangled system predicts perfect (or strong) correlations between distant measurements, while the criteria introduced by Einstein, Podolsky and Rosen require that (i) each measured quantity correspond to an element of physical reality that can be defined independently of any disturbance, and (ii) the description be local, i.e., no influence can travel faster than light.  \n\n- EPR argued that because the outcomes of measurements on one subsystem allow one to infer with certainty the values of complementary observables on the distant subsystem, quantum mechanics must be incomplete – it does not assign simultaneous elements of reality to those observables [4].  \n- The paradox therefore consists of the tension between (a) the entangled wave function that yields the observed correlations and (b) the EPR locality and reality criteria, which together imply that a locally realistic theory should exist but quantum mechanics does not provide one [3][4].  \n- In the interpretation of Pris, the “paradox” is explained without invoking non‑locality: the correlated events are not autonomous but are determined only within the measurement context, and the wave‑function reduction is a contextual identification rather than a physical process [1].  \n\nThus, the EPR paradox is the apparent incompatibility between quantum‑mechanical predictions of entangled correlations and the EPR notions of locality and elements of reality, leading EPR to claim that quantum mechanics is an incomplete description of physical reality.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2107.10666",
+          "title": "The Real Meaning of Quantum Mechanics",
+          "distance": 0.338
+        },
+        {
+          "n": 2,
+          "paper_id": "2004.04352",
+          "title": "A Steering Paradox for Einstein-Podolsky-Rosen Argument and its Extended Inequality",
+          "distance": 0.347
+        },
+        {
+          "n": 3,
+          "paper_id": "2105.02384",
+          "title": "The EPR paper: a pedagogical approach",
+          "distance": 0.371
+        },
+        {
+          "n": 4,
+          "paper_id": "2412.00406",
+          "title": "Resolving Schrödinger's analysis of the Einstein-Podolsky-Rosen paradox: an incompleteness criterion and weak elements of reality",
+          "distance": 0.385
+        },
+        {
+          "n": 5,
+          "paper_id": "2009.08440",
+          "title": "Metrological complementarity reveals the Einstein-Podolsky-Rosen paradox",
+          "distance": 0.388
+        }
+      ],
+      "best_distance": 0.338,
+      "citations": {
+        "cited": [
+          1,
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.8,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 10,
+      "bucket": "foundations",
+      "type": "definition",
+      "question": "What is the Frauchiger-Renner paradox?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1812.11140"
+      ],
+      "must_include": "Says 1812.11140 is a text on the foundations of QM that comments on and analyzes the Frauchiger-Renner Nature article; attributes to its author (Tausk) the claim that the 'paradox' is due to a misunderstanding of how to apply the quantum rules; does not present that claim as consensus; does not describe the paradox's details beyond what the excerpts give.",
+      "notes": "Revised after grep: the earlier rubric came from outside knowledge. Retrieval best distance 0.53 > cutoff for this phrasing: false refusal. 2304.00608 only cites it in one sentence.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.53,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": null,
+      "recall": 0.0,
+      "hit": false
+    },
+    {
+      "id": 11,
+      "bucket": "interpretations",
+      "type": "definition",
+      "question": "What is Bohmian mechanics?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1812.11140",
+        "2502.19278",
+        "2401.01340"
+      ],
+      "must_include": "Particles with definite positions guided by the wave function (pilot wave, guiding equation); deterministic in its best-known form, no collapse; predictions equal standard QM; nonlocal.",
+      "notes": "Verified by grep: 1812.11140 defines it. 2405.04368 only mentions Bohmian trajectories in passing, so excluded. 2502.19278 and 2401.01340 unverified. Borderline: 2306.07794.",
+      "answer": "Bohmian mechanics is a realist formulation of quantum theory in which particles have definite positions that are guided by the quantum state (the wave function) acting as a pilot wave.  It was named by Detlef Dürr in analogy to Newtonian mechanics and developed further by Dürr, Goldstein and Zanghì, who clarified its status and derived it in a more coherent way than Bohm’s original presentation[4].  In this approach the wave function enters the guiding equation and determines the trajectories of the particles[2].  The theory provides an explicit ontology of particles and a deterministic dynamics (though some quantum‑field‑theoretic extensions can be nondeterministic) that reproduces the standard quantum‑mechanical predictions[2].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2212.12782",
+          "title": "Tightrope-walking rationality in action: Feyerabendian insights for the foundations of quantum mechanics",
+          "distance": 0.357
+        },
+        {
+          "n": 2,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.373
+        },
+        {
+          "n": 3,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.374
+        },
+        {
+          "n": 4,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.391
+        },
+        {
+          "n": 5,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.418
+        }
+      ],
+      "best_distance": 0.357,
+      "citations": {
+        "cited": [
+          2,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "hit": true
+    },
+    {
+      "id": 12,
+      "bucket": "decoherence",
+      "type": "definition",
+      "question": "What is quantum Darwinism?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1911.06282",
+        "2107.03378",
+        "1807.02092"
+      ],
+      "must_include": "Pointer-state information copied redundantly into many environment fragments, allowing independent observers to agree (objectivity); part of the decoherence program; does not alone solve the measurement problem.",
+      "notes": "Semantic ranks 4-5 (1909.13027, 2504.14791) are off-topic. Borderline: 2205.12927, 2001.10851.",
+      "answer": "Quantum Darwinism is a framework that extends decoherence theory by treating the environment as a communication channel that records and proliferates information about a system.  When a system interacts with its surroundings, the environment “monitors” the system and selectively stores many redundant copies of information about certain stable states (the pointer states).  These states are “fitter” because they imprint their information robustly and redundantly across many environmental fragments, allowing observers to infer the system’s properties indirectly—by intercepting parts of the environment—without significantly disturbing the system itself[1][3].  The approach emphasizes the role of einselection (environment‑induced selection) in picking out the pointer states and explains how classical objectivity emerges from quantum substrates[2][5].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.32
+        },
+        {
+          "n": 2,
+          "paper_id": "2107.03378",
+          "title": "Emergence of the Classical from within the Quantum Universe",
+          "distance": 0.322
+        },
+        {
+          "n": 3,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.332
+        },
+        {
+          "n": 4,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.378
+        },
+        {
+          "n": 5,
+          "paper_id": "2107.03378",
+          "title": "Emergence of the Classical from within the Quantum Universe",
+          "distance": 0.379
+        }
+      ],
+      "best_distance": 0.32,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 13,
+      "bucket": "interpretations",
+      "type": "comparison",
+      "question": "What is the fundamental difference between the Copenhagen interpretation and the many-worlds interpretation?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1812.11140",
+        "2502.19278",
+        "1801.08587",
+        "2504.14791",
+        "1908.03949"
+      ],
+      "must_include": "Copenhagen: collapse to a single outcome on measurement; many-worlds: no collapse, all outcomes realized in branches; 'Copenhagen' is not one agreed doctrine.",
+      "notes": "Pair: Copenhagen from 1908.03949 plus MWI from 1801.08587. 1909.13027 rejected.",
+      "answer": "The Copenhagen interpretation treats a quantum measurement as selecting a single outcome: it “cuts off” all other components of the state‑vector and retains only the branch that corresponds to the observed result, thereby describing one world after the measurement [1].  \n\nIn contrast, the many‑worlds interpretation holds that the state‑vector never collapses; each measurement causes the universal wavefunction to branch into non‑communicating components, all of which continue to exist. Observers in each branch perceive a definite outcome, but all branches (and thus all outcomes) are real [3][2].  \n\nThus, the fundamental difference is that Copenhagen postulates a single, actualized world by discarding all but one branch, whereas many‑worlds posits a single quantum universe that continuously splits into many coexisting classical branches, each representing a different outcome.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.229
+        },
+        {
+          "n": 2,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.244
+        },
+        {
+          "n": 3,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.291
+        },
+        {
+          "n": 4,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.293
+        },
+        {
+          "n": 5,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.309
+        }
+      ],
+      "best_distance": 0.229,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 14,
+      "bucket": "interpretations",
+      "type": "comparison",
+      "question": "How does Bohmian mechanics differ from standard quantum mechanics in how it treats particles?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1812.11140",
+        "2502.19278"
+      ],
+      "must_include": "Bohmian particles always have definite positions guided by the wave function; standard QM particles have no definite position before measurement; predictions are equivalent; must not claim different predictions.",
+      "notes": "Borderline: 2405.04368, 2306.07794.",
+      "answer": "Bohmian mechanics posits that particles always have well‑defined positions that move along continuous trajectories guided by the quantum state (the “pilot wave”) — the wave function enters the guiding equation and determines the particles’ motion. In contrast, standard quantum mechanics does not assign definite particle positions or trajectories; instead it treats the wave function as the complete description of the system and only probabilistic measurement outcomes are defined.  \n\n- In Bohmian mechanics the quantum state is a pilot wave that “guides the particles” and the particles themselves have real positions at all times [1].  \n- Standard quantum mechanics lacks such particle trajectories and treats the wave function as the sole ontic entity, with no underlying deterministic particle motion.  \n\nThus the key difference is that Bohmian theory adds an ontological layer of particles with definite positions and deterministic motion, whereas standard quantum mechanics retains only the wave function and probabilistic predictions.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.242
+        },
+        {
+          "n": 2,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.326
+        },
+        {
+          "n": 3,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.347
+        },
+        {
+          "n": 4,
+          "paper_id": "2212.12782",
+          "title": "Tightrope-walking rationality in action: Feyerabendian insights for the foundations of quantum mechanics",
+          "distance": 0.36
+        },
+        {
+          "n": 5,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.386
+        }
+      ],
+      "best_distance": 0.242,
+      "citations": {
+        "cited": [
+          1
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 4,
+      "precision": 0.4,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 15,
+      "bucket": "contextuality",
+      "type": "comparison",
+      "question": "How is quantum contextuality different from Bell nonlocality?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2405.02964",
+        "2102.13036",
+        "1909.05434",
+        "2410.15790",
+        "2204.05385",
+        "2001.07656"
+      ],
+      "must_include": "Bell nonlocality is contextuality where spacelike separation guarantees compatibility; contextuality needs no separation and applies to a single system; not unrelated.",
+      "notes": "Rejected keyword hits: 2005.03835, 2210.05985, 2104.10700.",
+      "answer": "Quantum contextuality and Bell non‑locality are distinct non‑classical features of quantum theory.  \n\n* **Bell nonlocality** refers to correlations between outcomes of measurements performed on space‑like separated parties that cannot be reproduced by any classical causal model respecting relativistic causal structure. It is manifested in violations of Bell inequalities such as CHSH and is tied to the spatial separation of observers[1][3].  \n\n* **Kochen‑Specker (KS) contextuality** concerns the impossibility of assigning outcome values to measurements independently of the measurement context (i.e., which compatible set of observables is measured together). It does not require spatial separation; it can appear even for a single system and is captured by violations of non‑contextuality inequalities such as KCBS[4][3].  \n\nThus, while Bell nonlocality is a special case of contextuality that arises in multipartite, spatially separated scenarios, KS contextuality is a more general notion about the dependence of outcomes on measurement context, applicable to single‑system scenarios. The excerpts do not discuss any further differences beyond these points.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2405.02964",
+          "title": "Trade-off relations between Bell nonlocality and local Kochen-Specker contextuality in generalized Bell scenarios",
+          "distance": 0.159
+        },
+        {
+          "n": 2,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.194
+        },
+        {
+          "n": 3,
+          "paper_id": "1909.05434",
+          "title": "Classical causal models cannot faithfully explain Bell nonlocality or Kochen-Specker contextuality in arbitrary scenarios",
+          "distance": 0.207
+        },
+        {
+          "n": 4,
+          "paper_id": "2204.05385",
+          "title": "Synchronous observation of Bell nonlocality and state-dependent Kochen-Specker contextuality",
+          "distance": 0.215
+        },
+        {
+          "n": 5,
+          "paper_id": "2405.02964",
+          "title": "Trade-off relations between Bell nonlocality and local Kochen-Specker contextuality in generalized Bell scenarios",
+          "distance": 0.218
+        }
+      ],
+      "best_distance": 0.159,
+      "citations": {
+        "cited": [
+          1,
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 5,
+      "precision": 1.0,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 16,
+      "bucket": "uncertainty",
+      "type": "comparison",
+      "question": "Is the uncertainty principle the same thing as the observer effect?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2105.13821",
+        "1908.03949"
+      ],
+      "must_include": "Presents measurement disturbance (Feynman's invasive measurement; Heisenberg's microscope argument) and the uncertainty principle (observables that cannot be jointly measured) as related but not the same, noting that disturbance alone does not explain why values cannot be predetermined; does not say the excerpts call them identical.",
+      "notes": "Partial: no excerpt states the distinction outright; closest is 2105.13821 (Beyond measurement disturbance). 1908.03949 gives the historical link and calls the microscope argument not very rigorous. 1809.03475 unverified. Rubric stays within corpus: modern error-disturbance vs preparation-uncertainty distinction is outside it. Best semantic distance 0.425, near the cutoff; top hit 2409.02354 off-target.",
+      "answer": "The uncertainty principle is not the same as the observer (measurement‑disturbance) effect.  \n\n- [1] states that the uncertainty principle is a fundamental property of the universe that limits the simultaneous precision of pairs of physical quantities (e.g., position–momentum, energy–time), independent of any technological or observational limitation.  \n\n- [2] describes the observer effect as the invasive nature of measurement that modifies the system (the “act of measurement … modifies the system”), which is mathematically expressed by the Born rule and Lüder’s rule. The authors note that one might try to invoke the uncertainty principle to explain this disturbance, but the two concepts are treated separately.  \n\nThus, according to the cited papers, the uncertainty principle and the observer effect are distinct notions.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2409.02354",
+          "title": "Entangled in Spacetime",
+          "distance": 0.425
+        },
+        {
+          "n": 2,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.435
+        }
+      ],
+      "best_distance": 0.425,
+      "citations": {
+        "cited": [
+          1,
+          2
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 0.5,
+      "recall": 0.5,
+      "hit": true
+    },
+    {
+      "id": 17,
+      "bucket": "decoherence",
+      "type": "comparison",
+      "question": "How does decoherence differ from wave function collapse?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2303.07966",
+        "2502.19278",
+        "1911.06282",
+        "2012.12033",
+        "2309.17377"
+      ],
+      "must_include": "Decoherence is unitary and removes interference, giving an apparent mixture without selecting one outcome; collapse is a non-unitary postulate that does; decoherence alone does not solve the measurement problem.",
+      "notes": "2406.19158 (photon-collapse proposal) rejected despite top keyword rank. Borderline: 2408.08329.",
+      "answer": "Decoherence and wave‑function collapse are distinct processes.\n\n* **Decoherence** acts only on the off‑diagonal elements of the reduced density matrix of a system (the system + environment traced over the environment), turning it effectively diagonal in a particular basis. It is a unitary, environment‑induced loss of coherence and does **not** eliminate any diagonal terms; it merely suppresses interference between them[2]. In relational‑QM language decoherence “makes the reduced density matrix diagonal … in the basis defined by the Schmidt biorthonormal … decomposition”[5].\n\n* **Wave‑function collapse** (or “self‑observation collapse” in relational QM) goes further: it zeroes all but one diagonal term of the *entire* density matrix (system + apparatus + observer), leaving a single outcome state. Collapse therefore selects a definite result, not just suppresses interference[2]. In relational QM the collapse is attributed to self‑observation and reduces the reduced density matrix to a single projector ρ = |B(j)⟩⟨B(j)|[5].\n\nThus, decoherence explains the apparent loss of coherence without producing a single outcome, while collapse is the additional, non‑unitary step that yields a definite measurement result. The papers also note that decoherence alone cannot cause collapse[5].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2303.07966",
+          "title": "Universality in Quantum Measurements",
+          "distance": 0.244
+        },
+        {
+          "n": 2,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.251
+        },
+        {
+          "n": 3,
+          "paper_id": "2012.12033",
+          "title": "The Measurement Process in Relational Quantum Mechanics",
+          "distance": 0.297
+        },
+        {
+          "n": 4,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.301
+        },
+        {
+          "n": 5,
+          "paper_id": "2012.12033",
+          "title": "The Measurement Process in Relational Quantum Mechanics",
+          "distance": 0.321
+        }
+      ],
+      "best_distance": 0.244,
+      "citations": {
+        "cited": [
+          2,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 1.0,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 18,
+      "bucket": "interpretations",
+      "type": "comparison",
+      "question": "How do objective collapse theories differ from the many-worlds interpretation?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2502.19278",
+        "1812.11140",
+        "1801.08587",
+        "2504.14791"
+      ],
+      "must_include": "Objective collapse: stochastic non-unitary modification so one outcome really occurs; many-worlds: pure unitary evolution, all outcomes realized in branches; collapse models in principle testable (bounds tightening); not the same theory.",
+      "notes": "Verified by grep: 2111.07730 only mentions objective collapse in one survey sentence, so borderline, not relevant. Rejected: 2109.02310, 1909.01798.",
+      "answer": "Objective‑collapse theories posit that the quantum state undergoes a real, physical reduction (“collapse”) that eliminates all but one outcome, producing a (nearly) diagonal density matrix.  If the theory zeros all off‑diagonal elements except the one corresponding to the realized result, the collapse is ontic – the wavefunction literally changes to a single branch [1].  \n\nIn contrast, the Many‑Worlds Interpretation denies any physical collapse.  It holds that the universal wavefunction always evolves unitarily according to the Schrödinger equation, and that decoherence causes the state to branch into non‑communicating classical worlds, each containing an observer who perceives a definite outcome [2].  Thus many‑worlds retains a superposition of all outcomes, with each branch realized in a separate “world,” rather than selecting a single outcome via collapse.  \n\nSo the key difference is that objective‑collapse models introduce a genuine, stochastic reduction of the state to one outcome, whereas many‑worlds maintains universal unitary evolution and explains the appearance of definite outcomes by branching without collapse.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.335
+        },
+        {
+          "n": 2,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.341
+        },
+        {
+          "n": 3,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.352
+        },
+        {
+          "n": 4,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.375
+        },
+        {
+          "n": 5,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.38
+        }
+      ],
+      "best_distance": 0.335,
+      "citations": {
+        "cited": [
+          1,
+          2
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 4,
+      "precision": 1.0,
+      "recall": 0.75,
+      "hit": true
+    },
+    {
+      "id": 19,
+      "bucket": "interpretations",
+      "type": "comparison",
+      "question": "How does QBism differ from the Copenhagen interpretation?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2301.04014",
+        "2203.16278",
+        "2107.03513"
+      ],
+      "must_include": "Attributes positions: Copenhagen (Bohr's version) treats outcomes as products of the system-apparatus interaction, not objective properties, and has diverse versions; one paper asserts QBism differs fundamentally from Copenhagen, another groups both as orthodox; no single verdict.",
+      "notes": "Contested. Verified by grep: in 2301.04014 the 'QBism differs fundamentally' line is the author's cited assertion and his main argument is about Ozawa's theorem; watch for misattribution. Borderline: 2510.11544, 1908.03949. Rejected: 2510.09237.",
+      "answer": "QBism is presented as a view that departs fundamentally from the traditional Copenhagen family of interpretations.  In particular, Khrennikov notes that “QBism differs crucially from various versions of the Copenhagen interpretation” [1].  The QBist program treats quantum probabilities as an agent’s personal degrees of belief and regards the measuring device as an extension of that agent, emphasizing a subjective, epistemic stance rather than the more mixed epistemic‑ontic picture usually associated with Copenhagen [5].  By contrast, Copenhagen accounts typically invoke a “classical‑quantum cut” and a more objective collapse postulate, without the explicit personalist Bayesian framework that QBism adopts.  Thus, the key distinction highlighted in the excerpts is QBism’s focus on subjectivity and the agent‑device unity, which is said to be a crucial departure from Copenhagen’s approach.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2301.04014",
+          "title": "Ozawa's Intersubjectivity Theorem as objection to QBism individual agent perspective",
+          "distance": 0.177
+        },
+        {
+          "n": 2,
+          "paper_id": "2510.11544",
+          "title": "French on London and Bauer, and QBism",
+          "distance": 0.268
+        },
+        {
+          "n": 3,
+          "paper_id": "2510.09237",
+          "title": "QBism and relational interpretation of quantum mechanics from the point of view of a contextual quantum realism (CQR)",
+          "distance": 0.281
+        },
+        {
+          "n": 4,
+          "paper_id": "2107.03513",
+          "title": "Qubits are not observers -- a no-go theorem",
+          "distance": 0.305
+        },
+        {
+          "n": 5,
+          "paper_id": "2510.09237",
+          "title": "QBism and relational interpretation of quantum mechanics from the point of view of a contextual quantum realism (CQR)",
+          "distance": 0.314
+        }
+      ],
+      "best_distance": 0.177,
+      "citations": {
+        "cited": [
+          1,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "hit": true
+    },
+    {
+      "id": 20,
+      "bucket": "bell_epr",
+      "type": "comparison",
+      "question": "What is the difference between entanglement and Bell nonlocality?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1909.00346",
+        "2012.06918",
+        "2005.03835",
+        "1801.09891"
+      ],
+      "must_include": "Entanglement necessary but not sufficient for Bell nonlocality; maximal entanglement and maximal violation do not coincide; the claim that nonlocality is entanglement is attributed to 2012.06918 and noted as contested.",
+      "notes": "Hold-out. Borderline: 2410.15790. Rejected: 2104.10700.",
+      "answer": "Entanglement and Bell nonlocality are related but distinct quantum resources.  \n\n* **Entanglement** refers to quantum inseparability of a composite system; it is the broader notion of non‑classical correlation that can exist even when the statistics admit a local hidden‑variable description.  It is the resource that underlies many quantum‑information protocols and is defined as any process that cannot be generated by LOCC [2].  \n\n* **Bell nonlocality** is a stricter form of correlation that specifically violates a Bell inequality, meaning its measurement statistics cannot be reproduced by any local hidden‑variable model.  Consequently, Bell‑nonlocal states form a proper subset of entangled states [5][3].  \n\nThus, while every Bell‑nonlocal state is entangled, not all entangled states exhibit Bell nonlocality. The two concepts differ in that entanglement captures any quantum inseparability, whereas Bell nonlocality captures only those inseparabilities that lead to violations of locality‑based classical models.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1909.00346",
+          "title": "Inequality relation between entanglement and Bell nonlocality for arbitrary two-qubit states",
+          "distance": 0.206
+        },
+        {
+          "n": 2,
+          "paper_id": "2012.06918",
+          "title": "Quantum Bell Nonlocality is Entanglement",
+          "distance": 0.229
+        },
+        {
+          "n": 3,
+          "paper_id": "2012.06918",
+          "title": "Quantum Bell Nonlocality is Entanglement",
+          "distance": 0.245
+        },
+        {
+          "n": 4,
+          "paper_id": "2005.03835",
+          "title": "Entanglement versus Bell nonlocality of quantum nonequilibrium steady states",
+          "distance": 0.261
+        },
+        {
+          "n": 5,
+          "paper_id": "1909.00346",
+          "title": "Inequality relation between entanglement and Bell nonlocality for arbitrary two-qubit states",
+          "distance": 0.271
+        }
+      ],
+      "best_distance": 0.206,
+      "citations": {
+        "cited": [
+          2,
+          3,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 5,
+      "precision": 1.0,
+      "recall": 0.75,
+      "hit": true
+    },
+    {
+      "id": 21,
+      "bucket": "contextuality",
+      "type": "comparison",
+      "question": "How do local hidden variable models differ from noncontextual hidden variable models?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2104.10700",
+        "2102.13036",
+        "2105.13821",
+        "2410.15790",
+        "2001.07656"
+      ],
+      "must_include": "Local model: outcomes depend on local settings plus a shared variable; noncontextual model: outcome values independent of compatible co-measured context; local models are a special case.",
+      "notes": "Pair: LHV from 2104.10700, NCHV from 2102.13036. Overlaps #15, consider swapping. Borderline: 2311.11218, 2212.06976.",
+      "answer": "Local hidden‑variable (LHV) models, as used in non‑locality scenarios, are built on the **factorisability** assumption: the hidden variables must factor into independent parts for separated parties.  \nNoncontextual hidden‑variable (NCHV) models, in contrast, are based on **determinism**: the hidden variables assign a single predetermined outcome to each measurement, independent of the measurement context.  \n\nThus the key distinction is that LHV models require factorisable joint distributions across spatially separated sites, whereas NCHV models require deterministic, context‑independent assignments of outcomes, without needing spatial separation. [1]",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.352
+        },
+        {
+          "n": 2,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.4
+        },
+        {
+          "n": 3,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.43
+        }
+      ],
+      "best_distance": 0.352,
+      "citations": {
+        "cited": [
+          1
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 1.0,
+      "recall": 0.4,
+      "hit": true
+    },
+    {
+      "id": 22,
+      "bucket": "uncertainty",
+      "type": "comparison",
+      "question": "How do Heisenberg's and Robertson's uncertainty relations differ?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1908.03949",
+        "1912.07020",
+        "1806.08133"
+      ],
+      "must_include": "Heisenberg proposed the first relation (heuristic, position and momentum); Kennard formalized it as Delta x Delta p >= hbar/2; Robertson and Schrodinger generalized it to arbitrary incompatible observables.",
+      "notes": "Verified by grep of 1912.07020, which credits Kennard with the formal inequality. Rubric stays within excerpts (Schrodinger's covariance term not stated there). Formulas lost to [EQ]. Rejected: 2306.06602, 2006.04358.",
+      "answer": "Heisenberg’s original relation was a specific inequality for position \\( \\hat x \\) and momentum \\( \\hat p_x \\):  \n\n\\[\n\\Delta \\hat x\\,\\Delta \\hat p_x \\ge \\hbar/2 ,\n\\]\n\nwhere the uncertainties are the standard deviations of those two observables [4].\n\nRobertson (and later Schrödinger) extended this to any pair of incompatible observables \\( \\hat Q \\) and \\( \\hat R \\). Their generalized relation reads  \n\n\\[\n\\Delta \\hat Q\\,\\Delta \\hat R \\ge \\frac{1}{2}\\bigl| \\langle[\\hat Q,\\hat R]\\rangle \\bigr| ,\n\\]\n\nso the lower bound depends on the quantum state through the expectation value of the commutator, and can become trivial when that expectation value vanishes [1][4].  \n\nThus, Heisenberg’s formula is a special case for position and momentum, while Robertson’s formula applies to arbitrary observables with a state‑dependent bound.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1912.07020",
+          "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+          "distance": 0.31
+        },
+        {
+          "n": 2,
+          "paper_id": "1806.08133",
+          "title": "Uncertainty principle as post-quantum nonlocality witness for continuous variable multi-mode scenario",
+          "distance": 0.354
+        },
+        {
+          "n": 3,
+          "paper_id": "1908.07694",
+          "title": "The Complementary Information Principle of Quantum Mechanics",
+          "distance": 0.383
+        },
+        {
+          "n": 4,
+          "paper_id": "1912.07020",
+          "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+          "distance": 0.389
+        },
+        {
+          "n": 5,
+          "paper_id": "1807.07829",
+          "title": "Quasi-Fine-Grained Uncertainty Relations",
+          "distance": 0.393
+        }
+      ],
+      "best_distance": 0.31,
+      "citations": {
+        "cited": [
+          1,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.6,
+      "recall": 0.6666666666666666,
+      "hit": true
+    },
+    {
+      "id": 23,
+      "bucket": "measurement",
+      "type": "contested",
+      "question": "Is an observer required for the wave function to collapse?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1801.08587",
+        "2309.17377",
+        "1807.02092",
+        "2509.12280",
+        "2111.07730",
+        "2012.12033",
+        "2408.08329"
+      ],
+      "must_include": "Separate attributed positions: collapse as a postulate (process 1); no literal collapse with observer inside the wave function; apparent collapse tied to the observer's state; spontaneous collapse without observer; notes 'observer' is ambiguous; no verdict.",
+      "notes": "Contested. Development question. Check Boughn attribution (he describes the 'in the mind' view). Rejected: 2406.19158 (verified by grep: unusual retrocausal/photon-collapse claims, not a source for this question), 1909.13027.",
+      "answer": "The excerpts do not present a consensus that an observer is required for wave‑function collapse.\n\n* Boughn notes that “some physicists prefer to claim, euphemistically, that wave function collapse happens in the mind of the observer but not for any physical reason” [1]. This reflects a view that an observer’s consciousness might be invoked, but it is presented as a claim rather than a demonstrated necessity.\n\n* Koprinkov describes collapse as the “essence of the quantum measurement” and emphasizes that it cannot be described by the Schrödinger equation, but does not tie the collapse to the presence of an observer [2].\n\n* Zurek (discussing Everett’s many‑worlds view) treats the apparent collapse as a branching of the universal wavefunction that includes the observer; no separate observer‑induced collapse is required [3].\n\n* Vishwas’s thought‑experiment paper suggests that if collapse occurs it is not instantaneous on measurement, but it does not assert that an observer is a prerequisite [4].\n\nThus, the retrieved papers either treat collapse as a feature of measurement without specifying an observer, or they present the observer‑in‑the‑mind idea as a speculative claim, but none provide a definitive statement that an observer is required for collapse.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.341
+        },
+        {
+          "n": 2,
+          "paper_id": "2309.17377",
+          "title": "Quantum Superposition, Collapse of Wave Function, Quantum Measurement and Nonadiabatic Dressed States",
+          "distance": 0.374
+        },
+        {
+          "n": 3,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.386
+        },
+        {
+          "n": 4,
+          "paper_id": "2111.07730",
+          "title": "Superposition in Measuring Apparatus: A Thought Experiment",
+          "distance": 0.386
+        },
+        {
+          "n": 5,
+          "paper_id": "2509.12280",
+          "title": "The Emergence of Objective Classicality: A Computational First-Principles Study of Observer-Induced Decoherence in Unitary Quantum Mechanics",
+          "distance": 0.391
+        }
+      ],
+      "best_distance": 0.341,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 24,
+      "bucket": "measurement",
+      "type": "contested",
+      "question": "Does collapse really take place, and how could it be scientifically verified?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2502.19278",
+        "1911.06282",
+        "2111.07730",
+        "1807.02092",
+        "2408.08329"
+      ],
+      "must_include": "No consensus collapse occurs; decoherence and many-worlds are alternatives; verification via testing collapse models (matter-wave interferometry, collapse-induced heating, X-ray emission), bounds tightening and ruling out parameter ranges, and separating collapse from decoherence; does not claim collapse is confirmed.",
+      "notes": "Two-part, cross-bucket. Development question. Top semantic hit 2406.19158 (0.273) is off-target: verified by grep, its claims are retrocausal/photon-collapse, not experimental tests. Retrieval failure and corpus-quality issue. 2010.14965 rejected (only its own Fock-space framework). Borderline: 2309.17377.",
+      "answer": "The papers do not present collapse as an established, directly observed fact; they treat it as a hypothesized non‑unitary process that must be inferred from experiments designed to isolate it from ordinary decoherence.  \n\n* Zurek notes that collapse is non‑unitary and cannot be derived from the standard quantum postulates, but it is invoked to explain the “symmetry breaking” that selects a single orthonormal set of states (i.e., a quantum jump) [3].  \n* Schlosshauer points out that to verify a genuine reduction effect one would have to shield a system from decoherence while making it large enough for collapse to become appreciable; current superpositions are not yet macroscopic enough to rule out collapse theories, though matter‑wave interferometry with massive clusters could provide a decisive test [4].  \n* Tomaz et al. describe concrete experimental efforts: underground searches for spontaneous radiation from collapse‑induced diffusion have placed strong limits on collapse parameters, and proposals such as CSL, Diósi‑Penrose, and related models are being turned into empirically testable frameworks [5].\n\nThus, according to the cited literature, collapse is a theoretical possibility that has not been definitively demonstrated; scientific verification would require (i) suppressing ordinary decoherence, (ii) using sufficiently massive or macroscopic systems (e.g., large‑mass interferometry), and (iii) looking for predicted signatures such as spontaneous radiation or diffusion, as pursued in current experimental programs.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2406.19158",
+          "title": "A Method Using Photon Collapse and Entanglement to Transmit Information",
+          "distance": 0.273
+        },
+        {
+          "n": 2,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.326
+        },
+        {
+          "n": 3,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.386
+        },
+        {
+          "n": 4,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.396
+        },
+        {
+          "n": 5,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.396
+        }
+      ],
+      "best_distance": 0.273,
+      "citations": {
+        "cited": [
+          3,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.8,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 25,
+      "bucket": "foundations",
+      "type": "contested",
+      "question": "Does the wave function describe physical reality or only our knowledge?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2502.19278",
+        "1908.03949",
+        "2409.02354",
+        "2109.02310",
+        "2107.10666"
+      ],
+      "must_include": "Epistemic/instrumental readings (orthodox, relational, QBism: state as a tool for predicting outcomes) and realist ones (Bohmian, collapse, many-worlds), attributed to sources; may use the epistemic vs ontic collapse distinction from 2502.19278; no verdict.",
+      "notes": "Contested. Verified by grep: 2502.19278 has an ontological-status section, epistemic interpretations, and epistemic vs ontic collapse. Borderline: 2510.09237, 2203.16278.",
+      "answer": "The papers present several, mutually exclusive positions:\n\n* **Epistemic (knowledge‑only) view** – The wave function is a symbolic or mathematical tool that encodes probabilities and our information about possible measurement outcomes, without representing a real physical entity.  This is the stance of the “orthodox” or Copenhagen‑type approach quoted in [1] and is also endorsed in relational quantum mechanics as an epistemic device in [5] (“the wave function is interpreted epistemically”).  \n\n* **Contextual realist view** – According to [2], the wave function is not a literal picture of an external reality, but it also is not merely a predictive tool; its reality is contextual, and its reduction is not a physical process.  \n\n* **Ontic (realist) view** – [4] argues that the wave function is intimately tied to the physical reality of quantum fields, describing the state of the field itself, and thus has a genuine physical significance.  [3] frames the debate as the ψ‑ontic versus ψ‑epistemic distinction, noting that many‑worlds, objective‑collapse, and hidden‑variable theories adopt a ψ‑ontic (realist) stance, while epistemic interpretations adopt ψ‑epistemic.  \n\nHence, the retrieved papers do not converge on a single answer: some treat the wave function as a description of knowledge only, others as a contextual realist entity, and still others as a direct representation of physical reality.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1908.03949",
+          "title": "An introduction to quantum measurements with a historical motivation",
+          "distance": 0.372
+        },
+        {
+          "n": 2,
+          "paper_id": "2107.10666",
+          "title": "The Real Meaning of Quantum Mechanics",
+          "distance": 0.406
+        },
+        {
+          "n": 3,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.407
+        },
+        {
+          "n": 4,
+          "paper_id": "2409.02354",
+          "title": "Entangled in Spacetime",
+          "distance": 0.414
+        },
+        {
+          "n": 5,
+          "paper_id": "2510.09237",
+          "title": "QBism and relational interpretation of quantum mechanics from the point of view of a contextual quantum realism (CQR)",
+          "distance": 0.416
+        }
+      ],
+      "best_distance": 0.372,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.8,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 26,
+      "bucket": "bell_epr",
+      "type": "contested",
+      "question": "Is quantum mechanics a complete description of reality?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2105.02384",
+        "2412.00406",
+        "1812.11140",
+        "1906.05456"
+      ],
+      "must_include": "EPR argued incompleteness from locality plus a criterion of reality; Bell showed local hidden-variable completions cannot reproduce QM; Copenhagen says complete, Bohmian adds nonlocal positions, collapse models change dynamics; no consensus.",
+      "notes": "Hold-out. Contested. Borderline: 2005.03835, 2306.07794, 2203.16278.",
+      "answer": "The papers do not give a single definitive answer.  The original EPR analysis concluded that quantum mechanics is **not** a complete description of physical reality, arguing that a complete theory must contain “elements of physical reality” that quantum mechanics fails to provide[1].  By contrast, later discussions note that different interpretations (Copenhagen, von Neumann collapse, Bohmian pilot‑wave, Everett many‑worlds) each reshape the classical notion of reality in their own way, and there is no consensus that the formalism alone yields a complete, observer‑independent picture[4].  Thus, according to the cited excerpts, the question remains contested: EPR claims incompleteness, while later work highlights ongoing interpretational disagreement.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2105.02384",
+          "title": "The EPR paper: a pedagogical approach",
+          "distance": 0.251
+        },
+        {
+          "n": 2,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.256
+        },
+        {
+          "n": 3,
+          "paper_id": "2203.16278",
+          "title": "Does Science need Intersubjectivity? The Problem of Confirmation in Orthodox Interpretations of Quantum Mechanics",
+          "distance": 0.313
+        },
+        {
+          "n": 4,
+          "paper_id": "1906.05456",
+          "title": "Reality facing quantum mechanics",
+          "distance": 0.32
+        },
+        {
+          "n": 5,
+          "paper_id": "2109.02310",
+          "title": "The operational framework for quantum theories is both epistemologically and ontologically neutral",
+          "distance": 0.322
+        }
+      ],
+      "best_distance": 0.251,
+      "citations": {
+        "cited": [
+          1,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.4,
+      "recall": 0.5,
+      "hit": true
+    },
+    {
+      "id": 27,
+      "bucket": "bell_epr",
+      "type": "contested",
+      "question": "Does Bell's theorem prove that nature is nonlocal?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2104.10700",
+        "2502.19278",
+        "2405.04368",
+        "2306.07794"
+      ],
+      "must_include": "Bell rules out local hidden-variable models under assumptions (locality, statistical independence), so 'nature is nonlocal' depends on them; attributes Bohmian 'inevitable nonlocality', relaxed-independence local-realist escapes (2502.19278), and Everettian discussion; does not claim faster-than-light signaling.",
+      "notes": "Contested. Borderline: 2001.07656, 2012.06918, 1910.09591, 2201.01886.",
+      "answer": "Bell’s theorem shows that any **local‑realistic** (local hidden‑variable) description cannot reproduce the predictions of quantum mechanics; in other words, quantum mechanics exhibits “Bell nonlocality” that is incompatible with a locally causal model [1]. Several papers treat this nonlocality as a manifestation of quantum entanglement [2][5], and note that it can be expressed as a logical contradiction rather than through inequalities [1][3]. The excerpts do not claim that Bell’s theorem definitively proves that nature *is* nonlocal in an absolute sense, but they do state that quantum mechanics cannot be explained by any local realistic model, which is interpreted as evidence of nonlocal behavior.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2201.01886",
+          "title": "Deterministic all-versus-nothing proofs of Bell nonlocality based on non-stabilizer states",
+          "distance": 0.29
+        },
+        {
+          "n": 2,
+          "paper_id": "2012.06918",
+          "title": "Quantum Bell Nonlocality is Entanglement",
+          "distance": 0.301
+        },
+        {
+          "n": 3,
+          "paper_id": "2001.07656",
+          "title": "Proof of the Peres conjecture for contextuality",
+          "distance": 0.306
+        },
+        {
+          "n": 4,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.309
+        },
+        {
+          "n": 5,
+          "paper_id": "2012.06918",
+          "title": "Quantum Bell Nonlocality is Entanglement",
+          "distance": 0.32
+        }
+      ],
+      "best_distance": 0.29,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.2,
+      "recall": 0.25,
+      "hit": true
+    },
+    {
+      "id": 28,
+      "bucket": "decoherence",
+      "type": "contested",
+      "question": "Does decoherence solve the measurement problem?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1911.06282",
+        "2107.03378",
+        "2502.19278",
+        "1807.02092",
+        "2303.07966",
+        "2012.12033"
+      ],
+      "must_include": "Decoherence explains apparent loss of interference and emergence of classicality but does not select one outcome; the unitary account cannot describe selection of a particular term; whether this is a genuine difficulty depends on one's interpretation of quantum states; no verdict.",
+      "notes": "Hold-out. Contested. Verified by grep of 1911.06282 (section 7.1; 'merely addresses a consistency problem'). Rejected keyword hits: 1804.04309 (education paper), 2001.10851.",
+      "answer": "Decoherence alone does not solve the measurement problem.  \n\n- Schlosshauer notes that decoherence “by itself, cannot address the measurement problem in any substantial way” because it presupposes the collapse postulate and Born’s rule and does not explain how definite outcomes arise [4].  \n- The review by Tomaz et al. stresses that decoherence and collapse are distinct phenomena and that decoherence acts only on off‑diagonal terms of the reduced density matrix, whereas solving the measurement problem requires “zeroing” all but one diagonal term in the full system‑apparatus‑observer density matrix, which decoherence does not provide [1].  \n\nThus, according to the cited papers, decoherence is relevant but insufficient as a complete solution to the measurement problem.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.223
+        },
+        {
+          "n": 2,
+          "paper_id": "2012.12033",
+          "title": "The Measurement Process in Relational Quantum Mechanics",
+          "distance": 0.231
+        },
+        {
+          "n": 3,
+          "paper_id": "2303.07966",
+          "title": "Universality in Quantum Measurements",
+          "distance": 0.247
+        },
+        {
+          "n": 4,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.257
+        },
+        {
+          "n": 5,
+          "paper_id": "2303.07966",
+          "title": "Universality in Quantum Measurements",
+          "distance": 0.261
+        }
+      ],
+      "best_distance": 0.223,
+      "citations": {
+        "cited": [
+          1,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 29,
+      "bucket": "measurement",
+      "type": "contested",
+      "question": "Can the Born rule be derived, or is it a postulate?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1807.02092",
+        "1909.13027",
+        "2502.19278",
+        "2510.09237",
+        "2306.07794",
+        "2406.02149",
+        "2304.00608",
+        "1812.11140"
+      ],
+      "must_include": "Attributed positions: postulate (standard textbook view; QBism as an empirical rule); derivation attempts (envariance, stochastic collapse dynamics, many-worlds axioms, retrocausal model) with circularity objections; no consensus.",
+      "notes": "Contested. Development question. Verified by grep: 1812.11140 states it as a rule of the theory; 2502.19278 reports a retrocausal derivation (Sutherland). Borderline: 2105.13821, 2302.08892.",
+      "answer": "**Short answer:**  \nSome authors present derivations of the Born rule, while others treat it as a fundamental postulate that must be assumed.\n\n**Supporting detail**\n\n* **Derivation claim:**  \n  - Von Neumann’s 1927 work derives the Born rule from the time‑evolution of eigenstates of a time‑dependent Hamiltonian, showing that the probability of finding the system in a later eigenstate is the absolute square of the inner product of the two eigenstates [1].\n\n* **Postulate / necessity discussion:**  \n  - Konishi notes that Born’s rule is sufficient to reproduce the usual expectation‑value formula and asks whether it is also necessary; the analysis concludes that it is necessary only if a certain equality holds for arbitrary functions of the measured variable [2]. This framing treats the rule as a foundational assumption that must be justified rather than derived outright.  \n  - Zurek points out that Born’s rule “fits very well” with Bohr’s approach but is “at odds with the spirit of the relative state approach,” and that decoherence practice historically relied on the rule as given (using \\(p_k = |\\langle s_k|\\psi\\rangle|^2\\)) until a decoherence‑based derivation was later proposed [3].\n\nThus, the excerpts contain both a historical derivation (Von Neumann) and arguments that view the Born rule as a postulate or an assumption that requires additional justification in other frameworks.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2406.02149",
+          "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+          "distance": 0.366
+        },
+        {
+          "n": 2,
+          "paper_id": "2302.08892",
+          "title": "Quantum fluctuations, particles and entanglement: solving the quantum measurement problems",
+          "distance": 0.434
+        },
+        {
+          "n": 3,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.444
+        }
+      ],
+      "best_distance": 0.366,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 0.6666666666666666,
+      "recall": 0.4,
+      "hit": true
+    },
+    {
+      "id": 30,
+      "bucket": "interpretations",
+      "type": "contested",
+      "question": "How can probabilities make sense in the many-worlds interpretation?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2306.07794",
+        "2502.19278",
+        "2203.16278",
+        "1801.08587",
+        "2504.14791"
+      ],
+      "must_include": "The puzzle: what probability means if every outcome occurs; proposed answers (decision-theoretic axioms, credences over centred worlds) with critics; no consensus.",
+      "notes": "Hold-out. Contested. Verified by grep: 1812.11140 covers only the basic Born rule, not many-worlds probability, so excluded; it ranked 2nd semantically (0.278): retrieval noise. Borderline: 2107.10666.",
+      "answer": "Probabilities in the many‑worlds interpretation are controversial and not settled.  \n\n* Drezet notes that existing proposals only give “self‑consistent rules” that reproduce the Born rule once a probability is **assumed** to exist, but a clear justification for assigning probabilities to branches is still missing. He argues that such a justification would require adding new physical axioms beyond Everett’s pure unitary dynamics, and his own many‑minds model relies on speculative ideas about minds and initial conditions[2].  \n\n* Tausk points out the central difficulty: if every possible outcome actually occurs in some branch, it is unclear what it means to say that one outcome has a certain probability. In this view the “probabilities” are just the squared moduli of the state‑vector coefficients, which seem to lack an operational meaning[3].  \n\n* A more optimistic line, cited in the review by Tomaz et al., is that the Born rule can be derived from a set of axioms and is taken as a defining feature of many‑worlds supporters such as Carroll, Tegmark, Zeh and Deutsch, although the derivations differ and critics (e.g., Penrose, Albert) remain unconvinced[4].  \n\nThus, the excerpts show that (i) many‑worlds advocates try to recover the Born rule by imposing additional principles, (ii) critics argue that probabilities remain meaningless without a clear link to observed frequencies, and (iii) there is no consensus on a satisfactory solution. The papers do not provide a definitive account of how probabilities “make sense” in many‑worlds.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.273
+        },
+        {
+          "n": 2,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.277
+        },
+        {
+          "n": 3,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.278
+        },
+        {
+          "n": 4,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.303
+        },
+        {
+          "n": 5,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.317
+        }
+      ],
+      "best_distance": 0.273,
+      "citations": {
+        "cited": [
+          2,
+          3,
+          4
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 5,
+      "precision": 0.8,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 31,
+      "bucket": "uncertainty",
+      "type": "contested",
+      "question": "Is the uncertainty principle caused by measurement disturbance, or is it intrinsic to quantum systems?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1809.03475",
+        "2105.13821",
+        "1908.03949",
+        "2312.01055",
+        "1807.07829"
+      ],
+      "must_include": "Both views attributed (disturbance: Heisenberg's microscope argument; intrinsic: non-commuting observables and complementarity); no verdict; stays within the excerpts.",
+      "notes": "Development question. Overlaps #16, consider swapping. Rejected: 2506.21051, 2006.04358, 1912.07020.",
+      "answer": "The papers present two complementary viewpoints:\n\n* **Measurement‑disturbance view** – Masse notes that the act of measurement is invasive and modifies the system (the “technological impossibility” turned into a principle). This disturbance is displayed by the Born rule and Lüder’s rule, and the authors ask whether such perturbation is sufficient to prevent predetermined outcomes, suggesting that the uncertainty principle may be linked to the measurement‑induced disturbance [2].\n\n* **Intrinsic‑to‑the‑system view** – de Castro et al. argue that even with a perfectly‑tuned apparatus and a highly competent observer, a minimum perturbation cannot be eliminated when two conjugate variables are measured; a fundamental limitation remains, indicating that the uncertainty principle reflects an intrinsic property of quantum systems rather than merely measurement error [3].\n\nThus, the excerpts show that some authors relate the uncertainty principle to measurement disturbance, while others treat it as an intrinsic limitation of quantum mechanics. The retrieved papers do not provide a definitive resolution between these positions.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1807.07829",
+          "title": "Quasi-Fine-Grained Uncertainty Relations",
+          "distance": 0.287
+        },
+        {
+          "n": 2,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.293
+        },
+        {
+          "n": 3,
+          "paper_id": "1908.03949",
+          "title": "An introduction to quantum measurements with a historical motivation",
+          "distance": 0.325
+        },
+        {
+          "n": 4,
+          "paper_id": "1809.03475",
+          "title": "Operational foundations of complementarity and uncertainty relations",
+          "distance": 0.342
+        },
+        {
+          "n": 5,
+          "paper_id": "1912.07020",
+          "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+          "distance": 0.344
+        }
+      ],
+      "best_distance": 0.287,
+      "citations": {
+        "cited": [
+          2,
+          3
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 4,
+      "precision": 0.8,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 32,
+      "bucket": "decoherence",
+      "type": "contested",
+      "question": "Is there a boundary between the quantum and classical worlds?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2107.03378",
+        "1911.06282",
+        "1807.02092",
+        "2210.10624",
+        "1801.08587",
+        "2306.07794",
+        "2502.19278"
+      ],
+      "must_include": "Attributed views: gradual emergence via decoherence (a dynamical account of the quantum-classical boundary), the Heisenberg cut as an arbitrary classical-quantum separation in Copenhagen-style readings, asymptotic emergence, no boundary in many-worlds; no consensus.",
+      "notes": "Hold-out. Contested. Verified by grep of 2502.19278 and 1911.06282. Rejected: 2001.05569, 2011.01286.",
+      "answer": "The retrieved papers do not contain enough information to answer this.",
+      "refused": true,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.345
+        },
+        {
+          "n": 2,
+          "paper_id": "2107.03378",
+          "title": "Emergence of the Classical from within the Quantum Universe",
+          "distance": 0.368
+        },
+        {
+          "n": 3,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.394
+        },
+        {
+          "n": 4,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.396
+        },
+        {
+          "n": 5,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.396
+        }
+      ],
+      "best_distance": 0.345,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 1.0,
+      "recall": 0.8,
+      "hit": true
+    },
+    {
+      "id": 33,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "How do decoherence and many-worlds together explain why we see definite outcomes?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2502.19278",
+        "1801.08587",
+        "1911.06282",
+        "2504.14791",
+        "2306.07794"
+      ],
+      "must_include": "Decoherence suppresses interference between branches and identifies stable ones; many-worlds says every branch occurs, so observers in each see a definite outcome; neither alone gives Born probabilities; does not claim decoherence alone selects one outcome.",
+      "notes": "Development question. Pair: decoherence from 1911.06282, MWI from 2502.19278.",
+      "answer": "Decoherence turns the universal wave function into a set of effectively independent branches, and the many‑worlds view identifies each branch with a separate “world” that contains its own observer.  \n\n* Decoherence rapidly suppresses interference between different components of the global entangled state by entangling the system with its environment, thereby selecting a preferred basis in which the superposition appears as a mixture of distinct, non‑communicating components [3][4].  \n* In the many‑worlds interpretation the quantum state never collapses; instead, the branching produced by decoherence creates multiple copies of the observer, each of which becomes entangled with a definite outcome of the measurement [5]. In one branch the observer’s state records “up”, in another “down”, and because decoherence has eliminated coherence between the branches, no observer ever experiences a superposition of outcomes [5].  \n\nThus, the combination of decoherence (which dynamically defines the branches and prevents their recombination) and many‑worlds (which treats each decohered branch as a real world containing an observer) explains why every observer perceives a single, definite measurement result.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.281
+        },
+        {
+          "n": 2,
+          "paper_id": "1801.08587",
+          "title": "Making Sense of the Many Worlds Interpretation",
+          "distance": 0.305
+        },
+        {
+          "n": 3,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.312
+        },
+        {
+          "n": 4,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.32
+        },
+        {
+          "n": 5,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.321
+        }
+      ],
+      "best_distance": 0.281,
+      "citations": {
+        "cited": [
+          3,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 34,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "How are contextuality, the Kochen-Specker theorem and Bell nonlocality related?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "2405.02964",
+        "2102.13036",
+        "1909.05434",
+        "2105.13821",
+        "2001.07656",
+        "1910.09591",
+        "2410.15790"
+      ],
+      "must_include": "KS theorem rules out noncontextual value assignments in dimension >= 3; Bell nonlocality is contextuality where spacelike separation guarantees compatibility; related since the 1960s, with trade-off relations; not unrelated or identical.",
+      "notes": "Development question. Overlaps #15, consider swapping. Best semantic distance 0.149.",
+      "answer": "Contextuality, the Kochen‑Specker (KS) theorem, and Bell nonlocality are closely linked non‑classical features of quantum theory.  \n\n* **Contextuality** is the impossibility of assigning measurement outcomes that are independent of the measurement context. The original KS theorem provides a proof of this impossibility for quantum mechanics [4].  \n\n* **Bell nonlocality** is the impossibility of reproducing certain correlations between space‑like separated systems with any classical causal model that respects relativistic causal structure [5].  \n\n* The two phenomena are not independent: Bell nonlocality can be viewed as a special case of contextuality that arises when the compatibility relations among measurements are dictated solely by spatial separation of distant observers [1]. Consequently, both are witnessed by violations of respective inequalities (e.g., CHSH for Bell nonlocality and KCBS for KS‑type contextuality) [3].  \n\nThus, the KS theorem establishes contextuality in general, while Bell nonlocality represents a particular, spatially‑separated instance of that broader contextual behavior.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2405.02964",
+          "title": "Trade-off relations between Bell nonlocality and local Kochen-Specker contextuality in generalized Bell scenarios",
+          "distance": 0.149
+        },
+        {
+          "n": 2,
+          "paper_id": "2405.02964",
+          "title": "Trade-off relations between Bell nonlocality and local Kochen-Specker contextuality in generalized Bell scenarios",
+          "distance": 0.186
+        },
+        {
+          "n": 3,
+          "paper_id": "2204.05385",
+          "title": "Synchronous observation of Bell nonlocality and state-dependent Kochen-Specker contextuality",
+          "distance": 0.193
+        },
+        {
+          "n": 4,
+          "paper_id": "2105.13821",
+          "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+          "distance": 0.201
+        },
+        {
+          "n": 5,
+          "paper_id": "1909.05434",
+          "title": "Classical causal models cannot faithfully explain Bell nonlocality or Kochen-Specker contextuality in arbitrary scenarios",
+          "distance": 0.208
+        }
+      ],
+      "best_distance": 0.149,
+      "citations": {
+        "cited": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 0.8,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 35,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "Which experiments have tested whether quantum mechanics is nonlocal, and what do they conclude?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "2104.10700",
+        "2204.05385",
+        "2110.05217"
+      ],
+      "must_include": "Names experiments only as the excerpts describe them (e.g. 2110.05217: Zeilinger closing the communication loophole, 'one of the first loophole-free Bell tests', locality loophole 'considered by some' first closed by Zeilinger); states that loophole-free violations have been reported; says what the excerpts do not cover; does not present names or numbers lifted from reference lists as findings.",
+      "notes": "Hold-out. Partial. Verified by grep: 2110.05217 is a history paper whose reference list (incl. Giustina 2015) leaked into chunks. It was not in the semantic top 5: retrieval miss. Borderline: 2506.21051, 1801.09891. Rejected: 2002.12216.",
+      "answer": "The retrieved papers do not contain enough information to answer this.",
+      "refused": true,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2002.12216",
+          "title": "Sum-of-squares decompositions for a family of noncontextuality inequalities and self-testing of quantum devices",
+          "distance": 0.288
+        },
+        {
+          "n": 2,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.328
+        },
+        {
+          "n": 3,
+          "paper_id": "2201.01886",
+          "title": "Deterministic all-versus-nothing proofs of Bell nonlocality based on non-stabilizer states",
+          "distance": 0.337
+        },
+        {
+          "n": 4,
+          "paper_id": "2104.10700",
+          "title": "Bell nonlocality in networks",
+          "distance": 0.356
+        },
+        {
+          "n": 5,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.358
+        }
+      ],
+      "best_distance": 0.288,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "hit": true
+    },
+    {
+      "id": 36,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "How are uncertainty relations related to complementarity and measurement disturbance?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1809.03475",
+        "1908.03949",
+        "1908.07694",
+        "2312.01055",
+        "1804.11119",
+        "2105.13821"
+      ],
+      "must_include": "Uncertainty as a trade-off tied to complementarity, with measurement disturbance as a related but separate notion, as the excerpts support; no outside-corpus distinctions.",
+      "notes": "Development question. Fifth uncertainty question (with #8, #16, #22, #31); consider swapping.",
+      "answer": "Uncertainty relations are taken as the quantitative expression of the qualitative notion of complementarity: when two observables are complementary, the uncertainties of their outcomes cannot both be made arbitrarily small.  In this view the uncertainty principle “bounds the uncertainties about incompatible measurements” and thereby signals that gaining precise information about one observable necessarily limits the information that can be obtained about its complementary partner [4][5].  \n\nThe same papers note that this limitation is not merely a technical imperfection of the apparatus but a fundamental one: even a perfectly tuned, highly skilled observer cannot eliminate the minimum disturbance that arises when trying to measure two conjugate (complementary) variables [3].  Thus, the disturbance caused by a measurement of one observable is the operational source of the uncertainty that appears in the complementary observable, linking measurement disturbance directly to both uncertainty relations and complementarity.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1809.03475",
+          "title": "Operational foundations of complementarity and uncertainty relations",
+          "distance": 0.2
+        },
+        {
+          "n": 2,
+          "paper_id": "1809.03475",
+          "title": "Operational foundations of complementarity and uncertainty relations",
+          "distance": 0.216
+        },
+        {
+          "n": 3,
+          "paper_id": "1908.03949",
+          "title": "An introduction to quantum measurements with a historical motivation",
+          "distance": 0.289
+        },
+        {
+          "n": 4,
+          "paper_id": "1908.07694",
+          "title": "The Complementary Information Principle of Quantum Mechanics",
+          "distance": 0.313
+        },
+        {
+          "n": 5,
+          "paper_id": "1908.07694",
+          "title": "The Complementary Information Principle of Quantum Mechanics",
+          "distance": 0.326
+        }
+      ],
+      "best_distance": 0.2,
+      "citations": {
+        "cited": [
+          3,
+          4,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 37,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "What does the Frauchiger-Renner paradox imply for interpretations of quantum mechanics?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1812.11140",
+        "2304.00608"
+      ],
+      "must_include": "Attributes to Tausk (1812.11140) the claim that the paradox is a misunderstanding of how to apply the quantum rules and that a 'QTWO' must take one of three paths, with many-worlds a possible approach; may add from 2304.00608 that extended Wigner's-friend theorems (incl. Frauchiger-Renner) present a dilemma among interpretations; does not present either as consensus or say the paradox refutes QM.",
+      "notes": "Hold-out. Verified by grep. 1812.11140 is a critique, so misattribution is the main risk. This phrasing retrieves 1812.11140 at 0.354 (passes cutoff), unlike #10's phrasing (0.53).",
+      "answer": "The papers argue that the Frauchiger‑Renner “paradox’’ does not force any particular conclusion about quantum‑mechanical interpretations; rather, it stems from an incorrect way of applying the theory’s rules.  Tausk writes that the paradox “is simply due to a misunderstanding on the appropriate way to apply the quantum mechanical rules” and presents the discussion mainly as a clarification of the formalism rather than a challenge to any specific interpretation [1][2].  Consequently, the retrieved excerpts do not claim that the paradox favors or rules out any particular interpretation.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.354
+        },
+        {
+          "n": 2,
+          "paper_id": "1812.11140",
+          "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+          "distance": 0.399
+        },
+        {
+          "n": 3,
+          "paper_id": "2004.04352",
+          "title": "A Steering Paradox for Einstein-Podolsky-Rosen Argument and its Extended Inequality",
+          "distance": 0.425
+        },
+        {
+          "n": 4,
+          "paper_id": "2510.09237",
+          "title": "QBism and relational interpretation of quantum mechanics from the point of view of a contextual quantum realism (CQR)",
+          "distance": 0.426
+        },
+        {
+          "n": 5,
+          "paper_id": "2203.16278",
+          "title": "Does Science need Intersubjectivity? The Problem of Confirmation in Orthodox Interpretations of Quantum Mechanics",
+          "distance": 0.429
+        }
+      ],
+      "best_distance": 0.354,
+      "citations": {
+        "cited": [
+          1,
+          2
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 2,
+      "precision": 0.4,
+      "recall": 0.5,
+      "hit": true
+    },
+    {
+      "id": 38,
+      "bucket": "multi",
+      "type": "multi",
+      "question": "How does Bohmian mechanics deal with both measurement and nonlocality?",
+      "answerable": true,
+      "holdout": false,
+      "relevant_papers": [
+        "1812.11140",
+        "2405.04368",
+        "2502.19278",
+        "2504.14791",
+        "2306.07794"
+      ],
+      "must_include": "No collapse; wave function guides actual particles (pilot wave); resolves collapse within a single world using hidden variables (positions); explicitly nonlocal, which Bell's theorem makes inevitable (2405.04368); predictions equal standard QM; no experiment has distinguished single-world interpretations from many-worlds (2504.14791).",
+      "notes": "Development question. Verified by grep of 2504.14791. Nonlocality claim rests on 2405.04368; the 1812.11140 snippet was cut off at 'highly non...' (probably nonlocal).",
+      "answer": "Bohmian mechanics treats a quantum measurement as an interaction in which the actual particle positions (the “beables”) are guided by the universal wave function; the outcome is read off from the configuration of the apparatus particles.  In this picture the wave function never collapses, and the Born‑rule statistics follow from a typicality measure on the initial particle distribution [5].  \n\nAt the same time Bohmian mechanics is explicitly non‑local.  Bell’s theorem forces any theory that reproduces the quantum predictions to contain non‑local influences, and Bohmian mechanics implements them through the guiding equation: the velocity of each particle depends on the instantaneous positions of all other particles, no matter how far apart they are [3][1][2].  Thus the theory accommodates measurement by deterministic particle trajectories while accepting the unavoidable non‑local connections required by Bell’s result.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.303
+        },
+        {
+          "n": 2,
+          "paper_id": "2306.07794",
+          "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+          "distance": 0.31
+        },
+        {
+          "n": 3,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.357
+        },
+        {
+          "n": 4,
+          "paper_id": "2502.19278",
+          "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+          "distance": 0.378
+        },
+        {
+          "n": 5,
+          "paper_id": "2405.04368",
+          "title": "Some Things I Have Learned From Detlef Dürr",
+          "distance": 0.405
+        }
+      ],
+      "best_distance": 0.303,
+      "citations": {
+        "cited": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 3,
+      "precision": 1.0,
+      "recall": 0.6,
+      "hit": true
+    },
+    {
+      "id": 39,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "How does a nuclear reactor work?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Refuses (no relevant material); gives no answer from outside knowledge.",
+      "notes": "Out of domain. Run eval/check_refusals.py: if it passes the cutoff, record the best distance, since then the prompt must do the refusing.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.708,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 40,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "What is the current price of Bitcoin?",
+      "answerable": false,
+      "holdout": true,
+      "relevant_papers": [],
+      "must_include": "Refuses; no price or outside knowledge.",
+      "notes": "Hold-out. Out of domain.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.747,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 41,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "What is the boiling point of liquid nitrogen?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Refuses; no value from outside knowledge.",
+      "notes": "Out of domain.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.741,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 42,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "How do vaccines train the immune system?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Refuses; no explanation from outside knowledge.",
+      "notes": "Out of domain.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.752,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 43,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "What causes the aurora borealis?",
+      "answerable": false,
+      "holdout": true,
+      "relevant_papers": [],
+      "must_include": "Refuses; no explanation from outside knowledge.",
+      "notes": "Hold-out. Out of domain.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.691,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 44,
+      "bucket": "none",
+      "type": "unanswerable",
+      "question": "Who discovered penicillin?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Refuses; no answer from outside knowledge.",
+      "notes": "Out of domain.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.598,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 45,
+      "bucket": "decoherence",
+      "type": "unanswerable",
+      "question": "What is the numerical value of the CSL collapse rate parameter?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Says the excerpts discuss CSL and tightening bounds but give no value for the rate; invents no number.",
+      "notes": "Verified by grep: no value in 2502.19278. Best distance 0.491 > cutoff, so refused before generation.",
+      "answer": "I couldn't find relevant material in my collection of quantum foundations papers for that question. It may be outside the corpus (about 110 arXiv papers on measurement, interpretations, Bell/EPR, decoherence, contextuality and uncertainty), so try rephrasing or asking about one of those topics.",
+      "refused": true,
+      "sources": [],
+      "best_distance": 0.491,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 2
+    },
+    {
+      "id": 46,
+      "bucket": "decoherence",
+      "type": "definition",
+      "question": "How long does a dust grain stay coherent at room temperature?",
+      "answerable": true,
+      "holdout": true,
+      "relevant_papers": [
+        "1911.06282"
+      ],
+      "must_include": "Gives the dust-grain decoherence timescale from Table 1 of the review, attributed to it; if the value is unreadable, says so instead of guessing.",
+      "notes": "Relabelled from unanswerable after grep. Table values were stripped to [EQ] by clean_text, so the pipeline likely cannot answer it: parsing failure. Check the real value in the PDF.",
+      "answer": "The retrieved papers do not contain enough information to answer this.",
+      "refused": true,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.416
+        }
+      ],
+      "best_distance": 0.416,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": 47,
+      "bucket": "bell_epr",
+      "type": "unanswerable",
+      "question": "What detection efficiency did the 2015 loophole-free Bell tests achieve?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Does not state detection efficiencies for the 2015 tests; says the excerpts do not give them.",
+      "notes": "Verified by grep of 2104.10700: only citations and bibliography. Reference list leaked into chunks: hallucination bait.",
+      "answer": "The retrieved papers do not contain enough information to answer this.",
+      "refused": true,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "1912.06349",
+          "title": "The Bell theorem revisited: geometric phases in gauge theories",
+          "distance": 0.411
+        },
+        {
+          "n": 2,
+          "paper_id": "1912.06349",
+          "title": "The Bell theorem revisited: geometric phases in gauge theories",
+          "distance": 0.414
+        },
+        {
+          "n": 3,
+          "paper_id": "1806.08133",
+          "title": "Uncertainty principle as post-quantum nonlocality witness for continuous variable multi-mode scenario",
+          "distance": 0.416
+        },
+        {
+          "n": 4,
+          "paper_id": "2102.13036",
+          "title": "Kochen-Specker Contextuality",
+          "distance": 0.429
+        },
+        {
+          "n": 5,
+          "paper_id": "2005.03835",
+          "title": "Entanglement versus Bell nonlocality of quantum nonequilibrium steady states",
+          "distance": 0.439
+        }
+      ],
+      "best_distance": 0.411,
+      "citations": {
+        "cited": [],
+        "invalid": []
+      },
+      "uncited_sentences": 1
+    },
+    {
+      "id": 48,
+      "bucket": "decoherence",
+      "type": "unanswerable",
+      "question": "What is the largest object that has been put in a quantum superposition experimentally?",
+      "answerable": false,
+      "holdout": true,
+      "relevant_papers": [],
+      "must_include": "Does not name a record-size object; may mention fullerene experiments only as discussed in the review.",
+      "notes": "Verified by grep: 1911.06282 mentions fullerene decoherence but claims no record.",
+      "answer": "The experiments that have demonstrated quantum superposition in macroscopic objects include a 40‑micron mechanical resonator (about ten trillion atoms) [1] and, more recently, a 40 kg mirror used in a gravitational‑wave detector [3]. The latter represents the largest object that has been placed in a quantum superposition to date.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.416
+        },
+        {
+          "n": 2,
+          "paper_id": "1908.07694",
+          "title": "The Complementary Information Principle of Quantum Mechanics",
+          "distance": 0.436
+        },
+        {
+          "n": 3,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.438
+        },
+        {
+          "n": 4,
+          "paper_id": "2011.01286",
+          "title": "Probabilistic Theories and Reconstructions of Quantum Theory (Les Houches 2019 lecture notes)",
+          "distance": 0.449
+        }
+      ],
+      "best_distance": 0.416,
+      "citations": {
+        "cited": [
+          1,
+          3
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1
+    },
+    {
+      "id": 49,
+      "bucket": "measurement",
+      "type": "unanswerable",
+      "question": "To what precision has the Born rule been verified experimentally?",
+      "answerable": false,
+      "holdout": false,
+      "relevant_papers": [],
+      "must_include": "Does not give a precision for the Born rule; may say 2111.02136 ran the Sorkin test on quantum hardware with results consistent with theory after noise, and states no precision.",
+      "notes": "Partial-answer case. Verified by grep of 2111.02136: no precision stated.",
+      "answer": "Experiments have confirmed the Born rule to an accuracy better than one part in 10¹² [1].",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2210.10624",
+          "title": "How Do the Probabilities Arise in Quantum Measurement?",
+          "distance": 0.345
+        },
+        {
+          "n": 2,
+          "paper_id": "2406.02149",
+          "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+          "distance": 0.421
+        },
+        {
+          "n": 3,
+          "paper_id": "2302.08892",
+          "title": "Quantum fluctuations, particles and entanglement: solving the quantum measurement problems",
+          "distance": 0.422
+        },
+        {
+          "n": 4,
+          "paper_id": "1807.02092",
+          "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+          "distance": 0.446
+        }
+      ],
+      "best_distance": 0.345,
+      "citations": {
+        "cited": [
+          1
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 0
+    },
+    {
+      "id": 50,
+      "bucket": "bell_epr",
+      "type": "unanswerable",
+      "question": "What error rate do current quantum computers achieve when preparing Bell states?",
+      "answerable": false,
+      "holdout": true,
+      "relevant_papers": [],
+      "must_include": "Does not give a Bell-state preparation error rate; may mention that 2111.02136 discusses readout and dephasing errors without a number.",
+      "notes": "Verified by grep: no 'Bell state' or error rate in 2111.02136.",
+      "answer": "Current experiments on network Bell tests report preparing a pair of singlet (Bell) states with a global fidelity of about 86.3 % [1]. No other quantitative error‑rate figures for Bell‑state preparation are given in the provided excerpts.",
+      "refused": false,
+      "sources": [
+        {
+          "n": 1,
+          "paper_id": "2104.10700",
+          "title": "Bell nonlocality in networks",
+          "distance": 0.392
+        },
+        {
+          "n": 2,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.41
+        },
+        {
+          "n": 3,
+          "paper_id": "1912.07020",
+          "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+          "distance": 0.422
+        },
+        {
+          "n": 4,
+          "paper_id": "2506.21051",
+          "title": "Experimental Characterization of Quantumness Using the Uncertainty Principle, Coherence, and Nonlocality",
+          "distance": 0.428
+        },
+        {
+          "n": 5,
+          "paper_id": "1911.06282",
+          "title": "Quantum Decoherence",
+          "distance": 0.435
+        }
+      ],
+      "best_distance": 0.392,
+      "citations": {
+        "cited": [
+          1
+        ],
+        "invalid": []
+      },
+      "uncited_sentences": 1
+    }
+  ],
+  "config": {
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.1,
+    "k": 5,
+    "fetch": 30,
+    "max_per_paper": 2,
+    "max_distance": 0.45
+  },
+  "summary": {
+    "all": {
+      "n": 50,
+      "answerable_n": 39,
+      "precision": 0.777,
+      "recall": 0.668,
+      "hit_rate": 0.974,
+      "false_refusals": 4,
+      "unanswerable_n": 11,
+      "correct_refusals": 8,
+      "unanswerable_answered": [
+        48,
+        49,
+        50
+      ],
+      "invalid_citations": 0,
+      "uncited_sentences_per_answer": 2.14,
+      "errors": []
+    },
+    "dev": {
+      "n": 30,
+      "answerable_n": 23,
+      "precision": 0.77,
+      "recall": 0.648,
+      "hit_rate": 1.0,
+      "false_refusals": 0,
+      "unanswerable_n": 7,
+      "correct_refusals": 6,
+      "unanswerable_answered": [
+        49
+      ],
+      "invalid_citations": 0,
+      "uncited_sentences_per_answer": 2.033,
+      "errors": []
+    },
+    "holdout": {
+      "n": 20,
+      "answerable_n": 16,
+      "precision": 0.787,
+      "recall": 0.696,
+      "hit_rate": 0.938,
+      "false_refusals": 4,
+      "unanswerable_n": 4,
+      "correct_refusals": 2,
+      "unanswerable_answered": [
+        48,
+        50
+      ],
+      "invalid_citations": 0,
+      "uncited_sentences_per_answer": 2.3,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {"id": 28, "answerable": true, "relevant_papers": ["1911.06282", "2107.03378", "2502.19278", "1807.02092", "2303.07966", "2012.12033"],
+   "must_include": "Decoherence explains apparent loss of interference and emergence of classicality but does not select one outcome; the unitary account cannot describe selection of a particular term; whether this is a genuine difficulty depends on one's interpretation of quantum states; no verdict.",
+   "notes": "Hold-out. Contested. Verified by grep of 1911.06282 (section 7.1; 'merely addresses a consistency problem'). Rejected keyword hits: 1804.04309 (education paper), 2001.10851."},
+  {"id": 29, "answerable": true, "relevant_papers": ["1807.02092", "1909.13027", "2502.19278", "2510.09237", "2306.07794", "2406.02149", "2304.00608", "1812.11140"],
+   "must_include": "Attributed positions: postulate (standard textbook view; QBism as an empirical rule); derivation attempts (envariance, stochastic collapse dynamics, many-worlds axioms, retrocausal model) with circularity objections; no consensus.",
+   "notes": "Contested. Development question. Verified by grep: 1812.11140 states it as a rule of the theory; 2502.19278 reports a retrocausal derivation (Sutherland). Borderline: 2105.13821, 2302.08892."},
+  {"id": 30, "answerable": true, "relevant_papers": ["2306.07794", "2502.19278", "2203.16278", "1801.08587", "2504.14791"],
+   "must_include": "The puzzle: what probability means if every outcome occurs; proposed answers (decision-theoretic axioms, credences over centred worlds) with critics; no consensus.",
+   "notes": "Hold-out. Contested. Verified by grep: 1812.11140 covers only the basic Born rule, not many-worlds probability, so excluded; it ranked 2nd semantically (0.278): retrieval noise. Borderline: 2107.10666."},
+  {"id": 31, "answerable": true, "relevant_papers": ["1809.03475", "2105.13821", "1908.03949", "2312.01055", "1807.07829"],
+   "must_include": "Both views attributed (disturbance: Heisenberg's microscope argument; intrinsic: non-commuting observables and complementarity); no verdict; stays within the excerpts.",
+   "notes": "Development question. Overlaps #16, consider swapping. Rejected: 2506.21051, 2006.04358, 1912.07020."},
+  {"id": 32, "answerable": true, "relevant_papers": ["2107.03378", "1911.06282", "1807.02092", "2210.10624", "1801.08587", "2306.07794", "2502.19278"],
+   "must_include": "Attributed views: gradual emergence via decoherence (a dynamical account of the quantum-classical boundary), the Heisenberg cut as an arbitrary classical-quantum separation in Copenhagen-style readings, asymptotic emergence, no boundary in many-worlds; no consensus.",
+   "notes": "Hold-out. Contested. Verified by grep of 2502.19278 and 1911.06282. Rejected: 2001.05569, 2011.01286."}
+]

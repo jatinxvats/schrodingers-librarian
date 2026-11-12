@@ -1,0 +1,20 @@
+[
+  {"id": 33, "answerable": true, "relevant_papers": ["2502.19278", "1801.08587", "1911.06282", "2504.14791", "2306.07794"],
+   "must_include": "Decoherence suppresses interference between branches and identifies stable ones; many-worlds says every branch occurs, so observers in each see a definite outcome; neither alone gives Born probabilities; does not claim decoherence alone selects one outcome.",
+   "notes": "Development question. Pair: decoherence from 1911.06282, MWI from 2502.19278."},
+  {"id": 34, "answerable": true, "relevant_papers": ["2405.02964", "2102.13036", "1909.05434", "2105.13821", "2001.07656", "1910.09591", "2410.15790"],
+   "must_include": "KS theorem rules out noncontextual value assignments in dimension >= 3; Bell nonlocality is contextuality where spacelike separation guarantees compatibility; related since the 1960s, with trade-off relations; not unrelated or identical.",
+   "notes": "Development question. Overlaps #15, consider swapping. Best semantic distance 0.149."},
+  {"id": 35, "answerable": true, "relevant_papers": ["2104.10700", "2204.05385", "2110.05217"],
+   "must_include": "Names experiments only as the excerpts describe them (e.g. 2110.05217: Zeilinger closing the communication loophole, 'one of the first loophole-free Bell tests', locality loophole 'considered by some' first closed by Zeilinger); states that loophole-free violations have been reported; says what the excerpts do not cover; does not present names or numbers lifted from reference lists as findings.",
+   "notes": "Hold-out. Partial. Verified by grep: 2110.05217 is a history paper whose reference list (incl. Giustina 2015) leaked into chunks. It was not in the semantic top 5: retrieval miss. Borderline: 2506.21051, 1801.09891. Rejected: 2002.12216."},
+  {"id": 36, "answerable": true, "relevant_papers": ["1809.03475", "1908.03949", "1908.07694", "2312.01055", "1804.11119", "2105.13821"],
+   "must_include": "Uncertainty as a trade-off tied to complementarity, with measurement disturbance as a related but separate notion, as the excerpts support; no outside-corpus distinctions.",
+   "notes": "Development question. Fifth uncertainty question (with #8, #16, #22, #31); consider swapping."},
+  {"id": 37, "answerable": true, "relevant_papers": ["1812.11140", "2304.00608"],
+   "must_include": "Attributes to Tausk (1812.11140) the claim that the paradox is a misunderstanding of how to apply the quantum rules and that a 'QTWO' must take one of three paths, with many-worlds a possible approach; may add from 2304.00608 that extended Wigner's-friend theorems (incl. Frauchiger-Renner) present a dilemma among interpretations; does not present either as consensus or say the paradox refutes QM.",
+   "notes": "Hold-out. Verified by grep. 1812.11140 is a critique, so misattribution is the main risk. This phrasing retrieves 1812.11140 at 0.354 (passes cutoff), unlike #10's phrasing (0.53)."},
+  {"id": 38, "answerable": true, "relevant_papers": ["1812.11140", "2405.04368", "2502.19278", "2504.14791", "2306.07794"],
+   "must_include": "No collapse; wave function guides actual particles (pilot wave); resolves collapse within a single world using hidden variables (positions); explicitly nonlocal, which Bell's theorem makes inevitable (2405.04368); predictions equal standard QM; no experiment has distinguished single-world interpretations from many-worlds (2504.14791).",
+   "notes": "Development question. Verified by grep of 2504.14791. Nonlocality claim rests on 2405.04368; the 1812.11140 snippet was cut off at 'highly non...' (probably nonlocal)."}
+]

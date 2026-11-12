@@ -1,0 +1,64 @@
+2502.19278	The Quantum Measurement Problem: A Review of Recent Trends
+2402.04652	Quantum Correlation Sharing: A Review On Recent Progress From Nonlocality To Other Non-Classical Correlations
+1908.03949	An introduction to quantum measurements with a historical motivation
+2011.01286	Probabilistic Theories and Reconstructions of Quantum Theory (Les Houches 2019 lecture notes)
+2203.00261	A Comprehensive Review of Quantum Random Number Generators: Concepts, Classification and the Origin of Randomness
+2105.02384	The EPR paper: a pedagogical approach
+2208.07416	A tutorial introduction to quantum stochastic master equations based on the qubit/photon system
+2205.04080	Linear quantum systems: a tutorial
+2407.20317	Lecture Notes: many-body quantum dynamics with MCTDH-X
+2105.13821	From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality
+2408.08329	Primer on quantum weirdness
+2108.13642	Advanced Laser Technology for Quantum Communications (Tutorial Review)
+2302.00640	Probing quantum correlations in many-body systems: a review of scalable methods
+2507.01033	Pedagogical approach to anomalous position and velocity
+1812.11140	A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox
+2502.16154	Bridging Quantum Mechanics and Computing: A Primer for Software Engineers
+2511.01783	Preface to Contextuality in Random Variables: A Systematic Introduction, by E. N. Dzhafarov, J. V. Kujala, and V. H. Cervantes
+2106.15576	Interaction of Multiple Tensor Product Operators of the Same Type: an Introduction
+2409.07597	Introduction to Bell's inequality in Quantum Mechanics
+2509.18756	Bell state measurements in quantum optics: a review of recent progress and open challenges
+2105.03277	A consolidating review of Spekkens' toy theory
+2505.23639	The Multiverse: a Philosophical Introduction
+1910.01206	Entanglement of a pair of quantum emitters via continuous fluorescence measurements: a tutorial
+2409.15249	Tutorial: Extracting entanglement signatures from neutron spectroscopy
+2309.11793	Quantum Circuits for Stabilizer Error Correcting Codes: A Tutorial
+1803.01678	A primer to numerical simulations: The perihelion motion of Mercury
+2008.04409	A brief introduction to observational entropy
+2110.12102	The Quantum Revolution in Philosophy (Book Review)
+2504.01056	Review of "Just Plain Wrong: The Dalliance of Quantum Theory with the Defiance of Bell's Inequality"
+1803.10662	Introduction to Volume 15 of The Collected Papers of Albert Einstein. The Berlin Years: Writings and Correspondence June 1925 - May 1927
+2405.11790	Graviton physics: Quantum field theory of gravitons, graviton noise and gravitational decoherence -- a concise tutorial
+2410.00040	The Epistemology of Contemporary Physics: Introduction
+2411.12894	The time-dependent quantum harmonic oscillator: a pedagogical approach via the Lewis-Riesenfeld dynamical invariant method
+1810.13403	Dirac quantisation condition: a comprehensive review
+2307.08739	Key Issues Review: Useful autonomous quantum machines
+2407.20669	A Tutorial on the Use of Physics-Informed Neural Networks to Compute the Spectrum of Quantum Systems
+2511.09507	Entanglement and Its Verification: A Tutorial on Classical and Quantum Correlations
+2001.02806	An Introduction to time generation on Algebraic Quantum Field Theory
+1910.08423	Quantum effects in the brain: A review
+1804.04309	The role of pedagogical tools in active learning: a case for sense-making
+1811.12052	Introduction to the theory of x-ray matter interaction
+2209.11783	A review and reformulation of macroscopic realism: resolving its deficiencies using the framework of generalized probabilistic theories
+2010.11606	61 ways to measure the height of a building: an introduction to experimental practices
+1812.10732	Introduction to the "second quantization" formalism for non-relativistic quantum mechanics: A possible substitution for Sections 6.7 and 6.8 of Feynman's "Statistical Mechanics"
+2506.12679	Tutorial: Understanding quantum Zeno and anti-Zeno regimes
+2408.06524	From Graphs to Qubits: A Critical Review of Quantum Graph Neural Networks
+2510.15630	Distributed Quantum Information Processing: A Review of Recent Progress
+2506.10185	Symmetric quantum states: a review of recent progress
+2205.04248	Introduction {à} l'oeuvre de S. Kichenassamy en Physique Th{é}orique
+1905.06603	A Brief Review of the "ETH-Approach to Quantum Mechanics"
+2111.11809	Neutrino mixing and oscillations in quantum field theory: a comprehensive introduction
+2412.20380	Artificial Intelligence for Quantum Error Correction: A Comprehensive Review
+1804.10472	Semiconductor quantum dots as an ideal source of polarization entangled photon pairs on-demand: a review
+2408.15323	Review: Quantum Metrology and Sensing with Many-Body Systems
+2308.16220	A review and analysis of six extended Wigner's friend arguments
+2112.01966	Introduction to Logical Entropy and its Relationship to Shannon Entropy
+2109.06444	A thorough introduction to non-relativistic matrix mechanics in multi-qudit systems with a study on quantum entanglement and quantum quantifiers
+2411.13195	A Systematic Review of Empirical Research on Graphing Numerical Data in K-12 STEM Education
+2310.14969	Collapse Models: a theoretical, experimental and philosophical review
+2512.11053	A Framework for Understanding the Impact of Integrating Conceptual and Quantitative Reasoning in a Quantum Optics Tutorial on Students' Conceptual Understanding
+2405.20923	Addressing misconceptions in university physics: A review and experiences from quantum physics educators
+1904.02153	Quantum Double Models coupled to matter fields: a detailed review for a dualization procedure
+2202.05116	Holographic entanglement in spin network states: a focused review
+1801.01139	A squeezed review on coherent states and nonclassicality for non-Hermitian systems with minimal length

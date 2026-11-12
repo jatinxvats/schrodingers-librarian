@@ -1,0 +1,17 @@
+[
+  {"id": 23, "answerable": true, "relevant_papers": ["1801.08587", "2309.17377", "1807.02092", "2509.12280", "2111.07730", "2012.12033", "2408.08329"],
+   "must_include": "Separate attributed positions: collapse as a postulate (process 1); no literal collapse with observer inside the wave function; apparent collapse tied to the observer's state; spontaneous collapse without observer; notes 'observer' is ambiguous; no verdict.",
+   "notes": "Contested. Development question. Check Boughn attribution (he describes the 'in the mind' view). Rejected: 2406.19158 (verified by grep: unusual retrocausal/photon-collapse claims, not a source for this question), 1909.13027."},
+  {"id": 24, "answerable": true, "relevant_papers": ["2502.19278", "1911.06282", "2111.07730", "1807.02092", "2408.08329"],
+   "must_include": "No consensus collapse occurs; decoherence and many-worlds are alternatives; verification via testing collapse models (matter-wave interferometry, collapse-induced heating, X-ray emission), bounds tightening and ruling out parameter ranges, and separating collapse from decoherence; does not claim collapse is confirmed.",
+   "notes": "Two-part, cross-bucket. Development question. Top semantic hit 2406.19158 (0.273) is off-target: verified by grep, its claims are retrocausal/photon-collapse, not experimental tests. Retrieval failure and corpus-quality issue. 2010.14965 rejected (only its own Fock-space framework). Borderline: 2309.17377."},
+  {"id": 25, "answerable": true, "relevant_papers": ["2502.19278", "1908.03949", "2409.02354", "2109.02310", "2107.10666"],
+   "must_include": "Epistemic/instrumental readings (orthodox, relational, QBism: state as a tool for predicting outcomes) and realist ones (Bohmian, collapse, many-worlds), attributed to sources; may use the epistemic vs ontic collapse distinction from 2502.19278; no verdict.",
+   "notes": "Contested. Verified by grep: 2502.19278 has an ontological-status section, epistemic interpretations, and epistemic vs ontic collapse. Borderline: 2510.09237, 2203.16278."},
+  {"id": 26, "answerable": true, "relevant_papers": ["2105.02384", "2412.00406", "1812.11140", "1906.05456"],
+   "must_include": "EPR argued incompleteness from locality plus a criterion of reality; Bell showed local hidden-variable completions cannot reproduce QM; Copenhagen says complete, Bohmian adds nonlocal positions, collapse models change dynamics; no consensus.",
+   "notes": "Hold-out. Contested. Borderline: 2005.03835, 2306.07794, 2203.16278."},
+  {"id": 27, "answerable": true, "relevant_papers": ["2104.10700", "2502.19278", "2405.04368", "2306.07794"],
+   "must_include": "Bell rules out local hidden-variable models under assumptions (locality, statistical independence), so 'nature is nonlocal' depends on them; attributes Bohmian 'inevitable nonlocality', relaxed-independence local-realist escapes (2502.19278), and Everettian discussion; does not claim faster-than-light signaling.",
+   "notes": "Contested. Borderline: 2001.07656, 2012.06918, 1910.09591, 2201.01886."}
+]

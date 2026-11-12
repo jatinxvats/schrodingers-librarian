@@ -1,0 +1,12 @@
+# secrets and environment
+.env
+.venv/
+
+# data: ignore everything except the human curation decisions
+data/*
+!data/curation/
+
+# python and notebook noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

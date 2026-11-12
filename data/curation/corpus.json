@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "2212.12782",
+    "title": "Tightrope-walking rationality in action: Feyerabendian insights for the foundations of quantum mechanics",
+    "authors": [
+      "Daniele Oriti"
+    ],
+    "date": "2022-12-24",
+    "abstract": "We scan Paul K. Feyerabend's work in philosophy of physics and of science more generally for insights that could be useful for the contemporary debate on the foundations of quantum mechanics. We take as our starting point what Feyerabend has actually written about quantum mechanics, but we extend our analysis to his general views on realism, objectivity, pluralism, and the relation between physics and philosophy, finding that these more general views could in fact offer many interesting insights for physicists and philosophers working on quantum foundations.",
+    "pdf_url": "https://arxiv.org/pdf/2212.12782v3",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2110.05217",
+    "title": "\"Philosophysics\" at the University of Vienna: The (pre-)history of foundations of quantum physics in the Viennese cultural context",
+    "authors": [
+      "Flavio Del Santo",
+      "Emanuel Schwarzhans"
+    ],
+    "date": "2021-10-11",
+    "abstract": "Vienna today is one of the capitals for the research on foundations of quantum physics. In this paper we reconstruct the main historical steps of the development of modern physics in Vienna, with an emphasis on quantum foundations. We show that the two main intuitive reasons, namely the influence of E. Schr\u00f6dinger and the initiatives of A. Zeilinger in more recent years, cannot alone be held accountable for today's outstanding research landscape on foundation of quantum mechanics in Vienna. We instead show that the connection between physics and philosophy in Vienna always had an exceptional strength, and that this played a major role in establishing the prolific field of quantum foundations.",
+    "pdf_url": "https://arxiv.org/pdf/2110.05217v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2011.11969",
+    "title": "The Foundations of Quantum Mechanics in Post-War Italy's Cultural Context",
+    "authors": [
+      "Flavio Del Santo"
+    ],
+    "date": "2020-11-24",
+    "abstract": "After World War II, a hyper-pragmatic paradigm was established in physics in most of the western countries, within which foundations of quantum mechanics were vastly dismissed as pointless speculations. In this paper, we show that in Italy, however, the interest toward quantum foundations was revived at the turn of the 1960s, mainly thanks to the initiative of Franco Selleri, who started criticising the contents and the practice of modern physics (in the context of capitalistic society), and thought that the solution was to be sought in a rethinking of the foundations of the discipline. In 1969, supported by Luis de Broglie himself, Selleri wrote a paper reviving the idea of hidden variables and he successfully proposed to the Italian Physical Society to devote the \"Varenna School\" of 1970 to quantum foundations. This school's historical pivotal importance is twofold: it gathered some of the most preeminent international physicists working on the foundations of quantum theory; and it provided a first platform for young physicists to express their dissatisfaction towards \"scientism\". In fact, Selleri's highly politicised views found the favour of a critical mass of young, left-wing physicists, who made of quantum foundations their main topic of research in the 1970s. Although these physicists understood very early the central importance of Bell's theorem, their (ideological) aim was to demonstrate that quantum theory could have limits of validity. Such a research program turned out to be unsuccessful, yet the Italian endeavour was worldwide one of the first and most significant revivals of the interest towards quantum foundations.",
+    "pdf_url": "https://arxiv.org/pdf/2011.11969v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2111.02136",
+    "title": "Quantum computers to test fundamental physics or viceversa",
+    "authors": [
+      "Simanraj Sadana",
+      "Lorenzo Maccone",
+      "Urbasi Sinha"
+    ],
+    "date": "2021-11-03",
+    "abstract": "We present two complementary viewpoints for combining quantum computers and the foundations of quantum mechanics. On one hand, ideal devices can be used as testbeds for experimental tests of the foundations of quantum mechanics: we provide algorithms for the Peres test of the superposition principle and the Sorkin test of Born's rule. On the other hand, noisy intermediate-scale quantum (NISQ) devices can be benchmarked using these same tests. These are deep-quantum benchmarks based on the foundations of quantum theory itself. We present test data from Rigetti hardware.",
+    "pdf_url": "https://arxiv.org/pdf/2111.02136v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2001.05569",
+    "title": "Foundations of Quantum Mechanics according to my teachers",
+    "authors": [
+      "P. B. Lerner"
+    ],
+    "date": "2020-01-15",
+    "abstract": "These are author's recollections of informal discussions on foundations of quantum mechanics, which happened in his presence in 1970-80s",
+    "pdf_url": "https://arxiv.org/pdf/2001.05569v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2406.02149",
+    "title": "Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics. Annotated Translations",
+    "authors": [
+      "Anthony Duncan"
+    ],
+    "date": "2024-06-04",
+    "abstract": "English translation of John von Neumann's 1927 trilogy on the foundations of quantum mechanics with an introduction and detailed commentary.",
+    "pdf_url": "https://arxiv.org/pdf/2406.02149v2",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2304.09037",
+    "title": "Carnap on Quantum Mechanics",
+    "authors": [
+      "Sebastian Horvat",
+      "Iulian D. Toader"
+    ],
+    "date": "2023-04-18",
+    "abstract": "This entry reviews Rudolf Carnap's philosophical views on the quantum mechanics of his time. It also offers some thoughts on how Carnap might have reacted to some recent developments in the foundations of quantum mechanics.",
+    "pdf_url": "https://arxiv.org/pdf/2304.09037v2",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2405.04368",
+    "title": "Some Things I Have Learned From Detlef D\u00fcrr",
+    "authors": [
+      "Roderich Tumulka"
+    ],
+    "date": "2024-05-07",
+    "abstract": "Detlef D\u00fcrr (1951-2021) was a theoretical and mathematical physicist who worked particularly on the foundations of quantum mechanics, electromagnetism, and statistical mechanics. This piece is a rather personal look back at him and his science.",
+    "pdf_url": "https://arxiv.org/pdf/2405.04368v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2109.02310",
+    "title": "The operational framework for quantum theories is both epistemologically and ontologically neutral",
+    "authors": [
+      "Laurie Letertre"
+    ],
+    "date": "2021-09-06",
+    "abstract": "Operational frameworks are very useful to study the foundations of quantum mechanics, and are sometimes used to promote antirealist attitudes towards the theory. The aim of this paper is to review three arguments aiming at defending an antirealist reading of quantum physics based on various developments of standard quantum mechanics appealing to notions such as quantum information, non-causal correlations and indefinite causal orders. Those arguments will be discussed in order to show that they are not convincing. Instead, it is argued that there is conceptually no argument that could favour realist or antirealist attitudes towards quantum mechanics based solely on some features of some formalism. In particular, both realist and antirealist views are well accomodable within operational formulations of the theory. The reason for this is that the realist/antirealist debate is located at a purely epistemic level, which is not engaged by formal aspects of theories. As such, operational formulations of quantum mechanics are epistmologically and ontologically neutral. This discussion aims at clarifying the limits of the historical and methodological affinities between scientific antirealism and operational physics while engaging with recent discoveries in quantum foundations. It also aims at presenting various realist strategies to account for those developments.",
+    "pdf_url": "https://arxiv.org/pdf/2109.02310v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2004.12687",
+    "title": "Quantum incompatibility from the viewpoint of entanglement theory",
+    "authors": [
+      "Teiko Heinosaari"
+    ],
+    "date": "2020-04-27",
+    "abstract": "In this essay I discuss certain analogies between quantum incompatibility and entanglement. It is an expanded version of my talk presented at Mathematical Foundations of Quantum Mechanics in memoriam Paul Busch, held in York in June 2019.",
+    "pdf_url": "https://arxiv.org/pdf/2004.12687v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "1811.00902",
+    "title": "Karl Popper's Forgotten Role in the Quantum Debate at the Edge between Philosophy and Physics in 1950s and 1960s",
+    "authors": [
+      "Flavio Del Santo"
+    ],
+    "date": "2018-11-02",
+    "abstract": "It is not very well known that the philosopher Karl Popper has been one of the foremost critics of the orthodox interpretation of quantum physics for about six decades. This paper reconstructs in detail most of Popper's activities on foundations of quantum mechanics (FQM) in the period of 1950s and 1960s, when his involvement in the community of quantum physicists became extensive and quite influential. Thanks to unpublished documents and correspondence, it is now possible to shed new light on Popper's central - though neglected - role in this \"thought collective\" of physicists concerned with FQM, and on the intellectual relationships that Popper established in this context with some of the protagonists of the debate over quantum physics (such as David Bohm, Alfed Land\u00e9 and Henry Margenau, among many others). Foundations of quantum mechanics represented in those years also the initial ground for the embittering controversy between Popper and perhaps his most notable former student, Paul Feyerabend. I present here novel elements to further understand the origin of their troubled relationship.",
+    "pdf_url": "https://arxiv.org/pdf/1811.00902v2",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "1805.10311",
+    "title": "Homer nodded: von Neumann's surprising oversight",
+    "authors": [
+      "N. David Mermin",
+      "R\u00fcdiger Schack"
+    ],
+    "date": "2018-05-25",
+    "abstract": "We review the famous no-hidden-variables theorem in John von Neumann's 1932 book on the mathematical foundations of quantum mechanics. We describe the notorious gap in von Neumann's argument, pointed out by Grete Hermann in 1935 and, more famously, by John Bell in 1966. We disagree with recent papers claiming that Hermann and Bell failed to understand what von Neumann was actually doing.",
+    "pdf_url": "https://arxiv.org/pdf/1805.10311v2",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2502.16416",
+    "title": "2-Adic quantum mechanics, continuous-time quantum walks, and the space discreteness",
+    "authors": [
+      "W. A. Z\u00fa\u00f1iga-Galindo"
+    ],
+    "date": "2025-02-23",
+    "abstract": "We show that a large class of 2-adic Schr\u00f6dinger equations is the scaling limit of certain continuous-time quantum Markov chains (CTQMCs). Practically, a discretization of such an equation gives a CTQMC. As a practical result, we construct new types of continuous time quantum walks (CTQWs) on graphs using two symmetric matrices. One matrix describes the transport between nodes in one direction, while the second describes the transport between nodes in the opposite direction. This construction includes, as a particular case, the CTQWs constructed using adjacency matrices. The final goal of this work is to contribute to the understanding of the foundations of quantum mechanics (QM) and the role of the hypothesis of the discreteness of space. The connection between 2-adic QM and CTQWs shows that 2-adic QM has a physical meaning. 2-Adic QM is a nonlocal theory because the Hamiltonians used are nonlocal operators, and consequently, spooky actions at a distance are allowed. However, this theory is not a mathematical toy. The experimental confirmation of the violation of Bell's inequality implies that this theory allows realism. We pointed out several new research problems connected with the foundations of quantum mechanics.",
+    "pdf_url": "https://arxiv.org/pdf/2502.16416v2",
+    "categories": [
+      "quant-ph",
+      "hep-th",
+      "math-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2305.08431",
+    "title": "Quanta Iff Discreteness",
+    "authors": [
+      "Marcello Poletti"
+    ],
+    "date": "2023-05-15",
+    "abstract": "A brief philosophical inquiry into the foundations of quantum mechanics is presented here. In particular, the direct relationship between granularity, discontinuity, and the presence of quantum effects will be argued. Furthermore, an \"interpretation of relational interpretation\" will be supported, which, in combination with the problem of logical undecidability, produces a promising approach that places the apparent illogicality of QM within the realm of logic and effectively addresses its usual paradoxes.",
+    "pdf_url": "https://arxiv.org/pdf/2305.08431v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations"
+    ]
+  },
+  {
+    "id": "2012.12033",
+    "title": "The Measurement Process in Relational Quantum Mechanics",
+    "authors": [
+      "B. K. Jennings"
+    ],
+    "date": "2020-12-21",
+    "abstract": "Understanding the quantum measurement problem is closely associated with understanding wave function collapse. Motivated by Breuer's claim that it is impossible for an observer to distinguish all states of a system in which it is contained, wave function collapse is tied to self observation in the Schmidt biorthonormal decomposition of entangled systems. This approach provides quantum mechanics in general and relational quantum mechanics in particular with a clean, well motivated explanation of the measurement process and wave function collapse.",
+    "pdf_url": "https://arxiv.org/pdf/2012.12033v1",
+    "categories": [
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2509.12280",
+    "title": "The Emergence of Objective Classicality: A Computational First-Principles Study of Observer-Induced Decoherence in Unitary Quantum Mechanics",
+    "authors": [
+      "Eyad I. B Hamid"
+    ],
+    "date": "2025-09-14",
+    "abstract": "The quantum measurement problem, the unresolved conflict between the unitary evolution of the wave function and the postulate of wave function collapse, remains the most profound conceptual challenge in quantum foundations. While environment-induced decoherence provides a compelling practical mechanism for the appearance of collapse, it does not resolve the fundamental issue of the observer's own quantum state. This work moves beyond philosophical discourse by introducing a novel computational framework to simulate a fully unitary universe comprising a quantum system (Q), a decohering environment (E), and a model physical observer (O). We strictly forbid the collapse axiom. Our simulations investigate whether a definite, classical measurement outcome can emerge objectively within O's state. The results demonstrate that objective classicality can emerge from unitary dynamics, challenging the necessity of the measurement postulate and providing a computational pathway toward resolving the quantum measurement problem.",
+    "pdf_url": "https://arxiv.org/pdf/2509.12280v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2111.07730",
+    "title": "Superposition in Measuring Apparatus: A Thought Experiment",
+    "authors": [
+      "Vishwas KS"
+    ],
+    "date": "2021-11-15",
+    "abstract": "The measurement problem in quantum mechanics arises from the apparent collapse of a superposition state to a definite outcome when a measurement is made. Although treating the measuring apparatus as a classical system has been a successful approach in explaining quantum phenomena, it raises fundamental questions about the nature of measurement and the validity of wave function collapse. In this paper, we discuss a thought experiment that explores superposition in the measuring apparatus when it is treated as a quantum system. The experiment uses the Hong-Ou-Mandel effect in a two-photon interference setup, and its outcome is indicated by the coincidence count. Specifically, a zero count implies the existence of superposition, while a non-zero count indicates a wave function collapse. The discussions provide insight into the measurement problem, particularly regarding wave function collapse and nested measurement, and highlight the importance of indistinguishability to it. It provides a framework that probes the exact conditions necessary for a wave function collapse to happen.",
+    "pdf_url": "https://arxiv.org/pdf/2111.07730v4",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2112.11223",
+    "title": "Events in quantum mechanics are maximally non-absolute",
+    "authors": [
+      "George Moreno",
+      "Ranieri Nery",
+      "Cristhiano Duarte",
+      "Rafael Chaves"
+    ],
+    "date": "2021-12-19",
+    "abstract": "The notorious quantum measurement problem brings out the difficulty to reconcile two quantum postulates: the unitary evolution of closed quantum systems and the wave-function collapse after a measurement. This problematics is particularly highlighted in the Wigner's friend thought experiment, where the mismatch between unitary evolution and measurement collapse leads to conflicting quantum descriptions for different observers. A recent no-go theorem has established that the (quantum) statistics arising from an extended Wigner's friend scenario is incompatible when one try to hold together three innocuous assumptions, namely no-superdeterminism, parameter independence and absoluteness of observed events. Building on this extended scenario, we introduce two novel measures of non-absoluteness of events. The first is based on the EPR2 decomposition, and the second involves the relaxation of the absoluteness hypothesis assumed in the aforementioned no-go theorem. To prove that quantum correlations can be maximally non-absolute according to both quantifiers, we show that chained Bell inequalities (and relaxations thereof) are also valid constraints for Wigner's experiment.",
+    "pdf_url": "https://arxiv.org/pdf/2112.11223v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2203.10602",
+    "title": "A physical approach to qualia and the emergence of conscious observers in qualia space",
+    "authors": [
+      "Pedro Resende"
+    ],
+    "date": "2022-03-20",
+    "abstract": "I propose that qualia are physical because they are directly observable, and revisit the contentious link between consciousness and quantum measurements from a new perspective -- one that does not rely on observers or wave function collapse but instead treats physical measurements as fundamental in a sense resonant with Wheeler's it-from-bit. Building on a mathematical definition of measurement space in physics, I reinterpret it as a model of qualia, effectively equating the measurement problem of quantum mechanics with the hard problem of consciousness. The resulting framework falls within panpsychism, and offers potential solutions to the combination problem. Moreover, some of the mathematical structure of measurement spaces, taken for granted in physics, needs justification for qualia, suggesting that the apparent solidity of physical reality is deeply rooted in how humans process information.",
+    "pdf_url": "https://arxiv.org/pdf/2203.10602v2",
+    "categories": [
+      "physics.hist-ph",
+      "cs.AI",
+      "physics.soc-ph",
+      "q-bio.NC",
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "1909.01798",
+    "title": "Q-functions as models of physical reality",
+    "authors": [
+      "Peter D. Drummond",
+      "Margaret D. Reid"
+    ],
+    "date": "2019-09-04",
+    "abstract": "We show that one may interpret physical reality as random fields in space-time. These have a probability given by the expectation of a coherent state projection operator, called the Q-function. The resulting dynamical evolution includes retrocausal effects. This suggests that a physical universe exists without requiring observers, but with a well-defined probability for its field configuration. By including the meter dynamics, we show that field trajectories have quantum measurement properties without wave-function collapse, including sharp measured eigenvalues. We treat continuous and discrete measurements, and show that this model predicts Bell inequality violations for measurements on correlated spins. A discussion is give of a number of well-known quantum paradoxes, showing how these can be treated in a realistic model of measurement. Our theory resolves a number of practical and philosophical issues in quantum measurement, and we compare it with earlier theories.",
+    "pdf_url": "https://arxiv.org/pdf/1909.01798v2",
+    "categories": [
+      "quant-ph",
+      "gr-qc"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2404.16445",
+    "title": "Wavefunction collapse driven by non-Hermitian disturbance",
+    "authors": [
+      "Jorge Martinez Romeral",
+      "Luis E. F. Foa Torres",
+      "Stephan Roche"
+    ],
+    "date": "2024-04-25",
+    "abstract": "In the context of the measurement problem, we propose to model the interaction between a quantum particle and an \"apparatus\" through a non-Hermitian Hamiltonian term. We simulate the time evolution of a normalized quantum state split into two spin components (via a Stern-Gerlach experiment) and that undergoes a wave-function collapse driven by a non-Hermitian Hatano-Nelson Hamiltonian. We further analyze how the strength and other parameters of the non-Hermitian perturbation influence the time-to-collapse of the wave function obtained under a Schr\u00f6dinger-type evolution. We finally discuss a thought experiment where manipulation of the apparatus could challenge standard quantum mechanics predictions.",
+    "pdf_url": "https://arxiv.org/pdf/2404.16445v1",
+    "categories": [
+      "quant-ph",
+      "cond-mat.other"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2303.07966",
+    "title": "Universality in Quantum Measurements",
+    "authors": [
+      "Avijit Lahiri"
+    ],
+    "date": "2023-03-14",
+    "abstract": "We briefly review a number of major features of the approach to quantum measurement theory based on environment-induced decoherence of the measuring apparatus, and summarize our observations in the form of a couple of general principles that, unlike the wave function collapse hypothesis, emerge as ones consistent with the unitary Schr\u00f6dinger evolution of wave functions. We conclude with a few observations of a philosophical nature, to the effect that that quantum theory does not purport to describe reality but constitutes an {\\it interpretation} of our phenomenal reality within a context -- one where the Planck scale is not crossed. Beyond the Planck scale, a radically new interpretation of reality is likely to emerge.",
+    "pdf_url": "https://arxiv.org/pdf/2303.07966v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2409.02354",
+    "title": "Entangled in Spacetime",
+    "authors": [
+      "Mohammad Rasoolinejad"
+    ],
+    "date": "2024-09-04",
+    "abstract": "This paper presents an observational analysis of the Delayed-Choice Quantum Eraser experiment through the framework of quantum mechanics. The Delayed-Choice Quantum Eraser, a variation of the classic double-slit experiment, demonstrates the intricate relationship between quantum measurement, wave-particle duality, and the temporal ordering of observations. By utilizing the principles of quantum superposition, entanglement, and the non-local collapse of the wave function, we seek to rationalize the counterintuitive outcomes observed in the experiment. Specifically, we explore how the act of measurement retroactively influences the observed behavior of particles, depending on whether or not the which-path information is available. Our analysis underscores the significance of the quantum mechanical concept of wave function collapse across spacetime, providing a deeper understanding of how quantum mechanics reconciles the delayed-choice paradox.",
+    "pdf_url": "https://arxiv.org/pdf/2409.02354v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2309.17377",
+    "title": "Quantum Superposition, Collapse of Wave Function, Quantum Measurement and Nonadiabatic Dressed States",
+    "authors": [
+      "I. G. Koprinkov"
+    ],
+    "date": "2023-09-29",
+    "abstract": "Quantum superposition, collapse of wave function and quantum measurement problem are reexamined based on nonadiabatic dressed states and experimental observations on the quantum transitions. The physical mechanisms behind these processes are revealed.",
+    "pdf_url": "https://arxiv.org/pdf/2309.17377v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2509.19377",
+    "title": "Relativistic Path-Integral Origin of the Dirac Equation, Quantum Collapse, Decoherence and Non-Hermitian Phenomena",
+    "authors": [
+      "Wei Wen"
+    ],
+    "date": "2025-09-20",
+    "abstract": "Relativity and quantum mechanics are two cornerstones of modern physics, yet their unification within a single-particle path integral and a dynamical explanation of quantum measurement remain unresolved. Historically, these two problems have been treated as separate, but here we show they are intimately linked. We construct a self-consistent relativistic path integral that yields the Dirac and other standard wave equations under differetialable potentials. More importantly, we find that this propagator contains a latent, nonlocal correlation that is activated by realistic electromagnetic noise. This correlation unifies unitary evolution and wave-function collapse into a single dynamical mechanism: while differentiable potentials preserve unitary driving, nondifferentiable noise activates a bounded-martingale stochastic process that induces collapse. We show that the characteristics of quantum measurement are naturally derived from this stochastic dynamical process, thereby turning the axioms of quantum measurement from postulates into dynamical consequences. Furthermore, averaging this stochastic evolution over the noise record recovers the Gorini-Kossakowski-Sudarshan-Lindblad (GKSL) master equation, providing a first-principles derivation of decoherence free from the method of Born-Markov approximation. Extending this approach to composite systems establishes a stochastic foundation for effective non-Hermitian descriptions while preserving relativistic causality. Finally, because the noise spectrum governs the collapse process, engineering ``colored'' noise can actively accelerate or steer state reduction, suggesting new routes toward fast qubit reset and enhanced quantum control.",
+    "pdf_url": "https://arxiv.org/pdf/2509.19377v3",
+    "categories": [
+      "physics.gen-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2210.10624",
+    "title": "How Do the Probabilities Arise in Quantum Measurement?",
+    "authors": [
+      "Mani L. Bhaumik"
+    ],
+    "date": "2022-09-26",
+    "abstract": "A satisfactory resolution of the persistent quantum measurement problem remains stubbornly unresolved in spite of an overabundance of efforts of many prominent scientists over the decades. Among others, one key element is considered yet to be resolved. It comprises of where the probabilities of the measurement outcome stem from. This article attempts to provide a plausible answer to this enigma, thus eventually making progress toward a cogent solution of the longstanding measurement problem.",
+    "pdf_url": "https://arxiv.org/pdf/2210.10624v1",
+    "categories": [
+      "physics.pop-ph",
+      "physics.hist-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2302.08892",
+    "title": "Quantum fluctuations, particles and entanglement: solving the quantum measurement problems",
+    "authors": [
+      "Kenichi Konishi"
+    ],
+    "date": "2023-02-15",
+    "abstract": "The so-called quantum measurement problems are solved from a new perspective. One of the main observations is that the basic entities of our world are {\\it particles}, elementary or composite. It follows that each elementary process, hence each measurement process at its core, is a spacetime, pointlike, event. Another key idea is that, when a microsystem $\u03c8$ gets into contact with the experimental device, factorization of $\u03c8$ rapidly fails and entangled mixed states appear. The wave functions for the microsystem-apparatus coupled system for different measurement outcomes then lack overlapping spacetime support. It means that the aftermath of each measurement is a single term in the sum: a ``wave-function collapse\". Our discussion leading to a diagonal density matrix, $\u03c1= {\\rm diag} ( |c_1|^2, \\ldots, |c_n|^2, \\ldots )$ shows how the information encoded in the wave function $|\u03c8\\rangle = \\sum_n c_n | n \\rangle $ gets transcribed, via entanglement with the experimental device and environment, into the relative frequencies ${\\cal P}_n = |c_n|^2$ for various experimental outcomes $F=f_n$. Our discussion represents the first, significant steps towards filling in the logical gaps in the conventional interpretation based on Born's rule, replacing it with a clearer understanding of quantum mechanics. Accepting objective reality of quantum fluctuations, independent of any experiments, and independently of human presence, one renounces the idea that in a fundamental, complete theory of Nature the result of each single experiment must necessarily be predictable.",
+    "pdf_url": "https://arxiv.org/pdf/2302.08892v1",
+    "categories": [
+      "quant-ph",
+      "hep-th"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "2406.19158",
+    "title": "A Method Using Photon Collapse and Entanglement to Transmit Information",
+    "authors": [
+      "Ling Hu",
+      "Qiang Ni"
+    ],
+    "date": "2024-06-27",
+    "abstract": "Measurements cause quantum wave functions to collapse. In tackling this elusive issue, we embark on the exploration of entropy exhibited by single-qubit quantum systems. Our findings surprisingly challenge the conventional law of entropy never diminishing. We then interpret the confusing retrocausality phenomenon in Wheeler's delayed-choice experiments. The entropy reduction and the quantum retrocausality can be combined to investigate how measurements lead to collapse - A close link is shown between quantum wave function collapse and the ubiquity of photons in the environments. Next, by studying the overlooked phenomena of quantum wave function collapse, we find that quantum eigenstate sets may be artificially controlled rather than randomly selected. Our study uncovers an often overlooked aspect of quantum wave function collapse - a potential avenue for deliberate manipulation of quantum eigenstate sets, deviating from the conventional notion of random selection. Leveraging this novel insight, we propose an innovative method for direct information transmission utilizing photon wave function collapse and entanglement. Given the lack of efficient approaches for employing quantum mechanisms in information transfer, our research aims to push the boundaries of quantum mechanics and contribute to advancing this field.",
+    "pdf_url": "https://arxiv.org/pdf/2406.19158v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "1906.05456",
+    "title": "Reality facing quantum mechanics",
+    "authors": [
+      "Louis Marchildon"
+    ],
+    "date": "2019-06-13",
+    "abstract": "All investigators working on the foundations of quantum mechanics agree that the theory has profoundly modified our conception of reality. But there ends the consensus. The unproblematic formalism of the theory gives rise to a number of very different interpretations, each of which has consequences on the notion of reality. This paper analyses how the Copenhagen interpretation, von Neumann's state vector collapse, Bohm and de Broglie's pilot wave and Everett's many worlds modify, each in its own way, the classical conception of reality, whose local character, in particular, requires revision.",
+    "pdf_url": "https://arxiv.org/pdf/1906.05456v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations",
+      "interpretations"
+    ]
+  },
+  {
+    "id": "1801.08587",
+    "title": "Making Sense of the Many Worlds Interpretation",
+    "authors": [
+      "Stephen Boughn"
+    ],
+    "date": "2018-01-25",
+    "abstract": "It has been 61 years since Hugh Everett III's PhD dissertation, {\\it On the Foundations of Quantum Mechanics}, was submitted to the Princeton University Physics Department. After more than a decade of relative obscurity it was resurrected by Bryce DeWitt as {\\it The Many Worlds Interpretation of Quantum Mechanics} and since then has become an active topic of discussion, reinterpretation, and modification, especially among philosophers of science, quantum cosmologists, and advocates of quantum decoherence and quantum computing. Many of these analyses are quite sophisticated and considered to be important contributions to physics and philosophy. I am primarily an experimental physicist and my pragmatic ruminations on the subject might viewed with some suspicion. Indeed, Bohr's pragmatic {\\it Copenhagen Interpretation} is often disparaged by this same cohort. Still, I think that my experimentalist's vantage point has something to offer and I here offer it to you.",
+    "pdf_url": "https://arxiv.org/pdf/1801.08587v1",
+    "categories": [
+      "quant-ph",
+      "gr-qc",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations",
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2504.14791",
+    "title": "Quantum Measurement Without Collapse or Many Worlds: The Branched Hilbert Subspace Interpretation",
+    "authors": [
+      "Xing M. Wang"
+    ],
+    "date": "2025-04-21",
+    "abstract": "We propose the Branched Hilbert Subspace Interpretation (BHSI) as an alternative perspective on quantum measurement. BHSI describes measurement as a unitary branching of the local Hilbert space into decoherent, independent, and unitarily evolving subspaces, while updating observer states (through their equipment) by causally engaging and disengaging operators. Unlike the Copenhagen Interpretation (CI), BHSI avoids wave function collapse while maintaining the Born rule through the branch weights associated with the initial system state. Unlike the Many-Worlds Interpretation (MWI), BHSI sidesteps parallel worlds by entangling branches with the local environment within a single world. We compare BHSI features with those of CI, MWI, and Bohmian Mechanics (BM). We investigate its implications for the double-slit experiment, Bell tests, Wigner and his friend, black hole radiation, and the delayed-choice quantum eraser. We examine quantum teleportation, demonstrating that locally controlled decoherence and recoherence processes (CDRP) can be observed. Specifically, we suggest experiments using modern Stern-Gerlach interferometers (SGI) to visualize the CDRP, measure branch weights that encode the Born rule, and predict the electromagnetic (EM) phase shift resulting from the independent unitary evolution of decoherent branches. BHSI thus provides a minimalist alternative to interpretations based on collapse or many-worlds.",
+    "pdf_url": "https://arxiv.org/pdf/2504.14791v6",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "measurement",
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2107.10666",
+    "title": "The Real Meaning of Quantum Mechanics",
+    "authors": [
+      "Francois-Igor Pris"
+    ],
+    "date": "2021-07-20",
+    "abstract": "We suggest a contextual realist interpretation of relational quantum mechanics. The principal point is a correct understanding of the concept of reality and taking into account the categorical distinction between the ideal and the real. Within our interpretation, consciousness of the observer does not play any metaphysical role. The proposed approach can also be understood as a return to the Copenhagen interpretation of quantum mechanics, corrected within the framework of contextual realism. The contextual realism allows one to get rid of the metaphysical problems encountered by various interpretations of quantum mechanics, including the relational one.",
+    "pdf_url": "https://arxiv.org/pdf/2107.10666v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2510.09237",
+    "title": "QBism and relational interpretation of quantum mechanics from the point of view of a contextual quantum realism (CQR)",
+    "authors": [
+      "Francois-Igor Pris"
+    ],
+    "date": "2025-10-10",
+    "abstract": "A realist interpretation of quantum mechanics is proposed - Contextual Quantum Realism (CQR) - according to which there exists a categorical distinction between the ideal (theory, observation instrument) and the real (quantum physical systems, properties), and, consequently, quantum ontology is context-sensitive. CQR is compared with QBism and Relational Quantum Mechanics (RQM), both of which also claim to offer realist interpretations. However, both approaches conflate the ideal and the real, thereby introducing an anti-realist dimension. RQM is an objectivist (physicalist) interpretation that naturalizes epistemic concepts, whereas QBism is subjectivist (phenomenological). RQM and QBism share a common presupposition of (post-)Modern philosophy - namely, the reduction of reality to objectivity - which CQR explicitly rejects.",
+    "pdf_url": "https://arxiv.org/pdf/2510.09237v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2401.01340",
+    "title": "Unification of the MWI formalism and Bohmian mechanics for the ensembles of event universes in Minkowski-like space",
+    "authors": [
+      "Oded Shor",
+      "Felix Benninger",
+      "Andrei Khrennikov"
+    ],
+    "date": "2023-09-28",
+    "abstract": "Diversity of interpretations of quantum mechanics is often considered as a sign of foundational crisis. In this note we proceed towards unification the relational quantum mechanics of Rovelli, Bohmian mechanics, and many worlds interpretation on the basis so called Dendrogramic Holographic Theory (DHT). DHT is based on the representation of observed events by dendrograms (finite trees) presenting observers subjective image of universe. Dendrograms encode the relational hierarchy between events, in applications they are generated by clustering algorithms; an algorithm with the branching index p >1 generate p-adic trees. The infinite p-adic tree represents the ontic event universe. We consider an ensemble of observers performing observations on each other and representing them by p-adic trees. In such observers universe we introduce a kind of Minkowski space structure, which is statistical by its nature. This model unites the observer/system discrepancy. Measurements are performed by observers on observers. Such observers universe is dynamically changing and is background independent since the space itself is emergent. And within this model, we unify the aforementioned interpretations.",
+    "pdf_url": "https://arxiv.org/pdf/2401.01340v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2203.16278",
+    "title": "Does Science need Intersubjectivity? The Problem of Confirmation in Orthodox Interpretations of Quantum Mechanics",
+    "authors": [
+      "Emily Adlam"
+    ],
+    "date": "2022-03-30",
+    "abstract": "Any successful interpretation of quantum mechanics must explain how our empirical evidence allows us to come to know about quantum mechanics. In this article, we argue that this vital criterion is not met by the class of 'orthodox interpretations,' which includes QBism, neo-Copenhagen interpretations, and some versions of relational quantum mechanics. We demonstrate that intersubjectivity fails in radical ways in these approaches, and we explain why intersubjectivity matters for empirical confirmation. We take a detailed look at the way in which belief-updating might work in the kind of universe postulated by an orthodox interpretation, and argue that observers in such a universe are unable to escape their own perspective in order to learn about the structure of the set of perspectives that is supposed to make up reality according to these interpretations. We also argue that in some versions of these interpretations it is not even possible to use one's own relative frequencies for empirical confirmation. Ultimately we conclude that it cannot be rational to believe these sorts of interpretations unless they are supplemented with some observer-independent structure which underwrites intersubjective agreement in at least certain sorts of cases.",
+    "pdf_url": "https://arxiv.org/pdf/2203.16278v2",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2301.04014",
+    "title": "Ozawa's Intersubjectivity Theorem as objection to QBism individual agent perspective",
+    "authors": [
+      "Andrei Khrennikov"
+    ],
+    "date": "2023-01-09",
+    "abstract": "QBism's foundational statement that ``the outcome of a measurement of an observable is personal'' is in the straight contraversion with Ozawa's Intersubjectivity Theorem (OIT). The latter (proven within the quantum formalism) states that two observers, agents within the QBism terminology, performing joint measurements of the same observable $A$ on a system $S$ in the state $\u03c8$ should get the same outcome $A=x.$ In Ozawa's terminology, this outcome is intersubjective and it can't be treated as personal. This is the strong objection to QBism which can't survive without updating its principles. The essential aspect in understanding of the OIT-impact on QBism's foundations takes the notion of quantum observable. This paper comprises the complementary discussion highlighting the difference between the accurate, von Neumann, and inaccurate, noisy, quantum observables which are represented by PVMs and POVMs respectively. Moreover, we discuss the OIT-impact on the Copenhagen interpretation of quantum mechanics.",
+    "pdf_url": "https://arxiv.org/pdf/2301.04014v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2107.03513",
+    "title": "Qubits are not observers -- a no-go theorem",
+    "authors": [
+      "\u010caslav Brukner"
+    ],
+    "date": "2021-07-07",
+    "abstract": "The relational approach to quantum states asserts that the physical description of quantum systems is always relative to something or someone. In relational quantum mechanics (RQM) it is relative to other quantum systems, in the (neo-)Copenhagen interpretation of quantum theory to measurement contexts, and in QBism to the beliefs of the agents. In contrast to the other two interpretations, in RQM any interaction between two quantum systems counts as a \"measurement\", and the terms \"observer\" and \"observed system\" apply to arbitrary systems. We show, in the form of a no-go theorem, that in RQM the physical description of a system relative to an observer cannot represent knowledge about the observer in the conventional sense of this term. The problem lies in the ambiguity in the choice of the basis with respect to which the relative states are to be defined in RQM. In interpretations of quantum theory where observations play a fundamental role, the problem does not arise because the experimental context defines a preferred basis.",
+    "pdf_url": "https://arxiv.org/pdf/2107.03513v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2306.07794",
+    "title": "An Elementary Proof That Everett's Quantum Multiverse Is Nonlocal: Bell-Locality and Branch-Symmetry in the Many-Worlds Interpretation",
+    "authors": [
+      "Aur\u00e9lien Drezet"
+    ],
+    "date": "2023-06-13",
+    "abstract": "Everett's many-worlds or multiverse theory is an attempt to find an alternative to the standard Copenhagen interpretation of quantum mechanics. Everett's theory is often claimed to be local in the Bell sense. Here, we show that this is not the case and debunk the contradictions by analyzing in detail the Greenberger--Horne--Zeilinger (GHZ) nonlocality theorem. We discuss and compare different notions of locality often mixed in the Everettian literature and try to explain the nature of the confusion. We conclude with a discussion of probability and statistics in the many-worlds theory and stress that the strong symmetry existing between branches in the theory prohibits the definition of probability and that the theory cannot recover statistics. The only way out from this contradiction is to modify the theory by adding hidden variables \u00e0 la Bohm and, as a consequence, the new theory is explicitly Bell-nonlocal.",
+    "pdf_url": "https://arxiv.org/pdf/2306.07794v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2506.01561",
+    "title": "Physical Observers and Quantum Reconstructions",
+    "authors": [
+      "Dorian Daimer",
+      "Susanne Still"
+    ],
+    "date": "2025-06-02",
+    "abstract": "There is a multitude of interpretations of quantum mechanics, but foundational principles are lacking. Relational quantum mechanics views the observer as a physical system, which allows for an unambiguous interpretation as all axioms are purely operational, describing how observers acquire information. The approach, however, is based on the premise that the observer retains only predictive information about the observed system. Here, we justify this premise using the following principle: Physically embedded observers choose information processing strategies that provide them with the option to approach physical limits to the greatest possible extent. Applied to a lower limit on energy dissipation, the principle leads directly to a compact predictive model, thus justifying this core premise of relational quantum mechanics.",
+    "pdf_url": "https://arxiv.org/pdf/2506.01561v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2510.11544",
+    "title": "French on London and Bauer, and QBism",
+    "authors": [
+      "Jacques L. Pienaar"
+    ],
+    "date": "2025-10-13",
+    "abstract": "In this article I compare two interpretations of quantum mechanics (QM) that draw inspiration from phenomenology: the London-Bauer-French interpretation (hereafter LBF) as articulated by Steven French, and QBism. I give special attention to certain disagreements between QBism and LBF identified French's work, as well as French's related claims that QBism may be at odds with key ideas in phenomenology. My main finding is that QBism does not fare so badly with phenomenology as French makes out; in particular it can be made compatible with Zahavi's correlationism and Husserl's notion of intersubjectivity, both of which strongly inform LBF. Nevertheless, I concur with French's argument that QBism is incompatible with the conception of quantum measurement in LBF, hence also with that of Merleau-Ponty, as the latter based his own analysis on that of London and Bauer. I explain why I find QBism's account preferable in this case.",
+    "pdf_url": "https://arxiv.org/pdf/2510.11544v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2304.00608",
+    "title": "Beyond relationalism in quantum theory: A new indeterminacy-based interpretation of quantum theory",
+    "authors": [
+      "Francisco Pipa"
+    ],
+    "date": "2023-04-02",
+    "abstract": "The received view in foundations and philosophy of physics holds that if we reject supplementing quantum theory (QT) with certain hidden variables and consider that unitary QT is correct and universal, we should adopt a relationalist interpretation of QT. Relationalist interpretations relativize measurement outcomes to, for example, worlds, systems, agents, or reference frames. It includes the Many-Worlds Interpretation, Relational Quantum Mechanics, and QBism. These interpretations have potential costs connected with their relationalism that make them unattractive. Thus, if there exists a non-relational non-hidden variable universal intepretations of QT, it should be taken seriously. I will present an interpretation of this kind called Environmental Determinacy-based or EnD Quantum Theory (EnDQT), which goes beyond relationalism and the received view. EnDQT circumvents relationalism by constructing an account of indeterminate and determinate values and underlying quantum properties that is not relational while maintaining unitary non-hidden variable universal QT. In situations where a relationalist assumes that measurement outcomes are relativized, such as in the extended Wigner's friend scenarios, according to EnDQT there aren't determinate outcomes but systems with non-relational indeterminate values. In this approach, determinate values arose at some point in time through certain systems and persist due to them via certain interactions represented by certain networks. When there is isolation from the rest of the systems that belong to these networks, such as inside the friend's lab in the extended Wigner's friend scenarios, indeterminate values non-relationally arise inside. I will discuss other independent good reasons for adopting EnDQT, including providing a local causal explanation of Bell correlations and novel empirical posits represented by these networks.",
+    "pdf_url": "https://arxiv.org/pdf/2304.00608v5",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "2401.06185",
+    "title": "Ozawa's Intersubjectivity Theorem as justification of RQM's postulate on internally consistent descriptions",
+    "authors": [
+      "Andrei Khrennikov"
+    ],
+    "date": "2024-01-11",
+    "abstract": "The Ozawa's Intersubjectivity Theorem (OIT) proved within quantum measurement theory supports the new postulate of relational quantum mechanics (RQM), the postulate on internally consistent descriptions. We remark that this postulate was proposed only recently to resolve the problem of intersubjectivity of information in RQM. In contrast to RQM for which OIT is a supporting theoretical statement, QBism is challenged by OIT.",
+    "pdf_url": "https://arxiv.org/pdf/2401.06185v4",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "interpretations"
+    ]
+  },
+  {
+    "id": "1909.13027",
+    "title": "Derive the Born's rule from environment-induced stochastic dynamics of wave-functions in an open system",
+    "authors": [
+      "Pei Wang"
+    ],
+    "date": "2019-09-28",
+    "abstract": "The lack of superposition of different position states or the emergence of classicality in macroscopic systems have been a puzzle for decades. Classicality exists in every measuring apparatus, and is the key for understanding what can be measured in quantum theory. Different theories have been proposed, including decoherence, einselection and the spontaneous wave-function collapse, with no consensus reached up to now. In this paper, we propose a stochastic dynamics for the wave-function in an open system (e.g. the measuring apparatus) that interacts with its environment. The trajectory of wave-function is random with a well-defined probability distribution. We show that the stochastic evolution results in the wave-function collapse and the Born's rule for specific system-environment interactions. While it reproduces the unitary evolution governed by the Schr\u00f6dinger equation when the interaction vanishes. Our results suggest that it is the way of system interacting with environment that determines whether quantum superposition dominates or classicality emerges.",
+    "pdf_url": "https://arxiv.org/pdf/1909.13027v2",
+    "categories": [
+      "quant-ph",
+      "cond-mat.dis-nn"
+    ],
+    "tags": [
+      "measurement",
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2407.05074",
+    "title": "Decoherence without einselection",
+    "authors": [
+      "Xiao Zhang"
+    ],
+    "date": "2024-07-06",
+    "abstract": "Decoherence in a quantum measurement is typically explained as an interaction with the environment that destroys coherence between the system's eigenstates, a phenomenon known as environment-induced superselection (einselection). In this work, we demonstrate that einselection and the associated envariance are actually artifacts resulting from neglecting the non-equilibrium dynamics of the apparatus. We propose a new formalism of operator dressing, which we call the stochastic matrix integral (SMI), inspired by recent developments in quantum gravity algebras. This approach naturally arises from a modified Page-Wootters (PW) formula and describes decoherence as an interacting non-equilibrium process. It leads to the reduction of the Hilbert space and the emergence of an intrinsic non-unitary process as well as Born's rule. These outcomes are achieved without relying on the assumptions of einselection and pointer basis.",
+    "pdf_url": "https://arxiv.org/pdf/2407.05074v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2001.10851",
+    "title": "Einselection from incompatible decoherence channels",
+    "authors": [
+      "Alexandre Feller",
+      "Guillaume Coeuret Cauquil",
+      "Benjamin Roussel"
+    ],
+    "date": "2020-01-29",
+    "abstract": "Decoherence of quantum systems from entanglement with an unmonitored environment is to date the most compelling explanation of the emergence of a classical picture from a quantum world. While it is well understood for a single Lindblad operator, the role in the einselection process of a complex system-environment interaction remains to be clarified. In this paper, we analyze an open quantum dynamics inspired by CQED experiments with two non-commuting Lindblad operators modeling decoherence in the number basis and dissipative decoherence in the coherent state basis. We study and solve exactly the problem using quantum trajectories and phase-space techniques. The einselection optimization problem, which we consider to be about finding states minimizing the variation of some entanglement witness at a given energy, is studied numerically. We show that Fock states remain the most robust states to decoherence up to a critical coupling.",
+    "pdf_url": "https://arxiv.org/pdf/2001.10851v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2105.14040",
+    "title": "Adapted Caldeira-Leggett Model",
+    "authors": [
+      "Andreas Albrecht",
+      "Rose Baunach",
+      "Andrew Arrasmith"
+    ],
+    "date": "2021-05-28",
+    "abstract": "We preset a variant of the Caldeira-Leggett (CL) model of a harmonic oscillator coupled to an environment. The CL model is a standard tool for studying the physics of decoherence. Our \"adapted Caldeira-Leggett\" (ACL) model is built in a finite Hilbert space which makes it suitable for numerical studies. Taking a numerical approach allows us to avoid the limitations of standard approximation schemes used with the CL model. We are able to evolve the ACL model in a fully reversible unitary manner, without the built-in time asymmetry and other assumptions that come with the master equation methods typically used. We have used the ACL model to study new topics in the field of decoherence and einselection where the full unitary evolution is essential to our work. Those results (reported in companion papers) include an examination of the relationship between einselection and the arrow of time, and studies of the very earliest stages of einselection. This paper provides details about the ACL model and our numerical methods. Our numerical approach makes it straightforward to explore and plot any property of the physical system. Thus we believe the examples and illustrations we present here may provide a helpful resource for those wishing to improve their familiarity with standard decoherence results, as well as those looking to probe the underpinnings of our companion papers. We expect the ACL model will be a useful tool for exploring additional phenomena that cannot be studied using traditional approximation schemes.",
+    "pdf_url": "https://arxiv.org/pdf/2105.14040v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2105.14032",
+    "title": "Copycat process in the early stages of einselection",
+    "authors": [
+      "Rose Baunach",
+      "Andreas Albrecht",
+      "Andrew Arrasmith"
+    ],
+    "date": "2021-05-28",
+    "abstract": "We identify and describe unique early time behavior of a quantum system initially in a superposition, interacting with its environment. This behavior -- the copycat process -- occurs after the system begins to decohere, but before complete einselection. To illustrate this behavior analytic solutions for the system density matrix, its eigenvalues, and eigenstates a short time after system-environment interactions begin are provided. Features of the solutions and their connection to observables are discussed, including predictions for the continued evolution of the eigenstates towards einselection, time dependence of spin expectation values, and an estimate of the system's decoherence time. In particular we explore which aspects of the early stages of decoherence exhibit quadratic evolution to leading order, and which aspects exhibit more rapid linear behavior. Many features of our early time perturbative solutions are agnostic of the spectrum of the environment. We also extend our work beyond short time perturbation theory to compare with numerical work from a companion paper.",
+    "pdf_url": "https://arxiv.org/pdf/2105.14032v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2107.03378",
+    "title": "Emergence of the Classical from within the Quantum Universe",
+    "authors": [
+      "Wojciech Hubert Zurek"
+    ],
+    "date": "2021-07-07",
+    "abstract": "Decoherence shows how the openness of quantum systems -- interaction with their environment -- suppresses flagrant manifestations of quantumness. Einselection accounts for the emergence of preferred quasi-classical pointer states. Quantum Darwinism goes beyond decoherence. It posits that the information acquired by the monitoring environment responsible for decoherence is disseminated, in many copies, in the environment, and thus becomes accessible to observers. This indirect nature of the acquisition of information by observers who use the environment as a communication channel is the mechanism through which objective classical reality emerges from the quantum substrate: States of the systems of interest are not subjected to direct measurements (hence, not perturbed) by the agents acquiring information about them. Thus, they can exist unaffected by the information gained by observers.",
+    "pdf_url": "https://arxiv.org/pdf/2107.03378v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2205.12927",
+    "title": "Quantum security and theory of decoherence",
+    "authors": [
+      "Piotr Mironowicz"
+    ],
+    "date": "2022-05-25",
+    "abstract": "We sketch a relation between two crucial, yet independent, fields in quantum information research, viz. quantum decoherence and quantum cryptography. We investigate here how the standard cryptographic assumption of shielded laboratory, stating that data generated by a secure quantum device remain private unless explicitly published, is disturbed by the einselection mechanism of quantum Darwinism explaining the measurement process by interaction with the external environment. We illustrate the idea with a paradigmatic example of a quantum random number generator compromised by an analog of the Van Eck phreaking. In particular, we derive a trade-off relation between eavesdropper's guessing probability $P_{guess}$ and the collective decoherence factor $\u0393$ of the simple form $P_{guess} + \u0393\\geq 1$.",
+    "pdf_url": "https://arxiv.org/pdf/2205.12927v1",
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "1807.02092",
+    "title": "Quantum Theory of the Classical: Quantum Jumps, Born's Rule, and Objective Classical Reality via Quantum Darwinism",
+    "authors": [
+      "Wojciech Hubert Zurek"
+    ],
+    "date": "2018-07-05",
+    "abstract": "Emergence of the classical world from the quantum substrate of our Universe is a long-standing conundrum. I describe three insights into the transition from quantum to classical that are based on the recognition of the role of the environment. I begin with derivation of preferred sets of states that help define what exists - our everyday classical reality. They emerge as a result of breaking of the unitary symmetry of the Hilbert space which happens when the unitarity of quantum evolutions encounters nonlinearities inherent in the process of amplification - of replicating information. This derivation is accomplished without the usual tools of decoherence, and accounts for the appearance of quantum jumps and emergence of preferred pointer states consistent with those obtained via environment-induced superselection, or einselection. Pointer states obtained this way determine what can happen - define events - without appealing to Born's rule for probabilities. Therefore, Born's rule can be now deduced from the entanglement-assisted invariance, or envariance - a symmetry of entangled quantum states. With probabilities at hand one also gains new insights into foundations of quantum statistical physics. Moreover, one can now analyze information flows responsible for decoherence. These information flows explain how perception of objective classical reality arises from the quantum substrate: Effective amplification they represent accounts for the objective existence of the einselected states of macroscopic quantum systems through the redundancy of pointer state records in their environment - through quantum Darwinism.",
+    "pdf_url": "https://arxiv.org/pdf/1807.02092v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "1911.06282",
+    "title": "Quantum Decoherence",
+    "authors": [
+      "Maximilian Schlosshauer"
+    ],
+    "date": "2019-11-14",
+    "abstract": "Quantum decoherence plays a pivotal role in the dynamical description of the quantum-to-classical transition and is the main impediment to the realization of devices for quantum information processing. This paper gives an overview of the theory and experimental observation of the decoherence mechanism. We introduce the essential concepts and the mathematical formalism of decoherence, focusing on the picture of the decoherence process as a continuous monitoring of a quantum system by its environment. We review several classes of decoherence models and discuss the description of the decoherence dynamics in terms of master equations. We survey methods for avoiding and mitigating decoherence and give an overview of several experiments that have studied decoherence processes. We also comment on the role decoherence may play in interpretations of quantum mechanics and in addressing foundational questions.",
+    "pdf_url": "https://arxiv.org/pdf/1911.06282v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2106.01209",
+    "title": "CPM Categories for Galois Extensions",
+    "authors": [
+      "James Hefford",
+      "Stefano Gogioso"
+    ],
+    "date": "2021-06-02",
+    "abstract": "By considering a generalisation of the CPM construction, we develop an infinite hierarchy of probabilistic theories, exhibiting compositional decoherence structures which generalise the traditional quantum-to-classical transition. Analogously to the quantum-to-classical case, these decoherences reduce the degrees of freedom in physical systems, while at the same time restricting the fields over which the systems are defined. These theories possess fully fledged operational semantics, allowing both categorical and GPT-style approaches to their study.",
+    "pdf_url": "https://arxiv.org/pdf/2106.01209v2",
+    "categories": [
+      "quant-ph",
+      "math.CT"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2010.09201",
+    "title": "A qubit strongly interacting with a bosonic environment: Geometry of thermal states",
+    "authors": [
+      "Patrick Lee Orman",
+      "Ryoichi Kawai"
+    ],
+    "date": "2020-10-19",
+    "abstract": "A standard theory of thermodynamics states that a quantum system in contact with a thermal environment relaxes to the equilibrium state known as the Gibbs state wherein decoherence occurs in the system's energy eigenbasis. When the interaction between the system and environment is strong, a different equilibrium state can be reached that is not diagonal in the system energy eigenbasis. Zurek's theory of einselection predicts that the decoherence takes place in the so-called pointer basis under the strong coupling regime, which can be viewed as continuous measurement of the system by the environment. The thermal state under the strong coupling regime is thus expected to be diagonal in the pointer states rather than energy eigenstates. We have postulated that the thermals state in the strong coupling limit is a Gibbs state projected onto the pointer basis and have demonstrated this with a simple model of single qubit strongly interacting with a bosonic environment.",
+    "pdf_url": "https://arxiv.org/pdf/2010.09201v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2307.13611",
+    "title": "Real-space quantum-to-classical transition of time dependent background fluctuations",
+    "authors": [
+      "S. Mahesh Chandran",
+      "Karthik Rajeev",
+      "S. Shankaranarayanan"
+    ],
+    "date": "2023-07-25",
+    "abstract": "Understanding the emergence of classical behavior from a quantum theory is vital to establishing the quantum origin for the temperature fluctuations observed in the Cosmic Microwave Background (CMB). We show that a real-space approach can comprehensively address the quantum-to-classical transition problem in the leading order of curvature perturbations. To this end, we test spatial bipartitions of quadratic systems for the interplay between three different signatures of classical behavior: i) decoherence, ii) peaking of the Wigner function about classical trajectories, and iii) relative suppression of non-commutativity in observables. We extract these signatures from the covariance matrix of a multi-mode Gaussian state and address them primarily in terms of entanglement entropy and log-classicality. Through a phase-space stability analysis of spatial sub-regions via their reduced Wigner function, we ascertain that the underlying cause for the dominance of classicality signatures is the occurrence of gapped inverted mode instabilities. While the choice of conjugate variables enhances some of these signatures, decoherence studied via entanglement entropy is the stronger and more reliable condition for classicality to emerge. We demonstrate the absence of decoherence, which preempts a quantum-to-classical transition of scalar fluctuations in an expanding background in $(1+1)$-dimensions using two examples: i) a Tanh-like expansion and ii) a de-Sitter expansion. We provide connection between log classicality and particle number by studying the evolution of each normal mode at late times. We then extend the analysis to leading order fluctuations in $(3+1)-$dimensions to show that a quantum-to-classical transition occurs in the de-Sitter expansion and discuss the relevance of our analysis in distinguishing cosmological models.",
+    "pdf_url": "https://arxiv.org/pdf/2307.13611v2",
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "hep-th",
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2011.01255",
+    "title": "Quantum gravitational decoherence from fluctuating minimal length and deformation parameter at the Planck scale",
+    "authors": [
+      "Luciano Petruzziello",
+      "Fabrizio Illuminati"
+    ],
+    "date": "2020-11-02",
+    "abstract": "Schemes of gravitationally induced decoherence are being actively investigated as possible mechanisms for the quantum-to-classical transition. Here, we introduce a decoherence process due to quantum gravity effects. We assume a foamy quantum spacetime with a fluctuating minimal length coinciding on average with the Planck scale. Considering deformed canonical commutation relations with a fluctuating deformation parameter, we derive a Lindblad master equation that yields localization in energy space and decoherence times consistent with the currently available observational evidence. Compared to other schemes of gravitational decoherence, we find that the decoherence rate predicted by our model is extremal, being minimal in the deep quantum regime below the Planck scale and maximal in the mesoscopic regime beyond it. We discuss possible experimental tests of our model based on cavity optomechanics setups with ultracold massive molecular oscillators and we provide preliminary estimates on the values of the physical parameters needed for actual laboratory implementations.",
+    "pdf_url": "https://arxiv.org/pdf/2011.01255v4",
+    "categories": [
+      "gr-qc",
+      "cond-mat.stat-mech",
+      "hep-th",
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2408.02563",
+    "title": "The effect of quantum decoherence on inflationary gravitational waves",
+    "authors": [
+      "Jessie de Kruijf",
+      "Nicola Bartolo"
+    ],
+    "date": "2024-08-05",
+    "abstract": "The theory of inflation provides a mechanism to explain the structures we observe today in the Universe, starting from quantum-mechanically generated fluctuations. However, this leaves the question of: how did the quantum-to-classical transition, occur? During inflation, tensor perturbations interact (at least gravitationally) with other fields, meaning that we need to view these perturbations as an open system that interacts with an environment. In this paper, the evolution of the system is described using a Lindblad equation, which describes the quantum decoherence of the system. This is a possible mechanism for explaining the quantum-to-classical transition. We show that this quantum decoherence leads to a scale-dependent increase of the gravitational wave power spectrum, depending on the strength and time dependence of the interaction between the system and the environment. By using current upper bounds on the gravitational wave power spectrum from inflation, obtained from CMB and the LIGO-Virgo-KAGRA constraints, we find an upper bound on the interaction strength. Furthermore, we compute the decoherence criterion, which indicates the minimal interaction strength needed for a specific scale to have successfully decohered by the end of inflation. Assuming that the CMB modes have completely decohered, we indicate a lower bound on the interaction strength. In addition, this decoherence criterion allows us to look at which scales might not have fully decohered and could still show some relic quantum signatures. Lastly, we use sensitivity forecasts to study how future gravitational-wave detectors, such as LISA and ET, could constrain the decoherence parameter space. Due to the scale-dependence of the power spectrum, LISA could only have a very small impact. However, ET will be able to significantly improve our current constraints for specific decoherence scenarios.",
+    "pdf_url": "https://arxiv.org/pdf/2408.02563v2",
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph",
+      "hep-th",
+      "quant-ph"
+    ],
+    "tags": [
+      "decoherence"
+    ]
+  },
+  {
+    "id": "2010.14965",
+    "title": "Gravitation and the Problem of Quantum Measurement",
+    "authors": [
+      "Chris Allen Broka"
+    ],
+    "date": "2020-10-27",
+    "abstract": "We consider the possibility that the goal of quantizing General Relativity should be abandoned in favor of Semiclassical Gravity. A formalism is provided for doing so. The quantum measurement problem is investigated in this context. Particular attention is paid to the EPR paradox and the Page-Geilker experiment.",
+    "pdf_url": "https://arxiv.org/pdf/2010.14965v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "measurement",
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2004.04352",
+    "title": "A Steering Paradox for Einstein-Podolsky-Rosen Argument and its Extended Inequality",
+    "authors": [
+      "Tianfeng Feng",
+      "Changliang Ren",
+      "Qin Feng",
+      "Maolin Luo",
+      "Xiaogang Qiang",
+      "Jing-Ling Chen",
+      "Xiaoqi Zhou"
+    ],
+    "date": "2020-04-09",
+    "abstract": "The Einstein-Podolsky-Rosen (EPR) paradox is one of the milestones in quantum foundations, arising from the lack of local realistic description of quantum mechanics. The EPR paradox has stimulated an important concept of \"quantum nonlocality\", which manifests itself by three different types: quantum entanglement, quantum steering, and Bell nonlocality. Although Bell nonlocality is more often used to show the \"quantum nonlocality\", the original EPR paradox is essentially a steering paradox. In this work, we formulate the original EPR steering paradox into a contradiction equality,thus making it amenable to an experimental verification. We perform an experimental test of the steering paradox in a two-qubit scenario. Furthermore, by starting from the steering paradox, we generate a generalized linear steering inequality and transform this inequality into a mathematically equivalent form, which is more friendly for experimental implementation, i.e., one may only measure the observables in $x$-, $y$-, or $z$-axis of the Bloch sphere, rather than other arbitrary directions. We also perform experiments to demonstrate this scheme. Within the experimental errors, the experimental results coincide with the theoretical predictions. Our results deepen the understanding of quantum foundations and provide an efficient way to detect the steerability of quantum states.",
+    "pdf_url": "https://arxiv.org/pdf/2004.04352v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "1801.09891",
+    "title": "Some remarks on Bell non-locality and Einstein-Podolsky-Rosen steering of bipartite states",
+    "authors": [
+      "Huaixin Cao",
+      "Zhihua Guo"
+    ],
+    "date": "2018-01-30",
+    "abstract": "Bell nonlocality and Einstein-Podolsky-Rosen (EPR) steering are every important quantum correlations of a composite quantum system. Bell nonlocality of a bipartite state is a quantum correlation demonstrated by some local quantum measurements, while EPR steering is another form of quantum correlations, observed firstly by Schrodinger in the context of famous EPR paradox. In this paper, we give some remarks on Bell nonlocality and EPR steering of bipartite states, including mathematical definitions and characterizations of these two quantum correlations, the convexity and closedness of the set of all Bell local states and the set of all EPR unsteerable states. We also derive a EPR-steering criteria, with which the EPR steerability of the maximally entangled states are checked.",
+    "pdf_url": "https://arxiv.org/pdf/1801.09891v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2201.01886",
+    "title": "Deterministic all-versus-nothing proofs of Bell nonlocality based on non-stabilizer states",
+    "authors": [
+      "Weidong Tang"
+    ],
+    "date": "2022-01-06",
+    "abstract": "The all-versus-nothing proof of Bell nonlocality is a kind of mainstream demonstration of Bell's theorem without inequalities. Two kinds of such proofs, called the deterministic all-versus-nothing proof and the probabilistic all-versus-nothing proof, are both widely investigated. So far, all previous deterministic all-versus-nothing proofs of Bell nonlocality are constructed based on stabilizer states. To break with this tradition, some deterministic all-versus-nothing proofs induced from non-stabilizer states are firstly presented in this work. These results not only can greatly enrich the family of the demonstration of Bell nonlocality without inequalities, but also may provide us some useful resources in certain quantum information processing.",
+    "pdf_url": "https://arxiv.org/pdf/2201.01886v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2210.03365",
+    "title": "Spin-1 photons, spin-1/2 electrons, Bell's inequalities, and Feynman's special perspective on quantum mechanics",
+    "authors": [
+      "Masud Mansuripur"
+    ],
+    "date": "2022-10-07",
+    "abstract": "The Einstein-Podolsky-Rosen (EPR) paradox that argues for the incompleteness of quantum mechanics as a description of physical reality has been put to rest by John Bell's famous theorem, which inspired numerous experimental tests and brought about further affirmations of quantum reality. Nevertheless, in his writings and public presentations, Richard Feynman never acknowledged the significance of Bell's contribution to the resolution of the EPR paradox. In this paper, we discuss several variants of the Bell inequalities (including one that was specifically espoused by Feynman), and explore the ways in which they demolish the arguments in favor of local hidden-variable theories. We also examine the roots of Feynman's attitude toward Bell's theorem in the context of Feynman's special perspective on quantum mechanics.",
+    "pdf_url": "https://arxiv.org/pdf/2210.03365v1",
+    "categories": [
+      "quant-ph",
+      "physics.optics"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2104.10700",
+    "title": "Bell nonlocality in networks",
+    "authors": [
+      "Armin Tavakoli",
+      "Alejandro Pozas-Kerstjens",
+      "Ming-Xing Luo",
+      "Marc-Olivier Renou"
+    ],
+    "date": "2021-04-21",
+    "abstract": "Bell's theorem proves that quantum theory is inconsistent with local physical models. It has propelled research in the foundations of quantum theory and quantum information science. As a fundamental feature of quantum theory, it impacts predictions far beyond the traditional scenario of the Einstein-Podolsky-Rosen paradox. In the last decade, the investigation of nonlocality has moved beyond Bell's theorem to consider more sophisticated experiments that involve several independent sources which distribute shares of physical systems among many parties in a network. Network scenarios, and the nonlocal correlations that they give rise to, lead to phenomena that have no counterpart in traditional Bell experiments, thus presenting a formidable conceptual and practical challenge. This review discusses the main concepts, methods, results and future challenges in the emerging topic of Bell nonlocality in networks.",
+    "pdf_url": "https://arxiv.org/pdf/2104.10700v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2012.00733",
+    "title": "Multistage games and Bell scenarios with communication",
+    "authors": [
+      "George Moreno",
+      "Ranieri Nery",
+      "Alberto Palhares",
+      "Rafael Chaves"
+    ],
+    "date": "2020-12-01",
+    "abstract": "Bell nonlocality is a cornerstone of quantum theory with applications in information processing ranging from cryptography to distributed computing and game theory. Indeed, it is known that Bell's theorem can be formally linked to Bayesian games, allowing the use of nonlocal correlations to advise players and thereby achieve new points of equilibrium that are unavailable classically. Here we generalize this link, proving the connection between multistage games of incomplete information with Bell scenarios involving the communication of measurement outcomes between the parties. We apply the general framework for a few cases of interest and analyze the equilibrium reached by quantum nonlocal correlations.",
+    "pdf_url": "https://arxiv.org/pdf/2012.00733v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "1912.06349",
+    "title": "The Bell theorem revisited: geometric phases in gauge theories",
+    "authors": [
+      "David H. Oaknin"
+    ],
+    "date": "2019-12-13",
+    "abstract": "The Bell theorem stands as an insuperable roadblock in the path to a very desired intuitive solution of the EPR paradox and, hence, it lies at the core of the current lack of a clear interpretation of the quantum formalism. The theorem states through an experimentally testable inequality that the predictions of quantum mechanics for the Bell polarization states of two entangled particles cannot be reproduced by any statistical model of hidden variables that shares certain intuitive features. In this paper, we show, however, that the proof of the Bell theorem involves a subtle, though crucial, assumption that is not required by fundamental physical principles and, hence, it is not necessarily fulfilled in the experimental setup that tests the inequality. Indeed, this assumption can neither be properly implemented within the standard framework of quantum mechanics. Namely, the proof of the theorem assumes that there exists a preferred absolute frame of reference, supposedly provided by the lab, which enables to compare the orientation of the polarization measurement devices for successive realizations of the experiment and, hence, to define jointly their response functions over the space of hypothetical hidden configurations for all their possible alternative settings. We notice, however, that only the relative orientation between the two measurement devices in every single realization of the experiment is a properly defined physical degree of freedom, while their global rigid orientation is a spurious gauge degree of freedom. Hence, the preferred frame of reference required by the proof of the Bell theorem does not necessarily exist. Following this observation, we build an explicitly local model of hidden variables that reproduces the predictions of quantum mechanics for the Bell states.",
+    "pdf_url": "https://arxiv.org/pdf/1912.06349v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2210.14447",
+    "title": "Quantum Bell nonlocality cannot be shared under a special kind of bilateral measurements for high-dimensional quantum states",
+    "authors": [
+      "Tinggui Zhang",
+      "Qiming Luo",
+      "Xiaofen Huang"
+    ],
+    "date": "2022-10-26",
+    "abstract": "Quantum Bell nonlocality is an important quantum phenomenon. Recently, the shareability of Bell nonlocality under unilateral measurements has been widely studied. In this study, we consider the shareability of quantum Bell nonlocality under bilateral measurements. Under a specific class of projection operators, we find that quantum Bell nonlocality cannot be shared for a limited number of times, as in the case of unilateral measurements. Our proof is analytical and our measurement strategies can be generalized to higher dimension cases.",
+    "pdf_url": "https://arxiv.org/pdf/2210.14447v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2005.03835",
+    "title": "Entanglement versus Bell nonlocality of quantum nonequilibrium steady states",
+    "authors": [
+      "Kun Zhang",
+      "Jin Wang"
+    ],
+    "date": "2020-05-08",
+    "abstract": "We study the entanglement and the Bell nonlocality of a coupled two-qubit system, in which each qubit is coupled with one individual environment. We study how the nonequilibrium environments (with different temperatures or chemical potentials) influence the entanglement and the Bell nonlocality. The nonequilibrium environments can have constructive effects on the entanglement and the Bell nonlocality. Nonequilibrium thermodynamic cost can sustain the thermal energy or particle current and enhance the entanglement and the Bell nonlocality. However, the nonequilibrium conditions (characterized by the temperature differences or the thermodynamic cost quantified by the entropy production rates) which give the maximal violation of the Bell inequalities are different from the nonequilibrium conditions which give the maximal entanglement. When the Bell inequality has asymmetric observables (between Alice and Bob), for example the $I_{3322}$ inequality, such asymmetry can also be reflected from the effects under the nonequilibrium environments. The spatial asymmetric two-qubit system coupled with nonequilibrium bosonic environments shows the thermal rectification effect, which can be witnessed by the Bell nonlocality. Different spatial asymmetric factors can be linearly cancelled with each other in the thermal rectification effect, which is also reflected on the changes of the entanglement and the Bell nonlocality. Our study demonstrates that the nonequilibrium environments are both valuable for the entanglement and Bell nonlocality resources, based on different optimal nonequilibrium conditions though.",
+    "pdf_url": "https://arxiv.org/pdf/2005.03835v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "1909.00346",
+    "title": "Inequality relation between entanglement and Bell nonlocality for arbitrary two-qubit states",
+    "authors": [
+      "Xiao-Gang Fan",
+      "Zhi-Yong Ding",
+      "Fei Ming",
+      "Huan Yang",
+      "Dong Wang",
+      "Liu Ye"
+    ],
+    "date": "2019-09-01",
+    "abstract": "Entanglement and Bell nonlocality are used to describe quantum inseparabilities. Bell-nonlocal states form a strict subset of entangled states. A natural question arises concerning how much territory Bell nonlocality occupies entanglement for a general two-qubit entangled state. In this work, we investigate the relation between entanglement and Bell nonlocality by using lots of randomly generated two-qubit states, and give out a constraint inequality relation between the two quantum resources. For studying the upper or lower boundary of the inequality relation, we discover maximally (minimally) nonlocal entangled states, which maximize (minimize) the value of the Bell nonlocality for a given value of the entanglement. Futhermore, we consider a special kind of mixed state transformed by performing an arbitrary unitary operation on werner state. It is found that the special mixed state's entanglement and Bell nonlocality are related to ones of a pure state transformed by the unitary operation performed on the Bell state.",
+    "pdf_url": "https://arxiv.org/pdf/1909.00346v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2210.05985",
+    "title": "Sharing Quantum Nonlocality in Star Network Scenarios",
+    "authors": [
+      "Tinggui Zhang",
+      "Naihuan Jing",
+      "Shao-Ming Fei"
+    ],
+    "date": "2022-10-12",
+    "abstract": "The Bell nonlocality is closely related to the foundations of quantum physics and has significant applications to security questions in quantum key distributions. In recent years, the sharing ability of the Bell nonlocality has been extensively studied. The nonlocality of quantum network states is more complex. We first discuss the sharing ability of the simplest bilocality under unilateral or bilateral POVM measurements, and show that the nonlocality sharing ability of network quantum states under unilateral measurements is similar to the Bell nonlocality sharing ability, but different under bilateral measurements. For the star network scenarios, we present for the first time comprehensive results on the nonlocality sharing properties of quantum network states, for which the quantum nonlocality of the network quantum states has a stronger sharing ability than the Bell nonlocality.",
+    "pdf_url": "https://arxiv.org/pdf/2210.05985v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2012.06918",
+    "title": "Quantum Bell Nonlocality is Entanglement",
+    "authors": [
+      "Kuntal Sengupta",
+      "Rana Zibakhsh",
+      "Eric Chitambar",
+      "Gilad Gour"
+    ],
+    "date": "2020-12-12",
+    "abstract": "Bell nonlocality describes a manifestation of quantum mechanics that cannot be explained by any local hidden variable model. Its origin lies in the nature of quantum entanglement, although understanding the precise relationship between nonlocality and entanglement has been a notorious open problem. In this paper, we resolve this problem by developing a dynamical framework in which quantum Bell nonlocality emerges as special form of entanglement, and both are unified as resources under local operations and classical communication (LOCC). Our framework is built on the notion of quantum processes, which are abstract quantum channels mapping elements between fixed intervals in space and time. Entanglement is then identified as a quantum process that cannot be generated by LOCC while Bell nonlocality is the subset of these processes that have an instantaneous input-output delay time. LOCC pre-processing is a natural set of free operations in this theory, thereby enabling all entangled states to activate some form of Bell nonlocality. In addition, we generalize the CHSH witnesses from the state domain to the domain of entangled quantum measurements, and provide a systematic method to quantify the Bell nonlocality of a bipartite quantum channel.",
+    "pdf_url": "https://arxiv.org/pdf/2012.06918v1",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2412.00406",
+    "title": "Resolving Schr\u00f6dinger's analysis of the Einstein-Podolsky-Rosen paradox: an incompleteness criterion and weak elements of reality",
+    "authors": [
+      "C. McGuigan",
+      "R. Y. Teh",
+      "P. D. Drummond",
+      "M. D Reid"
+    ],
+    "date": "2024-11-30",
+    "abstract": "The Einstein-Podolsky-Rosen (EPR) paradox was presented as an argument that quantum mechanics is an incomplete description of physical reality. However, the premises on which the argument is based are falsifiable by Bell experiments. In this paper, we examine the EPR paradox from the perspective of Schrodinger's reply to EPR. Schrodinger pointed out that the correlated states of the paradox enable the simultaneous measurement of $\\hat{x}$ and $\\hat{p}$, one by direct, the other by indirect measurement. Schrodinger's analysis takes on a timely importance because a recent experiment realizes these correlations for macroscopic atomic systems. Different to the original argument, Schrodinger's analysis applies to the experiment at the time when the measurement settings have been fixed. In this context, a subset of local realistic assumptions (not negated by Bell's theorem) implies that $x$ and $p$ are simultaneously precisely defined. Hence, an alternative EPR argument can be presented that quantum mechanics is incomplete, based on a set of (arguably) nonfalsifiable premises. As systems are amplified, macroscopic realism can be invoked, and the premises are referred to as weak macroscopic realism (wMR). In this paper, we propose a realization of Schrodinger's gedanken experiment where field quadrature phase amplitudes $\\hat{X}$ and $\\hat{P}$ replace position and momentum. Assuming wMR, we derive a criterion for the incompleteness of quantum mechanics, showing that the criterion is feasible for current experiments. Questions raised by Schrodinger are resolved. By performing simulations based on an objective-field ($Q$-based) model for quantum mechanics, we illustrate the emergence on amplification of simultaneous predetermined values for $\\hat{X}$ and $\\hat{P}$. The values can be regarded as weak elements of reality, along the lines of Bell's macroscopic beables.",
+    "pdf_url": "https://arxiv.org/pdf/2412.00406v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr"
+    ]
+  },
+  {
+    "id": "2102.13036",
+    "title": "Kochen-Specker Contextuality",
+    "authors": [
+      "Costantino Budroni",
+      "Ad\u00e1n Cabello",
+      "Otfried G\u00fchne",
+      "Matthias Kleinmann",
+      "Jan-\u00c5ke Larsson"
+    ],
+    "date": "2021-02-25",
+    "abstract": "A central result in the foundations of quantum mechanics is the Kochen-Specker theorem. In short, it states that quantum mechanics is in conflict with classical models in which the result of a measurement does not depend on which other compatible measurements are jointly performed. Here compatible measurements are those that can be implemented simultaneously or, more generally, those that are jointly measurable. This conflict is generically called quantum contextuality. In this review, an introduction to this subject and its current status is presented. Several proofs of the Kochen-Specker theorem and different notions of contextuality are reviewed. How to experimentally test some of these notions is explained and connections between contextuality and nonlocality or graph theory are discussed. Finally, some applications of contextuality in quantum information processing are reviewed.",
+    "pdf_url": "https://arxiv.org/pdf/2102.13036v5",
+    "categories": [
+      "quant-ph",
+      "math-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2001.07656",
+    "title": "Proof of the Peres conjecture for contextuality",
+    "authors": [
+      "Zhen-Peng Xu",
+      "Jing-Ling Chen",
+      "Otfried G\u00fchne"
+    ],
+    "date": "2020-01-21",
+    "abstract": "A central result in the foundations of quantum mechanics is the Kochen-Specker theorem. In short, it states that quantum mechanics cannot be reconciled with classical models that are noncontextual for ideal measurements. The first explicit derivation by Kochen and Specker was rather complex, but considerable simplifications have been achieved thereafter. We propose a systematic approach to find minimal Hardy-type and Greenberger-Horne-Zeilinger-type (GHZ-type) proofs of the Kochen-Specker theorem, these are characterized by the fact that the predictions of classical models are opposite to the predictions of quantum mechanics. Based on our results, we show that the Kochen-Specker set with 18 vectors from Cabello et al. [A. Cabello et al., Phys. Lett. A 212, 183 (1996)] is the minimal set for any dimension, verifying a longstanding conjecture by Peres. Our results allow to identify minimal contextuality scenarios and to study their usefulness for information processing.",
+    "pdf_url": "https://arxiv.org/pdf/2001.07656v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2206.13139",
+    "title": "Optimal Measurement Structures for Contextuality Applications",
+    "authors": [
+      "Yuan Liu",
+      "Ravishankar Ramanathan",
+      "Karol Horodecki",
+      "Monika Rosicka",
+      "Pawe\u0142 Horodecki"
+    ],
+    "date": "2022-06-27",
+    "abstract": "The Kochen-Specker (KS) theorem is a corner-stone result in the foundations of quantum mechanics describing the fundamental difference between quantum theory and classical non-contextual theories. Recently specific substructures termed $01$-gadgets were shown to exist within KS proofs that capture the essential contradiction of the theorem. Here, we show these gadgets and their generalizations provide an optimal toolbox for contextuality applications including (i) constructing classical channels exhibiting entanglement-assisted advantage in zero-error communication, (ii) identifying large separations between quantum theory and binary generalised probabilistic theories, and (iii) finding optimal tests for contextuality-based semi-device-independent randomness generation. Furthermore, we introduce and study a generalisation to definite prediction sets for more general logical propositions, that we term higher-order gadgets. We pinpoint the role these higher-order gadgets play in KS proofs by identifying these as induced subgraphs within KS graphs and showing how to construct proofs of state-independent contextuality using higher-order gadgets as building blocks. The constructions developed here may help in solving some of the remaining open problems regarding minimal proofs of the Kochen-Specker theorem.",
+    "pdf_url": "https://arxiv.org/pdf/2206.13139v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2405.02964",
+    "title": "Trade-off relations between Bell nonlocality and local Kochen-Specker contextuality in generalized Bell scenarios",
+    "authors": [
+      "Lucas E. A. Porto",
+      "Gabriel Ruffolo",
+      "Rafael Rabelo",
+      "Marcelo Terra Cunha",
+      "Pawel Kurzynski"
+    ],
+    "date": "2024-05-05",
+    "abstract": "The relations between Bell nonlocality and Kochen-Specker contextuality have been subject of research from many different perspectives in the last decades. Recently, some interesting results on these relations have been explored in the so-called generalized Bell scenarios, that is, scenarios where Bell spatial separation (or agency independence) coexist with (at least one of the) parties' ability to perform compatible measurements at each round of the experiment. When this party has an $n$-cycle compatiblity setup, it was first claimed that Bell nonlocality could not be concomitantly observed with contextuality at this party's local experiment. However, by a more natural reading of the definition of locality, it turns out that both Bell nonlocality and local contextuality can, in fact, be jointly present. In spite of it, in this work we prove that there cannot be arbitrary amounts of both of these two resources together. That is, we show the existence of a trade-off relation between Bell nonlocality and local contextuality in such scenarios. We explore this trade-off both in terms of inequalities and quantifiers, and we discuss how it can be understood in terms of a `global' notion of contextuality. Furthermore, we show that such notion does not only encompass local contextuality and Bell nonlocality, but also other forms of nonclassical correlations.",
+    "pdf_url": "https://arxiv.org/pdf/2405.02964v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2204.05385",
+    "title": "Synchronous observation of Bell nonlocality and state-dependent Kochen-Specker contextuality",
+    "authors": [
+      "Lei Xiao",
+      "Gabriel Ruffolo",
+      "Andr\u00e9 Mazzari",
+      "Tassius Temistocles",
+      "Marcelo Terra Cunha",
+      "Rafael Rabelo",
+      "Peng Xue"
+    ],
+    "date": "2022-04-11",
+    "abstract": "Bell nonlocality and Kochen-Specker contextuality are two remarkable nonclassical features of quantum theory, related to strong correlations between outcomes of measurements performed on quantum systems. Both phenomena can be witnessed by the violation of certain inequalities, the simplest and most important of which are the Clauser-Horne-Shimony-Holt (CHSH) and the Klyachko-Can-Binicio\u01e7lu-Shumovski (KCBS), for Bell nonlocality and Kochen-Specker contextuality, respectively. It has been shown that, using the most common interpretation of Bell scenarios, quantum systems cannot violate both inequalities concomitantly, thus suggesting a monogamous relation between the two phenomena. In this Letter, we show that the joint consideration of the CHSH and KCBS inequalities naturally calls for the so-called generalized Bell scenarios, which, contrary to the previous results, allows for joint violation of them. A photonic experiment thus tests the synchronous violation of both CHSH and KCBS inequalities. Our results agree with the theoretical predictions, thereby providing experimental proof of the coexistence of Bell nonlocality and Kochen-Specker contextuality in the simplest scenario, and shed new light for further explorations of nonclassical features of quantum systems.",
+    "pdf_url": "https://arxiv.org/pdf/2204.05385v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "1909.05434",
+    "title": "Classical causal models cannot faithfully explain Bell nonlocality or Kochen-Specker contextuality in arbitrary scenarios",
+    "authors": [
+      "J. C. Pearl",
+      "E. G. Cavalcanti"
+    ],
+    "date": "2019-09-12",
+    "abstract": "In a recent work, it was shown by one of us (EGC) that Bell-Kochen-Specker inequality violations in phenomena satisfying the no-disturbance condition (a generalisation of the no-signalling condition) cannot in general be explained with a faithful classical causal model -- that is, a classical causal model that satisfies the assumption of no fine-tuning. The proof of that claim however was restricted to Bell scenarios involving 2 parties or Kochen-Specker-contextuality scenarios involving 2 measurements per context. Here we show that the result holds in the general case of arbitrary numbers of parties or measurements per context; it is not an artefact of the simplest scenarios. This result unifies, in full generality, Bell nonlocality and Kochen-Specker contextuality as violations of a fundamental principle of classical causality. We identify, however, an implicit assumption in the former proof, making it explicit here: that certain operational symmetries of the phenomenon are reflected in the model, rather than requiring fine-tuned choices of model parameters. This clarifies a subtle but important distinction between Bell nonlocality and Kochen-Specker contextuality.",
+    "pdf_url": "https://arxiv.org/pdf/1909.05434v4",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2311.11218",
+    "title": "State-independent all-versus-nothing arguments",
+    "authors": [
+      "Boseong Kim",
+      "Samson Abramsky"
+    ],
+    "date": "2023-11-19",
+    "abstract": "Contextuality is a key feature of quantum information that challenges classical intuitions, providing the basis for constructing explicit proofs of quantum advantage. While a number of evidences of quantum advantage are based on the contextuality argument, the definition of contextuality is different in each research, causing incoherence in the establishment of instant connection between their results. In this report, we review the mathematical structure of sheaf-theoretic contextuality and extend this framework to explain Kochen-Specker type contextuality. We first cover the definitions in contextuality with detailed examples. Then, we state the all-versus-nothing (AvN) argument and define a state-independent AvN class. It is shown that Kochen-Specker type contextuality, or contextuality in a partial closure, can be translated into this framework by the partial closure of observables under the multiplication of commuting measurements. Finally, we compare each case of contextuality in an operator-side view, where the strict hierarchy of contextuality class in a state-side view seems to merge into the state-independent AvN class together with the partial closure formalism. Overall, this report provides a unified interpretation of contextuality by integrating Kochen-Specker type notions into the state-independent AvN argument. The results present novel insights into contextuality, which pave the way for a coherent approach to constructing proofs of quantum advantage.",
+    "pdf_url": "https://arxiv.org/pdf/2311.11218v1",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2410.15790",
+    "title": "Event-based quantum contextuality theory",
+    "authors": [
+      "Songyi Liu",
+      "Yongjun Wang",
+      "Baoshan Wang",
+      "Yunyi Jia"
+    ],
+    "date": "2024-10-21",
+    "abstract": "Fully revealing the mathmatical structure of quantum contextuality is a significant task, while some known contextuality theories are only applicable for rank-1 projectors. That is because they adopt the observable-based definitions. This paper overcomes the challenges faced by some known contextuality theories by establishing an event-based contextuality theory with exclusive partial Boolean algebra, which is used to describe the contextual systems with local consistency and exclusivity principle. Our theory provides a precise mathematical framework for quantum contextuality, which can handle the scenarios composed of general projectors, and introduces a more complete contextuality hierarchy. We conclude that the Kochen-Specker contextuality is equivalent to the state-independent strong contextuality for finite dimensional quantum systems. Therefore, when considering both the strength and proportion of contextual quantum states, Kochen-Specker contextuality is the strongest.",
+    "pdf_url": "https://arxiv.org/pdf/2410.15790v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "1910.09591",
+    "title": "Contextuality and the fundamental theorems of quantum mechanics",
+    "authors": [
+      "Andreas D\u00f6ring",
+      "Markus Frembs"
+    ],
+    "date": "2019-10-21",
+    "abstract": "Contextuality is a key feature of quantum mechanics, as was first brought to light by Bohr and later realised more technically by Kochen and Specker. Isham and Butterfield put contextuality at the heart of their topos-based formalism and gave a reformulation of the Kochen-Specker theorem in the language of presheaves. Here, we broaden this perspective considerably (partly drawing on existing, but scattered results) and show that apart from the Kochen-Specker theorem, also Wigner's theorem, Gleason's theorem, and Bell's theorem relate fundamentally to contextuality. We provide reformulations of the theorems using the language of presheaves over contexts and give general versions valid for von Neumann algebras. This shows that a very substantial part of the structure of quantum theory is encoded by contextuality.",
+    "pdf_url": "https://arxiv.org/pdf/1910.09591v2",
+    "categories": [
+      "math-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2408.16764",
+    "title": "An algebraic characterisation of Kochen-Specker contextuality",
+    "authors": [
+      "Markus Frembs"
+    ],
+    "date": "2024-08-29",
+    "abstract": "Contextuality is a key distinguishing feature between classical and quantum physics. It expresses a fundamental obstruction to describing quantum theory using classical concepts. In turn, understood as a resource for quantum computation, it is expected to hold the key to quantum advantage. Yet, despite its long recognised importance in quantum foundations and, more recently, in quantum computation, the structural essence of contextuality has remained somewhat elusive - different frameworks address different aspects of the phenomenon, yet their precise relationship often remains unclear. This issue already looms large at the level of the Bell-Kochen-Specker theorem: while traditional proofs proceed by showing the nonexistence of valuations, the notion of state-independent contextuality in the marginal approach allows to prove contextuality from seemingly weaker assumptions. In the light of this, and at the absence of a unified mathematical framework for Kochen-Specker contextuality, the original algebraic approach has been widely abandoned, in favour of the study of contextual correlations. Here, we reinstate the algebraic perspective on contextuality. Concretely, by building on the novel concept of context connections, we reformulate the algebraic relations between observables originally postulated by Kochen and Specker, and we explicitly demonstrate their consistency with the notion of state-independent contextuality. In the present paper, we focus on the new conceptual ideas and discuss them in the concrete setting of spin-1 observables, specifically those in the example of [S. Yu and C.H. Oh, Phys. Rev. Lett., 108, 030402 (2012)]; in a companion paper, we generalise these ideas, obtain a complete characterisation of Kochen-Specker contextuality and provide a detailed comparison with the related notions of contextuality in the marginal and graph-theoretic approach.",
+    "pdf_url": "https://arxiv.org/pdf/2408.16764v1",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2002.12216",
+    "title": "Sum-of-squares decompositions for a family of noncontextuality inequalities and self-testing of quantum devices",
+    "authors": [
+      "Debashis Saha",
+      "Rafael Santos",
+      "Remigiusz Augusiak"
+    ],
+    "date": "2020-02-27",
+    "abstract": "Violation of a noncontextuality inequality or the phenomenon referred to `quantum contextuality' is a fundamental feature of quantum theory. In this article, we derive a novel family of noncontextuality inequalities along with their sum-of-squares decompositions in the simplest (odd-cycle) sequential-measurement scenario capable to demonstrate Kochen-Specker contextuality. The sum-of-squares decompositions allow us to obtain the maximal quantum violation of these inequalities and a set of algebraic relations necessarily satisfied by any state and measurements achieving it. With their help, we prove that our inequalities can be used for self-testing of three-dimensional quantum state and measurements. Remarkably, the presented self-testing results rely on a single assumption about the measurement device that is much weaker than the assumptions considered in Kochen-Specker contextuality.",
+    "pdf_url": "https://arxiv.org/pdf/2002.12216v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2410.14463",
+    "title": "An abstract structure determines the contextuality degree of observable-based Kochen-Specker proofs",
+    "authors": [
+      "Axel Muller",
+      "Alain Giorgetti"
+    ],
+    "date": "2024-10-18",
+    "abstract": "This article delves into the concept of quantum contextuality, specifically focusing on proofs of the Kochen-Specker theorem obtained by assigning Pauli observables to hypergraph vertices satisfying a given commutation relation. The abstract structure composed of this hypergraph and the graph of anticommutations is named a hypergram. Its labelings with Pauli observables generalize the well-known magic sets. A first result is that all these correct quantum labelings of a given hypergram inherently possess the same degree of contextuality. Then we provide a necessary and sufficient condition for the existence of such quantum labelings and an efficient algorithm to find one of them. We finally attach to each assignable hypergram an abstract notion of contextuality degree. By presenting the study of observable-based Kochen-Specker proofs from the perspectives of graphs and matrices, this abstraction opens the way to new methods to search for original contextual configurations.",
+    "pdf_url": "https://arxiv.org/pdf/2410.14463v2",
+    "categories": [
+      "quant-ph",
+      "cs.DM",
+      "math.SG"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "2212.06976",
+    "title": "Contextuality analysis of disturbing data cannot preserve core Kochen-Specker principles",
+    "authors": [
+      "Alisson Tezzin",
+      "Elie Wolfe",
+      "Barbara Amaral",
+      "Matt Jones"
+    ],
+    "date": "2022-12-14",
+    "abstract": "We address the challenge of extending the criterion for Kochen-Specker contextuality to data with disturbance, to accommodate experimental imperfections or applications to macroscopic settings beyond quantum physics. We find that any such extension must abandon one or more principles that are core to the concept of contextuality. Specifically, we prove that no extended criterion agreeing with Kochen-Specker contextuality in the absence of disturbance can simultaneously satisfy the following: (1) any deterministic system is noncontextual; (2) discarding information cannot turn a noncontextual system into a contextual one; (3) classical post-processing cannot create contextuality; and (4) the joint realization of two statistically independent noncontextual systems is noncontextual. From the standpoint of resource theories, the obstruction arises because free operations can turn noncontextual disturbing behaviors into contextual non-disturbing ones. We suggest that future work on extended contextuality needs to move beyond the standard model-independent framework and account for the causal structure responsible for disturbance.",
+    "pdf_url": "https://arxiv.org/pdf/2212.06976v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "1801.08150",
+    "title": "Quantum Advantage from Sequential-Transformation Contextuality",
+    "authors": [
+      "Shane Mansfield",
+      "Elham Kashefi"
+    ],
+    "date": "2018-01-24",
+    "abstract": "We introduce a notion of contextuality for transformations in sequential contexts, distinct from the Bell-Kochen-Specker and Spekkens notions of contextuality. Within a transformation-based model for quantum computation we show that strong sequential-transformation contextuality is necessary and sufficient for deterministic computation of non-linear functions if classical components are restricted to mod2-linearity and matching constraints apply to any underlying ontology. For probabilistic computation, sequential-transformation contextuality is necessary and sufficient for advantage in this task and the degree of advantage quantifiably relates to the degree of contextuality.",
+    "pdf_url": "https://arxiv.org/pdf/1801.08150v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "contextuality"
+    ]
+  },
+  {
+    "id": "1804.11119",
+    "title": "Uncertainty-Reality Complementarity and Entropic Uncertainty Relations",
+    "authors": [
+      "\u0141ukasz Rudnicki"
+    ],
+    "date": "2018-04-30",
+    "abstract": "Reality of quantum observables, a feature of long-standing interest within foundations of quantum mechanics, has recently been quantified and deeply studied by means of entropic measures [Phys. Rev. A 97, 022107 (2018)]. However, there is no state-independent \"reality trade-off\" between noncommuting observables, as in certain systems all observables are real [Europhys. Lett. 112, 40005 (2015)]. We show that the entropic uncertainty relation in the presence of quantum memory [Nature Phys. 6, 659 (2010)] perfectly supplements the discussed notion of reality, rendering trade-offs between reality and quantum uncertainty. State-independent complementarity inequalities involving entropic measures of both, uncertainty and reality, for two observables are presented.",
+    "pdf_url": "https://arxiv.org/pdf/1804.11119v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2506.21051",
+    "title": "Experimental Characterization of Quantumness Using the Uncertainty Principle, Coherence, and Nonlocality",
+    "authors": [
+      "Yan-Han Yang",
+      "Xin-Zhu Liu",
+      "Xing-Zhou Zheng",
+      "Jun-Li Jiang",
+      "Xue Yang",
+      "Shao-Ming Fei",
+      "Zhihao Ma",
+      "Zizhu Wang",
+      "Ming-Xing Luo"
+    ],
+    "date": "2025-06-26",
+    "abstract": "Heisenberg's uncertainty principle, coherence and Bell nonlocality have been individually examined through many experiments. In this Letter, we systematically characterize all of this quantumness in a unified manner. We first construct universal uncertainty relations to reveal intrinsic features of incompatible measurements, which include all the state-independent uncertainties as special cases. We further extend to witness both quantum coherence and Bell nonlocality. We finally perform experiments with unified two-photon states, and validate the uncertainty principle, coherence and Bell nonlocality within the experimental error. Our methods for witnessing quantumness are valuable in characterizing quantum correlations in quantum information processing.",
+    "pdf_url": "https://arxiv.org/pdf/2506.21051v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2009.08440",
+    "title": "Metrological complementarity reveals the Einstein-Podolsky-Rosen paradox",
+    "authors": [
+      "Benjamin Yadin",
+      "Matteo Fadel",
+      "Manuel Gessner"
+    ],
+    "date": "2020-09-17",
+    "abstract": "The Einstein-Podolsky-Rosen (EPR) paradox plays a fundamental role in our understanding of quantum mechanics, and is associated with the possibility of predicting the results of non-commuting measurements with a precision that seems to violate the uncertainty principle. This apparent contradiction to complementarity is made possible by nonclassical correlations stronger than entanglement, called steering. Quantum information recognises steering as an essential resource for a number of tasks but, contrary to entanglement, its role for metrology has so far remained unclear. Here, we formulate the EPR paradox in the framework of quantum metrology, showing that it enables the precise estimation of a local phase shift and of its generating observable. Employing a stricter formulation of quantum complementarity, we derive a criterion based on the quantum Fisher information that detects steering in a larger class of states than well-known uncertainty-based criteria. Our result identifies useful steering for quantum-enhanced precision measurements and allows one to uncover steering of non-Gaussian states in state-of-the-art experiments.",
+    "pdf_url": "https://arxiv.org/pdf/2009.08440v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2202.07489",
+    "title": "Generalized uncertainty principle and quantum non-locality",
+    "authors": [
+      "S. Aghababaei",
+      "H. Moradpour"
+    ],
+    "date": "2022-02-15",
+    "abstract": "The emergence of the generalized uncertainty principle and the existence of a non-zero minimal length are intertwined. On the other hand, the Heisenberg uncertainty principle forms the core of the EPR paradox. Subsequently, here, the implications of resorting to the generalized uncertainty principle (or equally, the minimal length) instead of the Heisenberg uncertainty principle on the quantum non-locality are investigated through focusing on the Franson experiment in which the uncertainty relation is the backbone of understanding and explaining the results.",
+    "pdf_url": "https://arxiv.org/pdf/2202.07489v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "bell_epr",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1908.07694",
+    "title": "The Complementary Information Principle of Quantum Mechanics",
+    "authors": [
+      "Yunlong Xiao",
+      "Kun Fang",
+      "Gilad Gour"
+    ],
+    "date": "2019-08-21",
+    "abstract": "The uncertainty principle bounds the uncertainties about incompatible measurements, clearly setting quantum theory apart from the classical world. Its mathematical formulation via uncertainty relations, plays an irreplaceable role in quantum technologies. However, neither the uncertainty principle nor uncertainty relations can fully describe the complementarity between quantum measurements. As an attempt to advance the efforts of complementarity in quantum theories, we formally propose a complementary information principle, significantly extending the one introduced by Heisenberg. First, we build a framework of black box testing consisting of pre- and post-testing with two incompatible measurements, introducing a rigorous mathematical expression of complementarity with definite information causality. Second, we provide majorization lower and upper bounds for the complementary information by utilizing the tool of semidefinite programming. In particular, we prove that our bounds are optimal under majorization due to the completeness of the majorization lattice. Finally, as applications to our framework, we present a general method to outer-approximating all uncertainty regions and also establish fundamental limits for all qualified joint uncertainties.",
+    "pdf_url": "https://arxiv.org/pdf/1908.07694v1",
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2306.06602",
+    "title": "Wigner-Yanase skew information-based uncertainty relations for quantum channels",
+    "authors": [
+      "Qing-Hua Zhang",
+      "Shao-ming Fei"
+    ],
+    "date": "2023-06-11",
+    "abstract": "The Wigner-Yanase skew information stands for the uncertainty about the information on the values of observables not commuting with the conserved quantity. The Wigner-Yanase skew information-based uncertainty relations can be regarded as a complementarity to the conceptual Heisenberg uncertainty principle. We present tight uncertainty relations in both product and summation forms for two quantum channels based on the Wigner-Yanase skew information. We show that our uncertainty inequalities are tighter than the existing ones.",
+    "pdf_url": "https://arxiv.org/pdf/2306.06602v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2312.01055",
+    "title": "Unveiling quantum steering by quantum-classical uncertainty complementarity",
+    "authors": [
+      "Kuan-Yi Lee",
+      "Jhen-Dong Lin",
+      "Karel Lemr",
+      "Anton\u00edn \u010cernoch",
+      "Adam Miranowicz",
+      "Franco Nori",
+      "Huan-Yu Ku",
+      "Yueh-Nan Chen"
+    ],
+    "date": "2023-12-02",
+    "abstract": "One of the remarkable aspects of quantum steering is its ability to violate local uncertainty complementarity relations. In this vein of study, various steering witnesses have been developed. Here, we introduce a novel complementarity relation between system's quantum and classical uncertainties corresponding to the distillable coherence and the von-Neumann entropy, respectively. We show that the proposed complementarity relation is tighter than the entropic uncertainty relation (EUR). Leveraging this result, we propose a steering witness that is more efficient than the EUR. From the operational perspective, the steering witness quantifies the amount of extra distillable coherence facilitated by quantum steerability. Notably, the proposed steering witness serves as a full entanglement measure for pure bipartite states--an ability that the EUR lacks. We also experimentally validate such a property through a photonic system. Furthermore, a deeper connection to the uncertainty principle is revealed by showcasing the steering-induced distillable coherence can quantifies measurement incompatibility and quantum steerability under genuine incoherent operations. Our work establishes a clear quantitative and operational link between coherence and steering, which are vital resources of quantum technologies, and underscores our efforts in bridging the uncertainty principle with quantum coherence.",
+    "pdf_url": "https://arxiv.org/pdf/2312.01055v4",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1912.07020",
+    "title": "Quantum memory assisted entropic uncertainty relation with moving quantum memory inside a leaky cavity",
+    "authors": [
+      "S. Haseli"
+    ],
+    "date": "2019-12-15",
+    "abstract": "Uncertainty principle has a fundamental role in quantum theory. This principle states that it is not possible to measure two incompatible observers simultaneously. The uncertainty principle is expressed logically in terms of standard deviation of the measured observables. In quantum information it has been shown that the uncertainty principle can be expressed by means of Shannon's entropy. Entropic uncertainty relation can be improve by consider an additional particle as the quantum memory. In the presence of quantum memory the entropic uncertainty relation is called quantum memory assisted entropic uncertainty relation. In this work we will consider the case in which the quantum memory moves inside the leaky cavity. We will show that by increasing the velocity of the quantum memory the entropic uncertainty lower bound decreased.",
+    "pdf_url": "https://arxiv.org/pdf/1912.07020v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1806.08133",
+    "title": "Uncertainty principle as post-quantum nonlocality witness for continuous variable multi-mode scenario",
+    "authors": [
+      "Prathik J Cherian",
+      "Amit Mukherjee",
+      "Arup Roy",
+      "Some Sankar Bhattacharya",
+      "Manik Banik"
+    ],
+    "date": "2018-06-21",
+    "abstract": "Uncertainty principle is one of the central concepts in quantum theory. Different forms of this particular principle have been discoursed in various foundational and information theoretic topics. In the discrete input-output scenario the limited nonlocal behavior of quantum theory has been explained by fine-grained uncertainty relation. On the other hand, in continuous variable paradigm Robertson-Schrodinger (RS) uncertainty relation has been used to detect multi-mode entanglement. Here we show that RS uncertainty relation plays an important role to discriminate between quantum and post-quantum nonlocal correlations in multi-mode continuous outcome scenario. We provide a class of m-mode post-quantum nonlocal correlations with continuous outcome spectrum. While nonlocality of the introduced class of correlations is established through Calvalcanti-Foster-Reid-Drummond (CFRD) class of Bell inequalities, RS uncertainty relation detects their post-quantum nature. Our result is a hint towards a wider role of uncertainty principle in the study of nonlocality in continuous variable multi-mode systems.",
+    "pdf_url": "https://arxiv.org/pdf/1806.08133v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1809.03475",
+    "title": "Operational foundations of complementarity and uncertainty relations",
+    "authors": [
+      "Debashis Saha",
+      "Micha\u0142 Oszmaniec",
+      "\u0141ukasz Czekaj",
+      "Micha\u0142 Horodecki",
+      "Ryszard Horodecki"
+    ],
+    "date": "2018-09-10",
+    "abstract": "The so-called preparation uncertainty can be understood in purely operational terms. Namely, it occurs when for some pair of observables, there is no preparation, for which they both exhibit deterministic statistics. However, the right-hand side of uncertainty relation is generally not operational as it depends on the quantum formalism. Also, while joint non-measurability of observables is an operational notion, the complementarity in Bohr sense (i.e. excess of information needed to describe the system) has not yet been expressed in purely operational terms. In this paper we propose a solution to these problems, by introducing an operational definition for complementarity, and further postulating uncertainty as a necessary price for complementarity in physical theories. In other words, we propose to put the (operational) complementarity as the right-hand side of uncertainty relation. Concretely, we first identify two different notions of uncertainty and complementarity for which the above principle holds in quantum mechanics. We also introduce postulates for the general measures of uncertainty and complementarity. In order to define quantifiers of complementarity we first turn to the simpler notion of independence that is defined solely in terms of statistics two observables. We also use our framework to define new complementarity indicators based on (i) performance of random access codes, (ii) geometrical properties of the body of observed statistics, and (iii) variation of information. We then show that they can be used to state uncertainty relations. Moreover, we show that non-signaling and uncertainty relation expressed by complementarity of type (ii) leads to the Tsirelson bound for CHSH inequality. Lastly, we show that a variant of Information Causality called Information Content Principle, can be interpreted as uncertainty relation in the above sense.",
+    "pdf_url": "https://arxiv.org/pdf/1809.03475v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1803.01100",
+    "title": "Shannon Entropy Quantum Entanglement Criterion and the Generalized Uncertainty Principle",
+    "authors": [
+      "Otto Gadea",
+      "Gardo Blado"
+    ],
+    "date": "2018-03-03",
+    "abstract": "We examine quantum gravity effects by applying the generalized uncertainty principle (GUP) to entropic uncertainty relation conditions on quantum entanglement. In particular, we study the GUP corrections to the Shannon entropic uncertainty condition for entanglement. As in an earlier paper [Blado, Herrera, Erwin arxiv:1706.10013 [quant-ph]] which dealt with variance relations, there is an increase in the upper bound for the entanglement condition upon the application of the generalized uncertainty principle. Fundamental concepts of the generalized uncertainty principle, entanglement and the entropic uncertainty relations are also discussed.",
+    "pdf_url": "https://arxiv.org/pdf/1803.01100v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "1807.07829",
+    "title": "Quasi-Fine-Grained Uncertainty Relations",
+    "authors": [
+      "Yunlong Xiao",
+      "Yu Xiang",
+      "Qiongyi He",
+      "Barry C. Sanders"
+    ],
+    "date": "2018-07-20",
+    "abstract": "Nonlocality, which is the key feature of quantum theory, has been linked with the uncertainty principle by fine-grained uncertainty relations, by considering combinations of outcomes for different measurements. However, this approach assumes that information about the system to be fine-grained is local, and does not present an explicitly computable bound. Here, we generalize above approach to general quasi-fine-grained uncertainty relations (QFGURs) which applies in the presence of quantum memory and provides conspicuously computable bounds to quantitatively link the uncertainty to entanglement and Einstein-Podolsky-Rosen (EPR) steering, respectively. Moreover, our QFGURs provide a framework to unify three important forms of uncertainty relations, i.e., universal uncertainty relations, uncertainty principle in the presence of quantum memory, and fine-grained uncertainty relation. This result gives a direct significance to the uncertainty principle, and allows us to determine whether a quantum measurement exhibits typical quantum correlations, meanwhile, it reveals a fundamental connection between basic elements of quantum theory, specifically, uncertainty measures, combined outcomes for different measurements, quantum memory, entanglement and EPR steering.",
+    "pdf_url": "https://arxiv.org/pdf/1807.07829v3",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2006.04358",
+    "title": "Quantum correlations and quantum-memory-assisted entropic uncertainty relation in a quantum dot system",
+    "authors": [
+      "Soroush Haseli"
+    ],
+    "date": "2020-06-08",
+    "abstract": "The uncertainty principle is one of the comprehensive and fundamental concept in quantum theory. This principle states that it is not possible to simultaneously measure two incompatible observatories with high accuracy. Uncertainty principle has been formulated in various form. The most famous type of uncertainty relation is expressed based on the standard deviation of observables. In quantum information theory the uncertainty principle can be formulated using Shannon and von Neumann entropy. Entropic uncertainty relation in the presence of quantum memory is one of the most useful entropic uncertainty relations. Due to their importance and scalability, solid state systems have received considerable attention nowadays. In this work we will consider a quantum dot system as a solid state system. We will study the quantum correlation and quantum memory assisted entropic uncertainty in this typ of system. We will show that the temperature in of quantum dot system can affect the quantum correlation and entropic uncertainty bound. It will be observed that the entropic uncertainty bound decreases with decreasing temperature and quantum correlations decreases with increasing the temperature.",
+    "pdf_url": "https://arxiv.org/pdf/2006.04358v1",
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2205.01493",
+    "title": "On the uncertainty principle of neural networks",
+    "authors": [
+      "Jun-Jie Zhang",
+      "Dong-Xiao Zhang",
+      "Jian-Nan Chen",
+      "Long-Gang Pang",
+      "Deyu Meng"
+    ],
+    "date": "2022-05-03",
+    "abstract": "In this study, we explore the inherent trade-off between accuracy and robustness in neural networks, drawing an analogy to the uncertainty principle in quantum mechanics. We propose that neural networks are subject to an uncertainty relation, which manifests as a fundamental limitation in their ability to simultaneously achieve high accuracy and robustness against adversarial attacks. Through mathematical proofs and empirical evidence, we demonstrate that this trade-off is a natural consequence of the sharp boundaries formed between different class concepts during training. Our findings reveal that the complementarity principle, a cornerstone of quantum physics, applies to neural networks, imposing fundamental limits on their capabilities in simultaneous learning of conjugate features. Meanwhile, our work suggests that achieving human-level intelligence through a single network architecture or massive datasets alone may be inherently limited. Our work provides new insights into the theoretical foundations of neural network vulnerability and opens up avenues for designing more robust neural network architectures.",
+    "pdf_url": "https://arxiv.org/pdf/2205.01493v4",
+    "categories": [
+      "cs.LG",
+      "physics.comp-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "2102.00861",
+    "title": "A Review of The Algebraic Approaches to Quantum Mechanics. Appraisals on Their Theoretical Relevance",
+    "authors": [
+      "Antonino Drago"
+    ],
+    "date": "2021-01-29",
+    "abstract": "I review the various algebraic foundations of quantum mechanics. They have been suggested since the birth of this theory till up to last year. They are the following ones: Heisenberg-Born-Jordan (1925), Weyl (1928), Dirac (1930), von Neumann (1936), Segal (1947), T.F. Jordan (1986), Morchio and Strocchi (2009) and Buchholz and Fregenhagen (2019). Three cases are stressed: 1) the misinterpretation of Dirac foundation; 2) von Neumann conversion from the analytic approach of Hilbert space to the algebraic approach of the rings of operators; 3) the recent foundation of quantum mechanics upon the algebra of perturbation Lagrangians. Moreover, historical considerations on the go-and-stop path performed by the algebraic approach in the history of QM are offered. The level of formalism has increased from the mere introduction of matrices till up to group theory and C*-algebras. But there was no progress in approaching closer the foundations of physics; therefore the problem of discovering an algebraic formulation of QM organized as a problem-based theory and making use of no more than constructive mathematics is open.",
+    "pdf_url": "https://arxiv.org/pdf/2102.00861v1",
+    "categories": [
+      "physics.hist-ph",
+      "math-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "foundations",
+      "review"
+    ]
+  },
+  {
+    "id": "1805.11483",
+    "title": "Introduction to the book \"Quantum Theory: Informational Foundations and Foils\"",
+    "authors": [
+      "Giulio Chiribella",
+      "Robert W. Spekkens"
+    ],
+    "date": "2018-05-28",
+    "abstract": "We present here our introduction to the contributed volume \"Quantum Theory: Informational Foundations and Foils\", Springer Netherlands (2016). It highlights recent trends in quantum foundations and offers an overview of the contributions appearing in the book.",
+    "pdf_url": "https://arxiv.org/pdf/1805.11483v3",
+    "categories": [
+      "quant-ph",
+      "math-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "foundations",
+      "review"
+    ]
+  },
+  {
+    "id": "2502.19278",
+    "title": "The Quantum Measurement Problem: A Review of Recent Trends",
+    "authors": [
+      "Anderson A. Tomaz",
+      "Rafael S. Mattos",
+      "Mario Barbatti"
+    ],
+    "date": "2025-02-26",
+    "abstract": "Left on its own, a quantum state evolves deterministically under the Schr\u00f6dinger Equation, forming superpositions. Upon measurement, however, a stochastic process governed by the Born rule collapses it to a single outcome. This dual evolution of quantum states -- the core of the Measurement Problem -- has puzzled physicists and philosophers for nearly a century. Yet, amid the cacophony of competing interpretations, the problem today is not as impenetrable as it once seemed. This paper reviews the current status of the Measurement Problem, distinguishing between what is well understood and what remains unresolved. We examine key theoretical approaches, including decoherence, many-worlds interpretation, objective collapse theories, hidden-variable theories, dualistic approaches, deterministic models, and epistemic interpretations. To make these discussions accessible to a broader audience, we also reference curated online resources that provide high-quality introductions to central concepts.",
+    "pdf_url": "https://arxiv.org/pdf/2502.19278v3",
+    "categories": [
+      "quant-ph",
+      "physics.chem-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "1908.03949",
+    "title": "An introduction to quantum measurements with a historical motivation",
+    "authors": [
+      "Leonardo Andreta de Castro",
+      "Ol\u00edmpio Pereira de S\u00e1 Neto",
+      "Carlos Alexandre Brasil"
+    ],
+    "date": "2019-08-11",
+    "abstract": "We provide an introduction to the theory of quantum measurements that is centered on the pivotal role played by John von Neumann's model. This introduction is accessible to students and researchers from outside the field of foundations of quantum mechanics and presented within a historical context. We first explain the origins and the meaning of the measurement problem in quantum theory, and why it is not present in classical physics. We perform a chronological review of the quantization of action and explain how this led to successive restrictions on what could be measured in atomic phenomena, until the consolidation of the orthodox interpretation of quantum mechanics. The clear separation between quantum system and classical apparatus that causes these restrictions is subverted in von Neumann's paradigmatic model of quantum measurements, a subject whose concepts we explain, while also providing the mathematical tools necessary to apply it to new problems. We show how this model was important in discussing the interpretations of quantum mechanics and how it is still relevant in modern applications. In particular, we explain in detail how it can be used to describe weak measurements and the surprising results they entail. We also discuss the limitations of von Neumann's model of measurements, and explain how they can be overcome with POVMs and Kraus operators. We provide the mathematical tools necessary to work with these generalized measurements and to derive master equations from them. Finally, we demonstrate how these can be applied in research problems by calculating the Quantum Zeno Effect.",
+    "pdf_url": "https://arxiv.org/pdf/1908.03949v1",
+    "categories": [
+      "quant-ph",
+      "physics.hist-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2011.01286",
+    "title": "Probabilistic Theories and Reconstructions of Quantum Theory (Les Houches 2019 lecture notes)",
+    "authors": [
+      "Markus P. Mueller"
+    ],
+    "date": "2020-11-02",
+    "abstract": "These lecture notes provide a basic introduction to the framework of generalized probabilistic theories (GPTs) and a sketch of a reconstruction of quantum theory (QT) from simple operational principles. To build some intuition for how physics could be even more general than quantum, I present two conceivable phenomena beyond QT: superstrong nonlocality and higher-order interference. Then I introduce the framework of GPTs, generalizing both quantum and classical probability theory. Finally, I summarize a reconstruction of QT from the principles of Tomographic Locality, Continuous Reversibility, and the Subspace Axiom. In particular, I show why a quantum bit is described by a Bloch ball, why it is three-dimensional, and how one obtains the complex numbers and operators of the usual representation of QT.",
+    "pdf_url": "https://arxiv.org/pdf/2011.01286v4",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2105.02384",
+    "title": "The EPR paper: a pedagogical approach",
+    "authors": [
+      "Angel Garcia-Chung"
+    ],
+    "date": "2021-05-06",
+    "abstract": "On the seminal paper written by Einstein, Podolsky and Rosen [1], a critique to the completeness of quantum mechanics was posed. Part of the critique consisted in the following argument: if quantum mechanics is complete, then, two physical quantities, with non-commuting operators, can have simultaneous reality. In this paper I aim to provide a pedagogical approach to the notions used in the EPR's argument.",
+    "pdf_url": "https://arxiv.org/pdf/2105.02384v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2105.13821",
+    "title": "From the problem of Future Contingents to Peres-Mermin square experiments: An introductory review to Contextuality",
+    "authors": [
+      "G. Masse"
+    ],
+    "date": "2021-05-28",
+    "abstract": "A review is made of the field of contextuality in quantum mechanics. We study the historical emergence of the concept from philosophical and logical issues. We present and compare the main theoretical frameworks that have been derived. Finally, we focus on the complex task of establishing experimental tests of contextuality. Throughout this work, we try to show that the conceptualisation of contextuality has progressed through different complementary perspectives, before summoning them together to analyse the signification of contextuality experiments. Doing so, we argue that contextuality emerged as a discrete logical problem and developed into a quantifiable quantum resource.",
+    "pdf_url": "https://arxiv.org/pdf/2105.13821v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2408.08329",
+    "title": "Primer on quantum weirdness",
+    "authors": [
+      "R. D. Hazeltine"
+    ],
+    "date": "2024-08-13",
+    "abstract": "We introduce the key ideas and mathematical tools central to modern discussions of collapse. We assume knowledge of basic quantum mechanics -- the Schr\u00f6dinger evolution of states in Hilbert space, the Born probability rule, the Dirac formalism, and so on -- while explicating such ideas as projectors, density operators, Bell inequalities, entanglement and the Lindblad equation. In other words this work is a \\emph{primer} in the simplest sense of that word: without taking a stand on the major questions, it is intended to make an enormous and growing body of research more accessible.",
+    "pdf_url": "https://arxiv.org/pdf/2408.08329v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "1812.11140",
+    "title": "A brief introduction to the Foundations of Quantum Theory and an analysis of the Frauchiger-Renner paradox",
+    "authors": [
+      "Daniel V. Tausk"
+    ],
+    "date": "2018-12-28",
+    "abstract": "This is a short text covering some topics on the Foundations of Quantum Theory and it includes some comments on the recent Nature article by D. Frauchiger and R. Renner. The so-called \"paradox\" is simply due to a misunderstanding on the appropriate way to apply the quantum mechanical rules. The text is meant to be accessible to non physicists and the math is kept to a minimum (just some Linear Algebra and extremely elementary Probability Theory).",
+    "pdf_url": "https://arxiv.org/pdf/1812.11140v2",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2504.01056",
+    "title": "Review of \"Just Plain Wrong: The Dalliance of Quantum Theory with the Defiance of Bell's Inequality\"",
+    "authors": [
+      "W. M. Stuckey",
+      "Timothy McDevitt",
+      "Michael Silberstein"
+    ],
+    "date": "2025-04-01",
+    "abstract": "This is a review of Frank Lad's book \"Just Plain Wrong: The Dalliance of Quantum Theory with the Defiance of Bell's Inequality\" (Austin Macauley Publishers, 2024).",
+    "pdf_url": "https://arxiv.org/pdf/2504.01056v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2405.11790",
+    "title": "Graviton physics: Quantum field theory of gravitons, graviton noise and gravitational decoherence -- a concise tutorial",
+    "authors": [
+      "Jen-Tsung Hsiang",
+      "Hing-Tong Cho",
+      "Bei-Lok Hu"
+    ],
+    "date": "2024-05-20",
+    "abstract": "The detection of gravitational waves in 2015 ushered in a new era of gravitational wave astronomy capable of probing into the strong field dynamics of black holes and neutron stars. It has opened up an exciting new window for laboratory and space tests of Einstein's theory of classical general relativity. In recent years there are two interesting proposals aimed at revealing the quantum natures of perturbative gravity: 1) theoretical predictions in how graviton noise from the early universe after the vacuum of the gravitational field was strongly squeezed by inflationary expansion; 2) experimental proposals using the quantum entanglement between two masses each in a superposition state. The first proposal invokes the stochastic properties of quantum fields, the second invokes a key concept of quantum information. An equally basic and interesting idea is to ask whether and how gravity might be responsible for a quantum system becoming classical in appearance, known as gravitational decoherence. Decoherence due to gravity is of special interest because gravity is universal. This is an important issue in macroscopic quantum phenomena. To fully appreciate these exciting developments requires a working knowledge in classical GR, QF theory and QI plus some familiarity with stochastic processes, namely, noise in quantum fields. Traditionally a new researcher may be conversant in one or two of these four subjects: GR, QFT, QI, SP, depending on his/her background. This tutorial attempts to provide the necessary connections between them, helping an engaging reader from any one of these four subjects to leapfrog to the frontier of these interdisciplinary research topics. Here we shall treat the three topics listed in the title, save gravitational entanglement, because its nature and implications proclaimed in relation to quantum gravity still contain many controversial elements.",
+    "pdf_url": "https://arxiv.org/pdf/2405.11790v1",
+    "categories": [
+      "hep-th",
+      "gr-qc",
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "1810.13403",
+    "title": "Dirac quantisation condition: a comprehensive review",
+    "authors": [
+      "Ricardo Heras"
+    ],
+    "date": "2018-10-31",
+    "abstract": "In most introductory courses on electrodynamics, one is taught the electric charge is quantised but no theoretical explanation related to this law of nature is offered. Such an explanation is postponed to graduate courses on electrodynamics, quantum mechanics and quantum field theory, where the famous Dirac quantisation condition is introduced, which states that a single magnetic monopole in the Universe would explain the electric charge quantisation. Even when this condition assumes the existence of a not-yet-detected magnetic monopole, it provides the most accepted explanation for the observed quantisation of the electric charge. However, the usual derivation of the Dirac quantisation condition involves the subtle concept of an \"unobservable\" semi-infinite magnetised line, the so-called \"Dirac string,\" which may be difficult to grasp in a first view of the subject. The purpose of this review is to survey the concepts underlying the Dirac quantisation condition, in a way that may be accessible to advanced undergraduate and graduate students. Some of the discussed concepts are gauge invariance, singular potentials, single-valuedness of the wave function, undetectability of the Dirac string and quantisation of the electromagnetic angular momentum. Five quantum-mechanical and three semi-classical derivations of the Dirac quantisation condition are reviewed. In addition, a simple derivation of this condition involving heuristic and formal arguments is presented.",
+    "pdf_url": "https://arxiv.org/pdf/1810.13403v2",
+    "categories": [
+      "physics.hist-ph",
+      "hep-th",
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2001.02806",
+    "title": "An Introduction to time generation on Algebraic Quantum Field Theory",
+    "authors": [
+      "Tadashi Fujimoto"
+    ],
+    "date": "2020-01-09",
+    "abstract": "In the early 2000s, the study of time operators advanced as one of the methods to understand the problem of time as mathematical science. However, the starting point for the time operator is to understand time as a problem of observation (the survival probabilityof particles), and today, even after the issue of representation on time operator has concluded, the question of philosophical interpretation still exists. Furthermore, when it comes to the question of how time generation (emergence), the method of time operators has its limitations. Regarding the generation of time, symmetry breaking in particle physics seems to be closely related.",
+    "pdf_url": "https://arxiv.org/pdf/2001.02806v1",
+    "categories": [
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "1804.04309",
+    "title": "The role of pedagogical tools in active learning: a case for sense-making",
+    "authors": [
+      "Milo Koretsky",
+      "Jessie Keeler",
+      "John Ivanovitch",
+      "Ying Cao"
+    ],
+    "date": "2018-04-12",
+    "abstract": "Evidence from the research literature indicates that both audience response systems (ARS) and guided inquiry worksheets (GIW) can lead to greater student engagement, learning, and equity in the STEM classroom. We compare the use of these two tools in large enrollment STEM courses delivered in different contexts, one in biology and one in engineering. The instructors studied utilized each of the active learning tools differently. In the biology course, ARS questions were used mainly to check in with students and assess if they were correctly interpreting and understanding worksheet questions. The engineering course presented ARS questions that afforded students the opportunity to apply learned concepts to new scenarios towards improving students conceptual understanding. In the biology course, the GIWs were primarily used in stand-alone activities, and most of the information necessary for students to answer the questions was contained within the worksheet in a context that aligned with a disciplinary model. In the engineering course, the instructor intended for students to reference their lecture notes and rely on their conceptual knowledge of fundamental principles from the previous ARS class session in order to successfully answer the GIW questions. However, while their specific implementation structures and practices differed, both instructors used these tools to build towards the same basic disciplinary thinking and sense-making processes of conceptual reasoning, quantitative reasoning, and metacognitive thinking.",
+    "pdf_url": "https://arxiv.org/pdf/1804.04309v1",
+    "categories": [
+      "physics.ed-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "1904.02153",
+    "title": "Quantum Double Models coupled to matter fields: a detailed review for a dualization procedure",
+    "authors": [
+      "M. F. Araujo de Resende",
+      "J. P. Ibieta Jimenez",
+      "J. Lorca Espiro"
+    ],
+    "date": "2019-04-03",
+    "abstract": "In this paper, we investigate how it is possible to define a new class of lattice gauge models based on a dualization procedure of a previous generalization of the Kitaev Quantum Double Models. In the case of this previous generalization that will be used as a basis, it was defined by adding new qudits (which were denoted as matter fields in reference to some works) to the lattice vertices with the intention of, for instance, interpreting its models as Kitaev Quantum Double Models coupled with Potts ones. Now, with regard to the generalization that we investigate here, which we want to define as the dual of this previous one, these new qudits were added to the lattice faces. And as the coupling between gauge and matter qudits of the previous generalization was performed by a gauge group action, we show that the dual behaviour of these two generalizations was achieved by coupling these same qudits in the second one through a gauge group co-action homomorphism. One of the most striking dual aspects of these two generalizations is that, in both, part of the quasiparticles that were inherited from the Kitaev Quantum Double Models become confined when these action and co-action are non-trivial. But the big news here is that, in addition to the group homomorphism (that defines this gauge group co-action) allows us to classify all the different models of this second generalization, this same group homomorphism also suggests that all these models can be interpreted as two-dimensional restrictions of the $ 2 $-lattice gauge theories.",
+    "pdf_url": "https://arxiv.org/pdf/1904.02153v3",
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "hep-th",
+      "math-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  },
+  {
+    "id": "2202.05116",
+    "title": "Holographic entanglement in spin network states: a focused review",
+    "authors": [
+      "Eugenia Colafranceschi",
+      "Gerardo Adesso"
+    ],
+    "date": "2022-02-10",
+    "abstract": "In the long-standing quest to reconcile gravity with quantum mechanics, profound connections have been unveiled between concepts traditionally pertaining to quantum information theory, such as entanglement, and constitutive features of gravity, like holography. Developing and promoting these connections from the conceptual to the operational level unlocks access to a powerful set of tools, which can be pivotal towards the formulation of a consistent theory of quantum gravity. Here, we review recent progress on the role and applications of quantum informational methods, in particular tensor networks, for quantum gravity models. We focus on spin network states dual to finite regions of space, represented as entanglement graphs in the group field theory approach to quantum gravity, and illustrate how techniques from random tensor networks can be exploited to investigate their holographic properties. In particular, spin network states can be interpreted as maps from bulk to boundary, whose holographic behaviour increases with the inhomogeneity of their geometric data (up to becoming proper quantum channels). The entanglement entropy of boundary states, which are obtained by feeding such maps with suitable bulk states, is then proved to follow a bulk area law, with corrections due to the entanglement of the bulk state. We further review how exceeding a certain threshold of bulk entanglement leads to the emergence of a black hole-like region, revealing intriguing perspectives for quantum cosmology.",
+    "pdf_url": "https://arxiv.org/pdf/2202.05116v2",
+    "categories": [
+      "hep-th",
+      "cond-mat.stat-mech",
+      "math-ph",
+      "quant-ph"
+    ],
+    "tags": [
+      "review"
+    ]
+  }
+]

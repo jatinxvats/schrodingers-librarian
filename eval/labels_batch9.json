@@ -1,0 +1,20 @@
+[
+  {"id": 39, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses (no relevant material); gives no answer from outside knowledge.",
+   "notes": "Out of domain. Run eval/check_refusals.py: if it passes the cutoff, record the best distance, since then the prompt must do the refusing."},
+  {"id": 40, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses; no price or outside knowledge.",
+   "notes": "Hold-out. Out of domain."},
+  {"id": 41, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses; no value from outside knowledge.",
+   "notes": "Out of domain."},
+  {"id": 42, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses; no explanation from outside knowledge.",
+   "notes": "Out of domain."},
+  {"id": 43, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses; no explanation from outside knowledge.",
+   "notes": "Hold-out. Out of domain."},
+  {"id": 44, "answerable": false, "relevant_papers": [],
+   "must_include": "Refuses; no answer from outside knowledge.",
+   "notes": "Out of domain."}
+]

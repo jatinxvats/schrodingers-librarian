@@ -1,0 +1,17 @@
+[
+  {"id": 13, "answerable": true, "relevant_papers": ["1812.11140", "2502.19278", "1801.08587", "2504.14791", "1908.03949"],
+   "must_include": "Copenhagen: collapse to a single outcome on measurement; many-worlds: no collapse, all outcomes realized in branches; 'Copenhagen' is not one agreed doctrine.",
+   "notes": "Pair: Copenhagen from 1908.03949 plus MWI from 1801.08587. 1909.13027 rejected."},
+  {"id": 14, "answerable": true, "relevant_papers": ["1812.11140", "2502.19278"],
+   "must_include": "Bohmian particles always have definite positions guided by the wave function; standard QM particles have no definite position before measurement; predictions are equivalent; must not claim different predictions.",
+   "notes": "Borderline: 2405.04368, 2306.07794."},
+  {"id": 15, "answerable": true, "relevant_papers": ["2405.02964", "2102.13036", "1909.05434", "2410.15790", "2204.05385", "2001.07656"],
+   "must_include": "Bell nonlocality is contextuality where spacelike separation guarantees compatibility; contextuality needs no separation and applies to a single system; not unrelated.",
+   "notes": "Rejected keyword hits: 2005.03835, 2210.05985, 2104.10700."},
+  {"id": 16, "answerable": true, "relevant_papers": ["2105.13821", "1908.03949"],
+   "must_include": "Presents measurement disturbance (Feynman's invasive measurement; Heisenberg's microscope argument) and the uncertainty principle (observables that cannot be jointly measured) as related but not the same, noting that disturbance alone does not explain why values cannot be predetermined; does not say the excerpts call them identical.",
+   "notes": "Partial: no excerpt states the distinction outright; closest is 2105.13821 (Beyond measurement disturbance). 1908.03949 gives the historical link and calls the microscope argument not very rigorous. 1809.03475 unverified. Rubric stays within corpus: modern error-disturbance vs preparation-uncertainty distinction is outside it. Best semantic distance 0.425, near the cutoff; top hit 2409.02354 off-target."},
+  {"id": 17, "answerable": true, "relevant_papers": ["2303.07966", "2502.19278", "1911.06282", "2012.12033", "2309.17377"],
+   "must_include": "Decoherence is unitary and removes interference, giving an apparent mixture without selecting one outcome; collapse is a non-unitary postulate that does; decoherence alone does not solve the measurement problem.",
+   "notes": "2406.19158 (photon-collapse proposal) rejected despite top keyword rank. Borderline: 2408.08329."}
+]
