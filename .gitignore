@@ -5,8 +5,12 @@
 # data: ignore everything except the human curation decisions
 data/*
 !data/curation/
+!data/processed/
+data/processed/*
+!data/processed/chunks.jsonl
 
 # python and notebook noise
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+eval/results/label_report_*.txt
