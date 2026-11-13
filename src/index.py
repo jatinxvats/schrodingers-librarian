@@ -1,11 +1,13 @@
 import json
 
 import chromadb
+import numpy as np
 from sentence_transformers import SentenceTransformer
 
 import config
 
 CHUNKS = config.ROOT / "data" / "processed" / "chunks.jsonl"
+EMBEDDINGS = config.ROOT / "data" / "processed" / "embeddings.npy"
 CHROMA_DIR = config.ROOT / "data" / "chroma"
 COLLECTION = "qm_foundations"
 MODEL = "all-MiniLM-L6-v2"
@@ -23,20 +25,18 @@ def get_collection(reset: bool = False):
         COLLECTION, metadata={"hnsw:space": "cosine"}
     )
 
-def main():
-    chunks = [json.loads(l) for l in CHUNKS.open(encoding="utf-8")]
-    model = SentenceTransformer(MODEL)
-    col = get_collection(reset=True)
 
+def load_chunks() -> list[dict]:
+    return [json.loads(l) for l in CHUNKS.open(encoding="utf-8")]
+
+
+def fill(col, chunks, embeddings):
     for i in range(0, len(chunks), BATCH):
         batch = chunks[i : i + BATCH]
-        embeddings = model.encode(
-            [c["text"] for c in batch], normalize_embeddings=True, show_progress_bar=False
-        ).tolist()
         col.upsert(
             ids=[c["chunk_id"] for c in batch],
             documents=[c["text"] for c in batch],
-            embeddings=embeddings,
+            embeddings=embeddings[i : i + BATCH].tolist(),
             metadatas=[
                 {
                     "paper_id": c["paper_id"],
@@ -49,9 +49,31 @@ def main():
                 for c in batch
             ],
         )
-        print(f"{min(i + BATCH, len(chunks))}/{len(chunks)}")
+
+
+def build():
+    """Full rebuild: embed every chunk, save the embeddings, refill Chroma."""
+    chunks = load_chunks()
+    model = SentenceTransformer(MODEL)
+    emb = model.encode(
+        [c["text"] for c in chunks], normalize_embeddings=True,
+        batch_size=BATCH, show_progress_bar=True,
+    ).astype("float32")
+    np.save(EMBEDDINGS, emb)
+    col = get_collection(reset=True)
+    fill(col, chunks, emb)
     print("collection size:", col.count())
 
 
+def ensure_index():
+    """Deploy-time: fill Chroma from the saved embeddings if it is empty or stale."""
+    chunks = load_chunks()
+    col = get_collection()
+    if col.count() != len(chunks):
+        col = get_collection(reset=True)
+        fill(col, chunks, np.load(EMBEDDINGS))
+    return col
+
+
 if __name__ == "__main__":
-    main()
+    build()

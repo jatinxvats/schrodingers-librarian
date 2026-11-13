@@ -1,0 +1,355 @@
+{
+  "1": {
+    "grade": "PARTIAL",
+    "tag": "uncited-claim",
+    "unsupported_claims": [
+      "Infinite-dimensional"
+    ],
+    "note": "The claim that a Hilbert space is 'infinite-dimensional' is not supported by the provided excerpts, which define it generally as a complex linear space with a positive-definite inner product and do not restrict the dimension.",
+    "auto": false
+  },
+  "2": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies that Bell's theorem rules out local hidden-variable theories, but it fails to include the specific nuance required by the MUST INCLUDE list that the theorem does not rule out hidden variables as such (nonlocal ones survive) and does not claim to prove signaling.",
+    "auto": false
+  },
+  "3": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly defines the theorem and its dimensional scope but fails to explicitly state that it does not rule out all hidden variables (only noncontextual ones) or explicitly note its inapplicability to a single qubit, which are required MUST INCLUDE items.",
+    "auto": false
+  },
+  "4": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly defines contextuality as the inability to assign values independent of the measurement context, cites the obstruction to classical models, and identifies Bell nonlocality as a related phenomenon, all supported by excerpts [1], [4], and [5].",
+    "auto": false
+  },
+  "5": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly defines decoherence, distinguishes it from collapse (by noting it does not provide an interpretation or solve the measurement problem alone, consistent with excerpts [2] and [4]), and includes the concept of pointer states/einselection as supported by excerpts [3] and [5].",
+    "auto": false
+  },
+  "6": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the two rules (unitary vs. collapse), the issue of single definite outcomes, and the lack of a settled solution, all supported by the provided excerpts.",
+    "auto": false
+  },
+  "7": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly describes the probability calculation based on excerpt [1] but fails to include the required mention of state collapse and the contested nature of the rule's derivation.",
+    "auto": false
+  },
+  "8": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly cites the inequality and the measurement disturbance interpretation but fails to explicitly state that the principle is a property of the state (preparation uncertainty) rather than only measurement disturbance, which is a required 'MUST INCLUDE' item supported by excerpts [2] and [3].",
+    "auto": false
+  },
+  "9": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly attributes the argument for incompleteness based on locality and reality criteria to EPR (supported by [3] and [4]) and explicitly notes that Pris's interpretation explains the paradox without invoking non-locality (supported by [1]), satisfying all constraints.",
+    "auto": false
+  },
+  "10": {
+    "grade": "FAIL",
+    "tag": "wrong-refusal",
+    "note": "refused an answerable question",
+    "auto": true
+  },
+  "11": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the core features (definite positions, pilot wave/guiding equation, determinism in best-known form, equivalence to standard QM) and attributes the naming and clarification to Dürr, Goldstein, and Zanghì based on the provided excerpts.",
+    "auto": false
+  },
+  "12": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly describes the mechanism and attribution but fails to explicitly state that quantum Darwinism does not alone solve the measurement problem, which is a required item.",
+    "auto": false
+  },
+  "13": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly describes the physical differences between the interpretations based on the excerpts but fails to include the required point that 'Copenhagen' is not a single agreed-upon doctrine.",
+    "auto": false
+  },
+  "14": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [
+      "standard quantum mechanics ... treats the wave function as the sole ontic entity"
+    ],
+    "note": "The answer correctly describes the particle treatment in Bohmian mechanics and standard QM but fails to explicitly state that the experimental predictions of the two theories are equivalent, which is a required item supported by excerpt [3].",
+    "auto": false
+  },
+  "15": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies Bell nonlocality as a specific case of contextuality defined by spatial separation and KS contextuality as a more general phenomenon applicable to single systems, fully supported by excerpts [1], [3], and [4].",
+    "auto": false
+  },
+  "16": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly distinguishes the concepts and cites the sources, but it fails to explicitly state that measurement disturbance alone does not explain why values cannot be predetermined, a specific requirement in the MUST INCLUDE list.",
+    "auto": false
+  },
+  "17": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly distinguishes decoherence (unitary, off-diagonal suppression) from collapse (non-unitary, diagonal selection) using the provided excerpts, covering all required points.",
+    "auto": false
+  },
+  "18": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly contrasts the mechanisms (ontic collapse vs. unitary branching) but fails to include the required point that collapse models are in principle testable with tightening bounds, which is not present in the provided excerpts.",
+    "auto": false
+  },
+  "19": {
+    "grade": "FAIL",
+    "tag": "invented-fact",
+    "unsupported_claims": [
+      "Copenhagen accounts typically invoke a 'classical-quantum cut' and a more objective collapse postulate",
+      "emphasizing a subjective, epistemic stance rather than the more mixed epistemic-ontic picture usually associated with Copenhagen"
+    ],
+    "note": "The answer invents specific details about the Copenhagen interpretation (classical-quantum cut, objective collapse, mixed epistemic-ontic picture) that are not present in the provided excerpts, which only mention Bohr's views generally or RQM's relation to Copenhagen.",
+    "auto": false
+  },
+  "20": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly establishes that entanglement is necessary but not sufficient for Bell nonlocality, but it fails to include the required points that maximal entanglement and maximal violation do not coincide, and that the claim equating the two is attributed to 2012.06918 and contested.",
+    "auto": false
+  },
+  "21": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the core assumptions (factorisability vs determinism) and the lack of spatial separation for NCHV, but it fails to explicitly state that local models are a special case of noncontextual models, which is a required item supported by excerpt [1].",
+    "auto": false
+  },
+  "22": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly attributes the generalization to Robertson and Schrödinger and describes the difference, but it fails to mention Kennard, who is explicitly required in the MUST INCLUDE list as the one who formalized Heisenberg's heuristic idea into the rigorous inequality.",
+    "auto": false
+  },
+  "23": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly attributes the provided positions but fails to include the required items regarding spontaneous collapse (GRW) and the explicit note that 'observer' is ambiguous, which are not present in the provided excerpts but are listed as MUST INCLUDE.",
+    "auto": false
+  },
+  "24": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies that collapse is not confirmed, cites Zurek for the non-unitary nature, Schlosshauer for the difficulty of separating collapse from decoherence and the role of matter-wave interferometry, and Tomaz et al. for specific experimental tests like spontaneous radiation searches, covering all required points without contradiction.",
+    "auto": false
+  },
+  "25": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly attributes the epistemic views to the orthodox/Copenhagen interpretation [1] and Relational Quantum Mechanics [5], the contextual realist view to Pris [2], and the ontic/realist views to the QFT perspective [4] and the classification in [3], covering all required items without contradiction or invented facts.",
+    "auto": false
+  },
+  "26": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the EPR argument and the lack of consensus, but it fails to include the specific MUST INCLUDE items regarding Bell's theorem (local hidden variables) and the specific mechanisms of Bohmian mechanics (nonlocal positions) or collapse models, which are not explicitly detailed in the provided excerpts but are required by the prompt's MUST INCLUDE list if the corpus supported them (Note: The corpus provided does not actually contain the text for Bell's theorem or Bohmian nonlocality, only references or general mentions, so the system cannot ground these specific claims from the *provided* excerpts, but the prompt asks to check if the answer covers MUST INCLUDE items *as far as the excerpts allow*. Since the excerpts do not contain the Bell/Bohm details, the answer cannot include them without inventing facts or citing outside knowledge. However, the prompt says 'MUST INCLUDE: ... Bell showed ... Bohmian adds ...'. If the corpus lacks this, the answer *cannot* include it. Let's re-read the instructions: 'If ANSWERABLE is no, the corpus lacks the fact...'. Here ANSWERABLE is 'yes'. This implies the corpus *should* have it or the question is answerable. But looking at the excerpts: [1] is EPR. [2] is a reference list. [3] is about intersubjectivity. [4] is a French abstract mentioning Copenhagen, von Neumann, Bohm, Everett modify reality, no consensus. [5] is about operational framework. None of the excerpts explicitly state 'Bell showed local hidden-variable completions cannot reproduce QM' or 'Bohmian adds nonlocal positions'. Excerpt [4] mentions Bohm but not the nonlocal positions detail. Excerpt [2] lists Bell but doesn't state the theorem's result in the text provided. Therefore, the system *cannot* ground the Bell/Bohm specific claims from the provided text. The answer correctly avoids inventing them. However, the MUST INCLUDE list in the prompt is a standard for the *ideal* answer. If the corpus doesn't have it, the answer can't have it. The answer covers EPR and No Consensus. It misses Bell and Bohm specifics because they aren't in the text. Is this a FAIL for missing MUST INCLUDE? The instruction says 'The answer covers the MUST INCLUDE items as far as the excerpts allow.' Since the excerpts do *not* allow for the Bell/Bohm specific claims (they are not in the text), the answer is correct to omit them. The answer is grounded. It covers EPR and No Consensus. It does not contradict. It does not invent. It is a PASS or PARTIAL? The prompt asks to check if it covers MUST INCLUDE items *as far as excerpts allow*. The excerpts allow for EPR and No Consensus. They do not allow for Bell/Bohm specifics. So the answer is as good as it can be. However, usually 'MUST INCLUDE' implies these facts *are* in the corpus. Let's look closer at [4]. It says 'l'onde pilote de Bohm... modifient... la conception classique de la réalité, dont le caractère local... requiert une révision.' This implies non-locality but doesn't explicitly say 'Bohmian adds nonlocal positions'. It says it modifies the local character. This is close. But Bell is not in the text of [4]. [2] is just a reference list. So Bell is not in the corpus text. Therefore, the answer cannot include Bell. The answer is grounded. It covers the available parts of the MUST INCLUDE list. I will grade it PASS because it correctly handles the available information and doesn't hallucinate the missing parts.",
+    "auto": false
+  },
+  "27": {
+    "grade": "FAIL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer fails to include the required discussion of Bohmian mechanics, the specific paper 2502.19278 regarding relaxed independence, and the Everettian interpretation, which are explicitly listed in the MUST INCLUDE criteria.",
+    "auto": false
+  },
+  "28": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies that decoherence does not solve the measurement problem and cites the relevant excerpts for the mechanism (off-diagonal vs diagonal terms), but it fails to include the required nuance that whether this is a genuine difficulty depends on one's interpretation of quantum states, as noted in excerpt [3].",
+    "auto": false
+  },
+  "29": {
+    "grade": "FAIL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer fails to include the specific derivation attempts (envariance, stochastic collapse, many-worlds, retrocausal) and circularity objections required by the MUST INCLUDE list, relying instead on Von Neumann's derivation which is not one of the specified modern attempts.",
+    "auto": false
+  },
+  "30": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the puzzle, cites the relevant excerpts for the lack of consensus and the nature of the proposals (axiomatic/decision-theoretic implied by 'axioms' in [4] and 'self-consistent rules' in [2]), and accurately reflects the critics and lack of definitive solution as stated in the corpus.",
+    "auto": false
+  },
+  "31": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer fails to attribute the 'disturbance' view to Heisenberg's microscope argument as required by the MUST INCLUDE items, instead attributing it to Masse/Feynman, and does not explicitly mention non-commuting observables as the basis for the intrinsic view.",
+    "auto": false
+  },
+  "32": {
+    "grade": "FAIL",
+    "tag": "wrong-refusal",
+    "note": "refused an answerable question",
+    "auto": true
+  },
+  "33": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly explains the mechanism of definite outcomes via decoherence and branching but fails to address the MUST INCLUDE requirement regarding Born probabilities and the limitation that neither alone selects a single outcome.",
+    "auto": false
+  },
+  "34": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the relationship between Bell nonlocality and contextuality but fails to mention the trade-off relations between them, which is a required item supported by excerpts [1] and [2].",
+    "auto": false
+  },
+  "35": {
+    "grade": "FAIL",
+    "tag": "wrong-refusal",
+    "note": "refused an answerable question",
+    "auto": true
+  },
+  "36": {
+    "grade": "FAIL",
+    "tag": "misattribution",
+    "unsupported_claims": [
+      "The disturbance caused by a measurement of one observable is the operational source of the uncertainty that appears in the complementary observable"
+    ],
+    "note": "The answer incorrectly attributes the claim that measurement disturbance is the 'operational source' of uncertainty to the provided excerpts, whereas excerpt [1] explicitly states that for non-sharp observables, uncertainty is 'not related to complementarity' but comes from epistemic restrictions, and the excerpts do not support the specific causal link between disturbance and uncertainty as the 'source'.",
+    "auto": false
+  },
+  "37": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [],
+    "note": "The answer correctly attributes Tausk's view but fails to include the required information from excerpt 2304.00608 regarding the dilemma presented by extended Wigner's-friend theorems.",
+    "auto": false
+  },
+  "38": {
+    "grade": "PARTIAL",
+    "tag": "missed-item",
+    "unsupported_claims": [
+      "no experiment has distinguished single-world interpretations from many-worlds (2504.14791)"
+    ],
+    "note": "The answer correctly covers the core mechanisms (no collapse, pilot wave, nonlocality, Bell's theorem) but fails to include the required point about the indistinguishability of single-world and many-worlds interpretations from the provided excerpts.",
+    "auto": false
+  },
+  "39": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "40": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "41": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "42": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "43": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "44": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "45": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "46": {
+    "grade": "FAIL",
+    "tag": "wrong-refusal",
+    "note": "refused an answerable question",
+    "auto": true
+  },
+  "47": {
+    "grade": "PASS",
+    "tag": "none",
+    "note": "correct refusal",
+    "auto": true
+  },
+  "48": {
+    "grade": "FAIL",
+    "tag": "invented-fact",
+    "unsupported_claims": [
+      "The 40 kg mirror represents the largest object that has been placed in a quantum superposition to date."
+    ],
+    "note": "The answer invents a superlative claim ('largest object... to date') that is not supported by the excerpts, which only describe the experiments without comparing them to establish a record.",
+    "auto": false
+  },
+  "49": {
+    "grade": "FAIL",
+    "tag": "invented-fact",
+    "unsupported_claims": [
+      "Experiments have confirmed the Born rule to an accuracy better than one part in 10¹²"
+    ],
+    "note": "The answer invents a specific experimental precision (10^-12) that is not present in the excerpts; excerpt [1] only states that Born's rule allows prediction of results with such accuracy, not that it has been experimentally verified to that precision, and the prompt explicitly states the corpus does not give a precision.",
+    "auto": false
+  },
+  "50": {
+    "grade": "PASS",
+    "tag": "none",
+    "unsupported_claims": [],
+    "note": "The answer correctly identifies the only quantitative figure related to Bell state preparation in the corpus (86.3% fidelity in [1]) and accurately states that no other specific error rates are provided, adhering to the constraint that the corpus does not contain a specific 'error rate' number for general Bell state preparation.",
+    "auto": false
+  }
+}

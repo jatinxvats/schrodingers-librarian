@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from sentence_transformers import SentenceTransformer
 
-from src.index import MODEL, get_collection
+from src.index import MODEL, ensure_index
 
 K = 5                  # chunks handed to the generator
 FETCH = 30             # candidates pulled before filtering and capping
@@ -29,7 +29,7 @@ def _load():
     global _model, _col
     if _model is None:
         _model = SentenceTransformer(MODEL)
-        _col = get_collection()
+        _col = ensure_index()
     return _model, _col
 
 
