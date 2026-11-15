@@ -86,7 +86,7 @@ The system answers a question using only passages retrieved from 113 papers, cit
 ## Run it yourself
 
 ```
-pip install -r requirements.txt        # the deployed app
+pip install -r requirements-full.txt   # full pipeline (requirements.txt is the deployed app only)
 python -m src.ingest                   # fetch arXiv metadata
 python -m src.curate                   # select the corpus
 python -m src.parse                    # download PDFs, extract text

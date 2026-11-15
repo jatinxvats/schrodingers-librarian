@@ -1,0 +1,6 @@
+-r requirements.txt
+arxiv
+pymupdf
+requests
+fastapi
+uvicorn
