@@ -6,10 +6,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
-from groq import APIConnectionError, RateLimitError
 
-from src.generate import answer
-from src.retrieve import _load
+from backend import RateLimited, Unavailable, get_answer
+from backend import warm_up as backend_warm_up
 
 GITHUB_URL = "https://github.com/jatinxvats/schrodingers-librarian"
 MAX_PER_SESSION = 10
@@ -27,7 +26,7 @@ EXAMPLES = [
 
 @st.cache_resource
 def warm_up():
-    _load()  # load MiniLM and Chroma once per server process
+    backend_warm_up()  # direct mode: load model and index; API mode: no-op
     return True
 
 
@@ -65,8 +64,8 @@ for key, default in (("q", ""), ("auto_run", False), ("asked", 0)):
 with st.sidebar:
     st.header("About")
     st.write(
-        "Answers questions about the foundations of quantum mechanics from"
-        "arXiv papers, with citations to the passages used."
+        "Answers questions about the foundations of quantum mechanics from 113 "
+        "arXiv papers (quant-ph, 2018-2025), with citations to the passages used."
     )
     st.subheader("How it works")
     st.markdown(
@@ -96,7 +95,7 @@ show_left()
 
 # ---------- main ----------
 st.title("📚 Schrödinger's Librarian")
-st.caption("Ask about quantum foundations.")
+st.caption("Ask about quantum foundations. Every answer comes from the papers, and you can check the passage behind each citation.")
 
 st.write("Try an example:")
 cols = st.columns(len(EXAMPLES))
@@ -125,12 +124,12 @@ if run and len(question.strip()) >= 3:
 
     with st.spinner("Searching papers..."):
         try:
-            result = answer(question.strip())
-        except RateLimitError:
+            result = get_answer(question.strip())
+        except RateLimited:
             st.warning("The language model is rate-limited right now. Wait a minute and try again.")
             st.stop()
-        except APIConnectionError:
-            st.error("Couldn't reach the language model service. Please try again.")
+        except Unavailable:
+            st.error("Couldn't reach the answer service. Please try again.")
             st.stop()
         except Exception as e:
             st.error(f"Something went wrong ({type(e).__name__}). Please try again.")
